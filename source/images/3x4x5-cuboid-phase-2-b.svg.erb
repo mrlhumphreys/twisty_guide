@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+  <%= partial('3x4x5_ufr') %>
+
+  <!-- up middle -->
+  <%= partial('top_square', locals: {x: 80, y: 50, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up back left corner -->
+  <%= partial('top_square', locals: {x: 60, y: 20, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up back middle edge -->
+  <%= partial('top_square', locals: {x: 100, y: 40, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up front left corner -->
+  <%= partial('top_square', locals: {x: 20, y: 40, colour: data.colours.blue, opacity: data.opacity.full}) %>
+  <%= partial('front_square', locals: {x: 20, y: 50, colour: data.colours.yellow, opacity: data.opacity.full}) %>
+
+  <!-- up front middle edge -->
+  <%= partial('top_square', locals: {x: 60, y: 60, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('front_square', locals: {x: 60, y: 70, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+</svg>
+

@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twisty Puzzle Guide - Guides to solving Twisty Puzzles</title>
+    <%= stylesheet_link_tag "app" %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="nav_wrapper wrapper">
+      <nav class="top_level">
+        <a class="home_link" href="index.html">Twisty Puzzle Guide</a>
+        <a href="3x4x5/phase-1.html">3x4x5 Cuboid</a>
+      </nav>
+    </div>
+
+    <div class="main_wrapper wrapper">
+      <%= yield %>
+    </div>
+
+    <div class="footer_wrapper wrapper">
+      <footer>
+        <p>Twisty Puzzle Guide</p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+
+  </head>
+  <body>
+
+  </body>
+</html>

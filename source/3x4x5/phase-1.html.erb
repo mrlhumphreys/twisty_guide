@@ -1,0 +1,14 @@
+<article>
+  <h1>3x4x5 Cuboid - Phase 1</h1>
+
+  <%= partial('3x4x5_nav', locals: {current_phase: 1}) %>
+
+  <h2 class="step_header">Step A</h2>
+
+  <div class="cases">
+    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 1', description: 'One Corner Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-1.svg', algorithm: '-' }) %>
+    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 2', description: 'Two Corners Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-2.svg', algorithm: '-' }) %>
+    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 3', description: 'Three Corners Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-3.svg', algorithm: 'U' }) %>
+    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 4', description: 'Four Corners Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-4.svg', algorithm: 'U' }) %>
+  </div>
+</article>

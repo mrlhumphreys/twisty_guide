@@ -1,0 +1,58 @@
+<article>
+  <h1>3x4x5 Cuboid Phase 3</h1>
+
+  <%= partial('3x4x5_nav', locals: {current_phase: 3}) %>
+
+  <h2 class="step_header">Step A</h2>
+
+  <div class="cases">
+    <%= partial(:case, locals: { title: 'Phase 3 - Step A - Case 1', description: "Up Back Left Edge at Up Back Left", image: '3x4x5-cuboid-phase-3-a-1.svg', algorithm: "-" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step A - Case 2', description: "Up Back Left Edge at Up Front Right", image: '3x4x5-cuboid-phase-3-a-2.svg', algorithm: "r U<sup>2</sup> r U<sup>2</sup>" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step A - Case 3', description: "Up Back Left Edge at Down Front Left", image: '3x4x5-cuboid-phase-3-a-3.svg', algorithm: "l" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step A - Case 4', description: "Up Back Left Edge at Down Back Right", image: '3x4x5-cuboid-phase-3-a-4.svg', algorithm: "D<sup>2</sup> l D<sup>2</sup>" }) %>
+  </div>
+
+  <h2 class="step_header">Step B</h2>
+
+  <div class="cases">
+    <%= partial(:case, locals: { title: 'Phase 3 - Step B - Case 1', description: "Up Front Left Edge at Up Front Left", image: '3x4x5-cuboid-phase-3-b-1.svg', algorithm: "-" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step B - Case 2', description: "Up Front Left Edge at Up Back Right", image: '3x4x5-cuboid-phase-3-b-2.svg', algorithm: "F r F" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step B - Case 3', description: "Up Front Left Edge at Down Front Right", image: '3x4x5-cuboid-phase-3-b-3.svg', algorithm: "r F r F" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step B - Case 4', description: "Up Front Left Edge at Down Back Left", image: '3x4x5-cuboid-phase-3-b-4.svg', algorithm: "D<sup>2</sup> r F r F D<sup>2</sup>" }) %>
+  </div>
+
+  <h2 class="step_header">Step C</h2>
+
+  <div class="cases">
+    <%= partial(:case, locals: { title: 'Phase 3 - Step C - Case 1', description: "Up Back Right Edge at Up Back Right", image: '3x4x5-cuboid-phase-3-c-1.svg', algorithm: "-" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step C - Case 2', description: "Up Back Right Edge at Down Front Right", image: '3x4x5-cuboid-phase-3-c-2.svg', algorithm: "r" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step C - Case 3', description: "Up Back Right Edge at Down Back Left", image: '3x4x5-cuboid-phase-3-c-3.svg', algorithm: "D<sup>2</sup> r D<sup>2</sup>" }) %>
+  </div>
+
+  <h2 class="step_header">Step D</h2>
+
+  <div class="cases">
+    <%= partial(:case, locals: { title: 'Phase 3 - Step D - Case 1', description: "Up Front Right Edge at Up Front Right", image: '3x4x5-cuboid-phase-3-d-1.svg', algorithm: "-" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step D - Case 2', description: "Up Front Right Edge at Down Back Right", image: '3x4x5-cuboid-phase-3-d-2.svg', algorithm: "Lw D Rw U' Lw U Rw D' r D Rw U' Lw U Rw D' Lw r" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step D - Case 3', description: "Up Front Right Edge at Down Front Left", image: '3x4x5-cuboid-phase-3-d-3.svg', algorithm: "D<sup>2</sup> Lw D Rw U' Lw U Rw D' r D Rw U' Lw U Rw D' Lw r D<sup>2</sup>" }) %>
+  </div>
+
+  <h2 class="step_header">Step E</h2>
+
+  <div class="cases">
+    <%= partial(:case, locals: { title: 'Phase 3 - Step E - Case 1', description: "Down Layer Edges Correct. Go to Phase 4.", image: '3x4x5-cuboid-phase-3-e-1.svg', algorithm: "-" }) %>
+
+    <%= partial(:case, locals: { title: 'Phase 3 - Step E - Case 2', description: "Down Layer Edges incorrect", image: '3x4x5-cuboid-phase-3-e-2.svg', algorithm: "r D<sup>2</sup> r D<sup>2</sup> r" }) %>
+  </div>
+
+</article>
