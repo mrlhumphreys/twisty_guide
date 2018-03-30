@@ -1,0 +1,406 @@
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'a'
+  number: 1
+  description: 'No Up Corners sticking out. Move to step B.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'a' 
+  number: 2
+  description: 'One Corner Sticking Out of U Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'a'
+  number: 3
+  description: 'Two Corners Sticking Out of U Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'a'
+  number: 4
+  description: 'Three Corners Sticking Out of U Layer.'
+  algorithm: 'U'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'a'
+  number: 5 
+  description: 'Four Corners Sticking Out of U Layer.'
+  algorithm: 'U'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'b'
+  number: 1
+  description: 'No Down Corners sticking out. Move to step E.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'b'
+  number: 2 
+  description: 'One Corner Sticking Out of D Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'b'
+  number: 3 
+  description: 'Two Corners Sticking Out of D Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'b'
+  number: 4
+  description: 'Three Corners Sticking Out of D Layer.'
+  algorithm: 'D'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'b'
+  number: 5
+  description: 'Four Corners Sticking Out of D Layer.'
+  algorithm: 'D'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'c'
+  number: 1
+  description: 'Two Corners Sticking out of U and D layers. Bring corners to front U'
+  algorithm: 'Combination of B, D, Lw'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'c'
+  number: 2
+  description: 'Four Corners Stickout out of U and D Layers. Bring at least three corners to U, then turn U. Then bring corners to front U'
+  algorithm: 'Combination of B D Lw, then U'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'd'
+  number: null
+  description: 'Two Corners Sticking out of Front U layer.'
+  algorithm: "Rw U' B U B U"
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'e'
+  number: 1
+  description: 'No edges sticking out. Move to step I.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'e'
+  number: 2
+  description: 'Edge sticking out. Move edge to top back.'
+  algorithm: 'F, U and/or B'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'f'
+  number: 1
+  description: 'Sunken edge on top left. Go to step G.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'f'
+  number: 2
+  description: 'Sunken edge not on top left.'
+  algorithm: 'Rw, Lw and/or D'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'g'
+  number: null
+  description: 'Swap Edges'
+  algorithm: "Lw D' Lw F Rw U" 
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'h'
+  number: null
+  description: 'Repeat steps E-G until no edges stick out of U and D Layers.'
+  algorithm: '-' 
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'i'
+  number: 1
+  description: 'No u Corners sticking out. Move to step J.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'i'
+  number: 2
+  description: 'One Corner Sticking Out of u Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'i'
+  number: 3
+  description: 'Two Corners Sticking Out of u Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'i'
+  number: 4
+  description: 'Three Corners Sticking Out of u Layer.'
+  algorithm: 'u'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'i'
+  number: 5
+  description: 'Four Corners Sticking Out of u Layer.'
+  algorithm: 'u'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'j'
+  number: 1
+  description: 'No Down Corners sticking out. Move to step M.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'j'
+  number: 2
+  description: 'No Down Corners sticking out. Move to step M.' 
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'j'
+  number: 2
+  description: 'One Corner Sticking Out of d Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'j'
+  number: 3 
+  description: 'Two Corners Sticking Out of d Layer.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'j'
+  number: 4
+  description: 'Three Corners Sticking Out of d Layer.'
+  algorithm: 'd'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'j'
+  number: 5 
+  description: 'Four Corners Sticking Out of d Layer.'
+  algorithm: 'd'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'k'
+  number: 1
+  description: 'Two Corners Sticking out of u and d layers. Bring corners to front u'
+  algorithm: 'Combination of B, d, Lw'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'k'
+  number: 2
+  description: 'Four Corners Stickout out of u and d Layers. Bring at least three corners to u, then turn u. Then bring corners to front u'
+  algorithm: 'No Down Corners sticking out. Move to step M.' 
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'l'
+  number: null
+  description: 'Two Corners Sticking out of Front u layer.' 
+  algorithm: "Rw u' B u B u"
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'm'
+  number: 1 
+  description: 'No edges sticking out. Move to phase 2.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'm'
+  number: 2 
+  description: 'Edge sticking out. Move edge to top back.'
+  algorithm: 'F, u and/or B'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'n'
+  number: 1 
+  description: 'Sunken edge on top left. Go to step o.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'n'
+  number: 2
+  description: 'Sunken edge not on top left.'
+  algorithm: 'Rw, Lw and/or d'
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'o'
+  number: null
+  description: 'Swap Edges'
+  algorithm: "Lw d' Lw F Rw u"
+- puzzle: '3x4x5-cuboid'
+  phase: 1
+  step: 'p'
+  number: null
+  description: 'Repeat steps M-O until no edges stick out of u and d Layers.'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'a'
+  number: null 
+  description: 'Position Back Left Corner to match Back Middle Edge'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'b'
+  number: null
+  description: 'Position Front Left Corner to match Front Middle Edge'
+  algorithm: 'F, R and/or D2'
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'c'
+  number: null
+  description: 'Position Back Right Corner to match Back Middle Edge'
+  algorithm: 'R and/or D2'
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'd'
+  number: 1
+  description: 'Top Front Right Corner matches Front Middle Edge. Go to Step E.' 
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'd'
+  number: 2
+  description: 'Top Front Right Corner in Down Back Left Corner. Move to Top Front Right.'
+  algorithm: "D<sup>2</sup> F Rw D' Rw U F U<sup>2</sup> Rw D Rw U"
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'd'
+  number: 3
+  description: 'Top Front Right Corner in Down Front Right Corner. Move to Top Front Right.'
+  algorithm: "F Rw D' Rw U F U<sup>2</sup> Rw D Rw U"
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'e'
+  number: 1
+  description: 'Up Right Corners and Up Left Corners match faces. Go to Step F.'
+  algorithm: '-' 
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'e'
+  number: 2
+  description: "Up Right Corners and Up Left Corners don't match faces. Swap Corners."
+  algorithm: 'R F R'
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'f'
+  number: 1
+  description: 'Down Right Corners and Down Left Corners match faces. Go to Step G.'
+  algorithm:  '-' 
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'f'
+  number: 2
+  description: "Down Right Corners and Down Left Corners don't match faces. Swap Corners."
+  algorithm: "Rw U<sup>2</sup> F U Rw F U<sup>2</sup> F U F U<sup>2</sup> Rw U"
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'g'
+  number: 1
+  description: "All Corners Match. Go to Phase 3."
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 2
+  step: 'g'
+  number: 2
+  description: "Top Corners don't match bottom corners. Rotate Down Layer."
+  algorithm: "D<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'a'
+  number: 1
+  description: "Up Back Left Edge at Up Back Left"
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'a'
+  number: 2
+  description: "Up Back Left Edge at Up Front Right"
+  algorithm: "r U<sup>2</sup> r U<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'a'
+  number: 3
+  description: "Up Back Left Edge at Down Front Left"
+  algorithm: 'l'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'a'
+  number: 4
+  description: "Up Back Left Edge at Down Back Right" 
+  algorithm: "D<sup>2</sup> l D<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'b'
+  number: 1
+  description: "Up Front Left Edge at Up Front Left"
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'b'
+  number: 2
+  description: "Up Front Left Edge at Up Back Right" 
+  algorithm: 'F r F'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'b'
+  number: 3
+  description: "Up Front Left Edge at Down Front Right" 
+  algorithm: 'r F r F'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'b'
+  number: 4
+  description: "Up Front Left Edge at Down Back Left" 
+  algorithm: "D<sup>2</sup> r F r F D<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'c'
+  number: 1
+  description: "Up Back Right Edge at Up Back Right" 
+  algorithm: '-' 
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'c'
+  number: 2 
+  description: "Up Back Right Edge at Down Front Right"
+  algorithm: 'r'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'c'
+  number: 3
+  description: "Up Back Right Edge at Down Back Left"
+  algorithm: "D<sup>2</sup> r D<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'd'
+  number: 1
+  description: "Up Front Right Edge at Up Front Right"
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'd'
+  number: 2
+  description: "Up Front Right Edge at Down Back Right" 
+  algorithm: "Lw D Rw U' Lw U Rw D' r D Rw U' Lw U Rw D' Lw r" 
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'd'
+  number: 3
+  description: "Up Front Right Edge at Down Front Left" 
+  algorithm: "D<sup>2</sup> Lw D Rw U' Lw U Rw D' r D Rw U' Lw U Rw D' Lw r D<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'e'
+  number: 1
+  description: "Down Layer Edges Correct. Go to Phase 4."
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 3
+  step: 'e'
+  number: 2
+  description: "Down Layer Edges incorrect"
+  algorithm: "r D<sup>2</sup> r D<sup>2</sup> r"
+
+
+
+

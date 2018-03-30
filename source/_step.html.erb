@@ -1,0 +1,14 @@
+<h2 class="step_header">Step <%= cases.first.try(:step).to_s.upcase %></h2>
+
+<% if cases.size > 1 %>
+  <div class="cases">
+<% end %>
+
+<% cases.each do |c| %>
+  <%= partial(:case, locals: c) %>
+<% end %>
+
+<% if cases.size > 1 %>
+  </div>
+<% end %>
+

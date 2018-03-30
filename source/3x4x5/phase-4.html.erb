@@ -1,5 +1,11 @@
 <article>
-  <h1>3x4x5 Cuboid Phase 3</h1>
+  <h1>3x4x5 Cuboid Phase 4</h1>
 
   <%= partial('3x4x5_nav', locals: {current_phase: 4}) %>
+
+  <% data.cases.select { |c| c.puzzle == '3x4x5-cuboid' && c.phase == 4 }.map(&:step).uniq.each do |step| %>
+    <%= partial(:step, locals: {cases: data.cases.select { |c| c.puzzle == '3x4x5-cuboid' && c.phase == 4 && c.step == step }}) %>
+  <% end %>
+
+  <a class="next_page" href="phase-5.html">Next Phase</a>
 </article>

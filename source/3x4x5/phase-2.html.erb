@@ -3,49 +3,9 @@
 
   <%= partial('3x4x5_nav', locals: {current_phase: 2}) %>
 
-  <h2 class="step_header">Step A</h2>
+  <% data.cases.select { |c| c.puzzle == '3x4x5-cuboid' && c.phase == 2 }.map(&:step).uniq.each do |step| %>
+    <%= partial(:step, locals: {cases: data.cases.select { |c| c.puzzle == '3x4x5-cuboid' && c.phase == 2 && c.step == step }}) %>
+  <% end %>
 
-  <%= partial(:case, locals: { title: 'Phase 2 - Step A', description: 'Position Back Left Corner to match Back Middle Edge', image: '3x4x5-cuboid-phase-2-a.svg', algorithm: '-' }) %>
-
-  <h2 class="step_header">Step B</h2>
-
-  <%= partial(:case, locals: { title: 'Phase 2 - Step B', description: 'Position Front Left Corner to match Front Middle Edge', image: '3x4x5-cuboid-phase-2-b.svg', algorithm: 'Combination of F, R, and/or D2' }) %>
-
-  <h2 class="step_header">Step C</h2>
-
-  <%= partial(:case, locals: { title: 'Phase 2 - Step C', description: 'Position Back Right Corner to match Back Middle Edge', image: '3x4x5-cuboid-phase-2-c.svg', algorithm: 'Combination of R, and/or D2' }) %>
-
-  <h2 class="step_header">Step D</h2>
-
-  <div class="cases">
-    <%= partial(:case, locals: { title: 'Phase 2 - Step D - Case 1', description: 'Top Front Right Corner matches Front Middle Edge. Go to Step E.', image: '3x4x5-cuboid-phase-2-d-1.svg', algorithm: '-' }) %>
-
-    <%= partial(:case, locals: { title: 'Phase 2 - Step D - Case 2', description: 'Top Front Right Corner in Down Back Left Corner. Move to Top Front Right.', image: '3x4x5-cuboid-phase-2-d-2.svg', algorithm: "D<sup>2</sup> F Rw D' Rw U F U<sup>2</sup> Rw D Rw U" }) %>
-
-    <%= partial(:case, locals: { title: 'Phase 2 - Step D - Case 3', description: 'TTop Front Right Corner in Down Front Right Corner. Move to Top Front Right.', image: '3x4x5-cuboid-phase-2-d-3.svg', algorithm: "F Rw D' Rw U F U<sup>2</sup> Rw D Rw U" }) %>
-  </div>
-
-  <h2 class="step_header">Step E</h2>
-
-  <div class="cases">
-    <%= partial(:case, locals: { title: 'Phase 2 - Step E - Case 1', description: 'Up Right Corners and Up Left Corners match faces. Go to Step F.', image: '3x4x5-cuboid-phase-2-e-1.svg', algorithm: "-" }) %>
-
-    <%= partial(:case, locals: { title: 'Phase 2 - Step E - Case 2', description: "Up Right Corners and Up Left Corners don't match faces. Swap Corners.", image: '3x4x5-cuboid-phase-2-e-2.svg', algorithm: "R F R" }) %>
-  </div>
-
-  <h2 class="step_header">Step F</h2>
-
-  <div class="cases">
-    <%= partial(:case, locals: { title: 'Phase 2 - Step F - Case 1', description: "Down Right Corners and Down Left Corners match faces. Go to Step G.", image: '3x4x5-cuboid-phase-2-f-1.svg', algorithm: "-" }) %>
-
-    <%= partial(:case, locals: { title: 'Phase 2 - Step F - Case 2', description: "Down Right Corners and Down Left Corners don't match faces. Swap Corners.", image: '3x4x5-cuboid-phase-2-f-2.svg', algorithm: "Rw U<sup>2</sup> F U Rw F U<sup>2</sup> F U F U<sup>2</sup> Rw U" }) %>
-  </div>
-
-  <h2 class="step_header">Step G</h2>
-
-  <div class="cases">
-    <%= partial(:case, locals: { title: 'Phase 2 - Step G - Case 1', description: "All Corners Match. Go to Phase 3.", image: '3x4x5-cuboid-phase-2-g-1.svg', algorithm: "-" }) %>
-
-    <%= partial(:case, locals: { title: 'Phase 2 - Step G - Case 2', description: "Top Corners don't match bottom corners. Rotate Down Layer.", image: '3x4x5-cuboid-phase-2-g-2.svg', algorithm: "D<sup>2</sup>" }) %>
-  </div>
+  <a class="next_page" href="phase-3.html">Next Phase</a>
 </article>

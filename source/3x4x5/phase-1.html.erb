@@ -3,28 +3,9 @@
 
   <%= partial('3x4x5_nav', locals: {current_phase: 1}) %>
 
-  <h2 class="step_header">Step A</h2>
+  <% data.cases.select { |c| c.puzzle == '3x4x5-cuboid' && c.phase == 1 }.map(&:step).uniq.each do |step| %>
+    <%= partial(:step, locals: {cases: data.cases.select { |c| c.puzzle == '3x4x5-cuboid' && c.phase == 1 && c.step == step }}) %>
+  <% end %>
 
-  <div class="cases">
-    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 1', description: 'One Corner Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-1.svg', algorithm: '-' }) %>
-    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 2', description: 'Two Corners Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-2.svg', algorithm: '-' }) %>
-    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 3', description: 'Three Corners Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-3.svg', algorithm: 'U' }) %>
-    <%= partial(:case, locals: { title: 'Phase 1 - Step A - Case 4', description: 'Four Corners Sticking Out of U Layer.', image: '3x4x5-cuboid-phase-1-a-4.svg', algorithm: 'U' }) %>
-  </div>
-
-  <h2 class="step_header">Step B</h2>
-
-  <div class="cases">
-    <%= partial(:case, locals: { title: 'Phase 1 - Step B - Case 1', description: 'One Corner Sticking Out of D Layer.', image: '3x4x5-cuboid-phase-1-b-1.svg', algorithm: '-' }) %>
-    <%= partial(:case, locals: { title: 'Phase 1 - Step B - Case 2', description: 'Two Corners Sticking Out of D Layer.', image: '3x4x5-cuboid-phase-1-b-2.svg', algorithm: '-' }) %>
-    <%= partial(:case, locals: { title: 'Phase 1 - Step B - Case 3', description: 'Three Corners Sticking Out of D Layer.', image: '3x4x5-cuboid-phase-1-b-3.svg', algorithm: 'D' }) %>
-    <%= partial(:case, locals: { title: 'Phase 1 - Step B - Case 4', description: 'Four Corners Sticking Out of D Layer.', image: '3x4x5-cuboid-phase-1-b-4.svg', algorithm: 'D' }) %>
-  </div>
-
-  <h2 class="step_header">Step C</h2>
-
-  <div class="cases">
-    <%= partial(:case, locals: { title: 'Phase 1 - Step C - Case 1', description: 'Two Corners Sticking out of U and D layers. Bring corners to front U', image: '3x4x5-cuboid-phase-1-c-1.svg', algorithm: 'Rw or Lw' }) %>
-    <%= partial(:case, locals: { title: 'Phase 1 - Step C - Case 2', description: 'Four Corners Stickout out of U and D Layers. Bring at least three corners to U, then turn U.', image: '3x4x5-cuboid-phase-1-c-2.svg', algorithm: 'Rw or Lw, then U' }) %>
-  </div>
+  <a class="next_page" href="phase-2.html">Next Phase</a>
 </article>
