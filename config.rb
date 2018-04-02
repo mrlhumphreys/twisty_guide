@@ -27,6 +27,12 @@ page '/*.txt', layout: false
 #   },
 # )
 
+data.cases.map(&:puzzle).uniq.each do |puzzle|
+  data.cases.select { |c| c.puzzle == puzzle }.map(&:phase).uniq.each do |phase|
+    proxy "/puzzles/#{puzzle}/phases/#{phase}.html", "/phase.html", locals: { puzzle: puzzle, phase: phase }
+  end
+end
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/

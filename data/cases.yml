@@ -400,7 +400,30 @@
   number: 2
   description: "Down Layer Edges incorrect"
   algorithm: "r D<sup>2</sup> r D<sup>2</sup> r"
-
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'a'
+  number: 1
+  description: 'Down Back Edge at Down Back'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'a'
+  number: 2
+  description: 'Down Back Edge at Down Front'
+  algorithm: 'D<sup>2</sup> Rw D<sup>2</sup> Rw D<sup>2</sup> Rw'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'a'
+  number: 3
+  description: 'Down Back Edge at Up Back'
+  algorithm: 'B Rw Lw F Rw Lw'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'a'
+  number: 4
+  description: 'Down Back Edge at Up Front'
+  algorithm: 'U<sup>2</sup> B Rw Lw F Rw Lw U<sup>2</sup>'
 
 
 

@@ -1,9 +1,0 @@
-<nav class="page_links">
-  <% (1..8).each do |phase| %>
-    <% if phase == current_phase %>
-      <a href="phase-<%= phase %>.html" class="current">Phase <%= phase %></a>
-    <% else %>
-      <a href="phase-<%= phase %>.html">Phase <%= phase %></a>
-    <% end %>
-  <% end %>
-</nav>
