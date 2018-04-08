@@ -424,6 +424,219 @@
   number: 4
   description: 'Down Back Edge at Up Front'
   algorithm: 'U<sup>2</sup> B Rw Lw F Rw Lw U<sup>2</sup>'
-
-
-
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'b'
+  number: 1 
+  description: 'Down Front Edge at Down Front'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'b'
+  number: 2 
+  description: 'Down Front Edge at Up Back'
+  algorithm: 'Rw F Rw U<sup>2</sup> Rw F Rw U<sup>2</sup>'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'b'
+  number: 3 
+  description: 'Down Front Edge at Up Front'
+  algorithm: 'U<sup>2</sup> Rw F Rw U<sup>2</sup> Rw F Rw'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'c'
+  number: 1 
+  description: 'Up Front Edge and Up Back are in right place'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'c'
+  number: 2  
+  description: 'Up Front Edge and Up Back are swapped'
+  algorithm: 'U<sup>2</sup> Rw U<sup>2</sup> Rw U<sup>2</sup> Rw'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'd'
+  number: 1  
+  description: 'Down Left Edge at Down Left'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'd'
+  number: 2  
+  description: 'Down Left Edge at Down Right'
+  algorithm: 'D<sup>2</sup> F D<sup>2</sup> F D<sup>2</sup> F'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'd'
+  number: 3  
+  description: 'Down Left Edge at Up Left'
+  algorithm: 'Lw F B Rw F B'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'd'
+  number: 4  
+  description: 'Down Left Edge at Up Right'
+  algorithm: 'U<sup>2</sup> Lw F B Rw F B U<sup>2</sup>'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'e'
+  number: 1  
+  description: 'Down Right Edge at Down Right'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'e'
+  number: 2  
+  description: 'Down Right Edge at Up Left'
+  algorithm: 'F Rw F U<sup>2</sup> F Rw F U<sup>2</sup>'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'e'
+  number: 3  
+  description: 'Down Right Edge at Up Right'
+  algorithm: 'U<sup>2</sup> F Rw F U<sup>2</sup> F Rw F'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'f'
+  number: 1  
+  description: 'Up Left and Up Right Edges are in position'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 4
+  step: 'f'
+  number: 2  
+  description: 'Up Left and Up Right Edges are swapped'
+  algorithm: 'U<sup>2</sup> F U<sup>2</sup> F U<sup>2</sup> F'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'a'
+  number: 1  
+  description: 'up Back Left at up Back Left'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'a'
+  number: 2  
+  description: 'up Back Left at up Front Right'
+  algorithm: 'u<sup>2</sup>'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'a'
+  number: 3  
+  description: 'up Back Left at down Front Left'
+  algorithm: 'F u<sup>2</sup> F'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'a'
+  number: 4  
+  description: 'up Back Left at down Back Right'
+  algorithm: 'L d<sup>2</sup> L'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'b'
+  number: 1  
+  description: 'up Front Left at up Front Left'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'b'
+  number: 2  
+  description: 'up Front Left at down Back Left'
+  algorithm: 'F d<sup>2</sup> F'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'b'
+  number: 3  
+  description: 'up Front Left at down Front Right'
+  algorithm: 'd<sup>2</sup> F d<sup>2</sup> F'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'b'
+  number: 4  
+  description: 'up Front Left at up Back Right'
+  algorithm: 'R d<sup>2</sup> R F d<sup>2</sup> F'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'c'
+  number: 1  
+  description: 'up Back Right at up Back Right'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'c'
+  number: 2  
+  description: 'up Back Right at down Back Left'
+  algorithm: 'R d<sup>2</sup> R'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'c'
+  number: 3  
+  description: 'up Back Right at down Front Right'
+  algorithm: 'd<sup>2</sup> R d<sup>2</sup> R'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'd'
+  number: 1  
+  description: 'up Front Right at up Front Right'
+  algorithm: '-'
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'd'
+  number: 2  
+  description: 'up Front Right at down Front Left'
+  algorithm: "F Rw d' Rw u F u<sup>2</sup> Rw d Rw u"
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'd'
+  number: 3  
+  description: 'up Front Right at down Back Right'
+  algorithm: "d<sup>2</sup> F Rw d' Rw u F u<sup>2</sup> Rw d Rw u d<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'e'
+  number: 1  
+  description: 'down Front Right at down Front Right'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'e'
+  number: 2  
+  description: 'down Front Right not at down Front Right'
+  algorithm: "d<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'f'
+  number: 1  
+  description: 'down layer edges correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 5 
+  step: 'f'
+  number: 2  
+  description: 'down layer edges incorrect'
+  algorithm: "F Rw u<sup>2</sup> Rw u F u<sup>2</sup> Rw u F u<sup>2</sup> F Rw u"
+- puzzle: '3x4x5-cuboid'
+  phase: 6 
+  step: 'a'
+  number: 1  
+  description: 'both up left and up right centers are correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 6 
+  step: 'a'
+  number: 2  
+  description: 'both up left and up right centers are not correct'
+  algorithm: "r F B l F B"
+- puzzle: '3x4x5-cuboid'
+  phase: 6 
+  step: 'a'
+  number: 3  
+  description: 'up left and down right centers are not correct'
+  algorithm: "F r F U<sup>2</sup> F r F U<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 6 
+  step: 'a'
+  number: 4  
+  description: 'up right and down right centers are not correct'
+  algorithm: "U<sup>2</sup> F r F U<sup>2</sup> F r F"

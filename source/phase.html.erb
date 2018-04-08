@@ -1,4 +1,5 @@
 <article>
+  <% if defined?(puzzle) && defined?(phase) %>
   <h1><%= puzzle %> - Phase <%= phase %></h1>
 
   <nav class="page_links">
@@ -17,5 +18,6 @@
 
   <% unless data.cases.select { |c| c.puzzle == puzzle }.map(&:phase).max == phase %>
     <a class="next_page" href="<%= phase + 1 %>.html">Next Phase</a>
+  <% end %>
   <% end %>
 </article>

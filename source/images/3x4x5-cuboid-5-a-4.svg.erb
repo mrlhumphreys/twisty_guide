@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+  <%= partial('3x4x5_ufr') %>
+
+  <!-- up middle -->
+  <%= partial('top_square', locals: {x: 80, y: 50, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up back left corner -->
+  <%= partial('top_square', locals: {x: 60, y: 20, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up back middle edge -->
+  <%= partial('top_square', locals: {x: 100, y: 40, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up front left corner -->
+  <%= partial('top_square', locals: {x: 20, y: 40, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('front_square', locals: {x: 20, y: 50, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- up back right corner -->
+  <%= partial('top_square', locals: {x: 140, y: 60, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('right_square', locals: {x: 160, y: 70, colour: data.colours.orange, opacity: data.opacity.faded}) %>
+
+  <!-- up front right corner -->
+  <%= partial('top_square', locals: {x: 100, y: 80, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('right_square', locals: {x: 120, y: 90, colour: data.colours.orange, opacity: data.opacity.faded}) %>
+  <%= partial('front_square', locals: {x: 100, y: 90, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- down front left corner -->
+  <%= partial('front_square', locals: {x: 20, y: 110, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- down front right corner -->
+  <%= partial('right_square', locals: {x: 120, y: 150, colour: data.colours.orange, opacity: data.opacity.faded}) %>
+  <%= partial('front_square', locals: {x: 100, y: 150, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- down back right corner -->
+  <%= partial('right_square', locals: {x: 160, y: 130, colour: data.colours.orange, opacity: data.opacity.faded}) %>
+
+  <!-- up back left edge -->
+  <%= partial('top_square', locals: {x: 80, y: 30, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up front left edge -->
+  <%= partial('top_square', locals: {x: 40, y: 50, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('front_square', locals: {x: 40, y: 60, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- up back right-->
+  <%= partial('top_square', locals: {x: 120, y: 50, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up front right edge -->
+  <%= partial('top_square', locals: {x: 80, y: 70, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('front_square', locals: {x: 80, y: 80, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- down front left edge -->
+  <%= partial('front_square', locals: {x: 40, y: 120, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- down front right edge -->
+  <%= partial('front_square', locals: {x: 80, y: 140, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- down front edge -->
+  <%= partial('front_square', locals: {x: 60, y: 130, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- up front left edge -->
+  <%= partial('top_square', locals: {x: 60, y: 60, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('front_square', locals: {x: 60, y: 70, colour: data.colours.yellow, opacity: data.opacity.faded}) %>
+
+  <!-- down right edge -->
+  <%= partial('right_square', locals: {x: 140, y: 140, colour: data.colours.orange, opacity: data.opacity.faded}) %>
+
+  <!-- up left edge -->
+  <%= partial('top_square', locals: {x: 40, y: 30, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+
+  <!-- up right edge -->
+  <%= partial('top_square', locals: {x: 120, y: 70, colour: data.colours.blue, opacity: data.opacity.faded}) %>
+  <%= partial('right_square', locals: {x: 140, y: 80, colour: data.colours.orange, opacity: data.opacity.faded}) %>
+
+  <!-- down back right corner -->
+  <%= partial('right_square', locals: {x: 160, y: 110, colour: data.colours.red, opacity: data.opacity.full}) %>
+</svg>
+

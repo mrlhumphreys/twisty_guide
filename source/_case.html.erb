@@ -1,5 +1,5 @@
 <div class="case">
-  <h3>Phase <%= phase %> - Step <%= step.upcase %><%= number ? " - Case #{number}" : nil %></h3>
+  <h3>Step <%= step.upcase %><%= number ? " - Case #{number}" : nil %></h3>
   <p class="description"><%= description %></p>
   <%= image_tag [puzzle, phase, step, number].compact.join('-') + '.svg', class: 'diagram' %> 
   <p class="algorithm"><%= algorithm %></p>

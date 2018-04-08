@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140" height="180">
+  <% 
+    up_squares = [
+      [ 
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded }
+      ],
+      [ 
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.full },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded }
+      ],
+      [ 
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.faded }
+      ]
+    ]
+  %>
+
+  <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 20, squares: up_squares)} ) %>
+
+  <% 
+    down_squares = [
+      [ 
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded }
+      ],
+      [ 
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.blue, opacity: data.opacity.full },
+        {colour: data.colours.green, opacity: data.opacity.faded }
+      ],
+      [ 
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded },
+        {colour: data.colours.green, opacity: data.opacity.faded }
+      ]
+    ]
+  %>
+
+  <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 100, units: 20, squares: down_squares)} ) %>
+
+</svg>
+

@@ -25,19 +25,89 @@ page '/*.txt', layout: false
 #   locals: {
 #     which_fake_page: 'Rendering a fake page with a local variable'
 #   },
-# )
+# ) 
 
-data.cases.map(&:puzzle).uniq.each do |puzzle|
-  data.cases.select { |c| c.puzzle == puzzle }.map(&:phase).uniq.each do |phase|
-    proxy "/puzzles/#{puzzle}/phases/#{phase}.html", "/phase.html", locals: { puzzle: puzzle, phase: phase }
-  end
+PHASES = [
+  { puzzle: '3x4x5-cuboid', number: 1 },
+  { puzzle: '3x4x5-cuboid', number: 2 },
+  { puzzle: '3x4x5-cuboid', number: 3 },
+  { puzzle: '3x4x5-cuboid', number: 4 },
+  { puzzle: '3x4x5-cuboid', number: 5 },
+  { puzzle: '3x4x5-cuboid', number: 6 }
+]
+
+PHASES.each do |phase|
+  proxy "/puzzles/#{phase[:puzzle]}/phases/#{phase[:number]}.html", "/phase.html", locals: {puzzle: phase[:puzzle], phase: phase[:number] }
 end
 
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
+
+
 helpers do
+
+  class FacingGrid
+    def initialize(x:, y:, units:, squares: )
+      @x, @y = x, y
+      @units = units
+      @squares = squares
+    end
+
+    attr_reader :x, :y, :units, :squares
+
+    def width
+      squares.first.size 
+    end
+
+    def height
+      squares.size
+    end
+    def max_x 
+      x + width * units
+    end 
+
+    def max_y
+      y + height * units
+    end
+
+    def unit_x(n)
+      x + n * units
+    end
+
+    def unit_y(n)
+      y + n * units
+    end
+  end
+
+  class FacingSquare
+    def initialize(x: , y:, units:, colour:, opacity:)
+      @x, @y = x, y
+      @units = units
+      @colour = colour
+      @opacity = opacity
+    end
+
+    attr_reader :x, :y, :units, :colour, :opacity
+
+    def max_x
+      x + units
+    end
+
+    def max_y
+      y + units
+    end
+  end
+
+  def facing_grid(args)
+    FacingGrid.new(args)
+  end
+
+  def facing_square(args)
+    FacingSquare.new(args)
+  end
+
   def top_square(x,y)
     "#{x+20},#{y} #{x+40},#{y+10} #{x+20},#{y+20} #{x},#{y+10}"
   end
