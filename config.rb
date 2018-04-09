@@ -44,60 +44,28 @@ end
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-
-
 helpers do
+  require './lib/top_grid'
+  require './lib/front_grid'
+  require './lib/right_grid'
+  require './lib/square'
+  require './lib/facing_grid'
+  require './lib/facing_square'
 
-  class FacingGrid
-    def initialize(x:, y:, units:, squares: )
-      @x, @y = x, y
-      @units = units
-      @squares = squares
-    end
-
-    attr_reader :x, :y, :units, :squares
-
-    def width
-      squares.first.size 
-    end
-
-    def height
-      squares.size
-    end
-    def max_x 
-      x + width * units
-    end 
-
-    def max_y
-      y + height * units
-    end
-
-    def unit_x(n)
-      x + n * units
-    end
-
-    def unit_y(n)
-      y + n * units
-    end
+  def top_grid(args)
+    TopGrid.new(args)
   end
 
-  class FacingSquare
-    def initialize(x: , y:, units:, colour:, opacity:)
-      @x, @y = x, y
-      @units = units
-      @colour = colour
-      @opacity = opacity
-    end
+  def front_grid(args)
+    FrontGrid.new(args)
+  end
 
-    attr_reader :x, :y, :units, :colour, :opacity
+  def right_grid(args)
+    RightGrid.new(args)
+  end
 
-    def max_x
-      x + units
-    end
-
-    def max_y
-      y + units
-    end
+  def square(args)
+    Square.new(args)
   end
 
   def facing_grid(args)

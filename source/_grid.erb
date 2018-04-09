@@ -1,0 +1,17 @@
+<polygon points="<%= "#{grid.top_left.x},#{grid.top_left.y} #{grid.top_right.x},#{grid.top_right.y} #{grid.bottom_right.x},#{grid.bottom_right.y} #{grid.bottom_left.x},#{grid.bottom_left.y}" %>" style="fill:<%= data.colours.fill %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+
+<% (1..(grid.height-1)).to_a.each do |row| %>
+  <line x1="<%= grid.row_line_start(row).x %>" y1="<%= grid.row_line_start(row).y %>" x2="<%= grid.row_line_end(row).x %>" y2="<%= grid.row_line_end(row).y %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<% end %>
+
+<% (1..(grid.width-1)).to_a.each do |col| %>
+  <line x1="<%= grid.column_line_start(col).x %>" y1="<%= grid.column_line_start(col).y %>" x2="<%= grid.column_line_end(col).x %>" y2="<%= grid.column_line_end(col).y %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<% end %>
+
+<% grid.squares.each_with_index do |row,row_num| %>
+  <% row.each_with_index do |square,col_num| %>
+    <% unless square.nil? %>
+      <%= partial('square', locals: {square: square(x: grid.square_position(row_num, col_num).x, y: grid.square_position(row_num, col_num).y, width_unit: grid.width_unit, height_unit: grid.height_unit, offset_unit: grid.offset_unit, colour: square[:colour], opacity: square[:opacity])}) %>
+    <% end %>
+  <% end %>
+<% end %>
