@@ -10,6 +10,8 @@
 
 <% grid.squares.each_with_index do |row,row_num| %>
   <% row.each_with_index do |square,col_num| %>
-    <%= partial('facing_square', locals: {square: facing_square(x: (grid.x + col_num * grid.units), y: (grid.y + row_num * grid.units), units: grid.units, colour: square[:colour], opacity: square[:opacity])}) %>
+    <% unless square.nil? %>
+      <%= partial('facing_square', locals: {square: facing_square(x: (grid.x + col_num * grid.units), y: (grid.y + row_num * grid.units), units: grid.units, colour: square[:colour], opacity: square[:opacity])}) %>
+    <% end %>
   <% end %>
 <% end %>

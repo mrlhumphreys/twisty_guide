@@ -640,3 +640,129 @@
   number: 4  
   description: 'up right and down right centers are not correct'
   algorithm: "U<sup>2</sup> F r F U<sup>2</sup> F r F"
+- puzzle: '3x4x5-cuboid'
+  phase: 7 
+  step: 'a'
+  number: 1  
+  description: 'both left centers and right centers are correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 7 
+  step: 'a'
+  number: 2  
+  description: 'both left centers and right centers are not correct'
+  algorithm: "u<sup>2</sup> F B d<sup>2</sup> F B"
+- puzzle: '3x4x5-cuboid'
+  phase: 7 
+  step: 'a'
+  number: 3  
+  description: 'left up center and right up center are not correct'
+  algorithm: "R F u<sup>2</sup> F R F u<sup>2</sup> F"
+- puzzle: '3x4x5-cuboid'
+  phase: 7 
+  step: 'a'
+  number: 4  
+  description: 'left up center and right down center are not correct'
+  algorithm: "F u<sup>2</sup> F R F u<sup>2</sup> F R"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'a'
+  number: 1  
+  description: 'front and back middle centers are not both incorrect'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'a'
+  number: 2  
+  description: 'front and back middle centers are both incorrect'
+  algorithm: "u<sup>2</sup> Rw Lw d<sup>2</sup> Rw Lw"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'b'
+  number: 1  
+  description: 'back down middle center is correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'b'
+  number: 2  
+  description: 'back down middle center is incorrect, rotate until it is correct'
+  algorithm: "x<sup>2</sup> or y<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'c'
+  number: 1  
+  description: 'front up middle center is correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'c'
+  number: 2  
+  description: 'front up middle center is incorrect'
+  algorithm: "F Rw u<sup>2</sup> Rw F Rw u<sup>2</sup> Rw"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'd'
+  number: 1  
+  description: 'front down middle center is correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'd'
+  number: 2  
+  description: 'front down middle center is incorrect'
+  algorithm: "Rw u<sup>2</sup> Rw F Rw u<sup>2</sup> Rw F"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'e'
+  number: 1  
+  description: 'front up left center is correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'e'
+  number: 2  
+  description: 'front up left center is incorrect'
+  algorithm: "r u<sup>2</sup> r u<sup>2</sup> (1x or 2x)"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'f'
+  number: 1  
+  description: 'front down right center is correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'f'
+  number: 2  
+  description: 'front down right center is incorrect'
+  algorithm: "r d<sup>2</sup> r d<sup>2</sup> (1x or 2x)"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'g'
+  number: 1  
+  description: 'front up right center and front down left centers are not both incorrect'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'g'
+  number: 2  
+  description: 'front up right center and front down left centers are both incorrect'
+  algorithm: "F r u<sup>2</sup> r u<sup>2</sup> F r u<sup>2</sup> r u<sup>2</sup>"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'h'
+  number: 1  
+  description: 'all centers correct'
+  algorithm: "-"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'h'
+  number: 2  
+  description: 'back down right correct and front down left incorrect'
+  algorithm: "Lw d Rw u' Lw u Rw d' r d Rw u' Lw u Rw d' Lw r"
+- puzzle: '3x4x5-cuboid'
+  phase: 8 
+  step: 'h'
+  number: 3  
+  description: 'back down right correct and front up right incorrect'
+  algorithm: "F Lw d Rw u' Lw u Rw d' r d Rw u' Lw u Rw d' Lw r F"

@@ -33,7 +33,9 @@ PHASES = [
   { puzzle: '3x4x5-cuboid', number: 3 },
   { puzzle: '3x4x5-cuboid', number: 4 },
   { puzzle: '3x4x5-cuboid', number: 5 },
-  { puzzle: '3x4x5-cuboid', number: 6 }
+  { puzzle: '3x4x5-cuboid', number: 6 },
+  { puzzle: '3x4x5-cuboid', number: 7 },
+  { puzzle: '3x4x5-cuboid', number: 8 }
 ]
 
 PHASES.each do |phase|
