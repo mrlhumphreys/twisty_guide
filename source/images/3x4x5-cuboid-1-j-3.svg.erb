@@ -3,19 +3,29 @@
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
   <!-- Up face -->
-  <polygon points="80,20 180,70 120,100 20,50" style="fill:#f0f0f0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
-  <polygon points="80,120 100,130 80,140 60,130" style="fill:#f0f0f0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <polygon points="80,140 60,130 80,120 20,90 80,60 140,90 160,80 180,90 140,110 160,120 140,130 120,120" style="fill:<%= data.colours.up %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
   <polygon points="120,140 140,150 120,160 100,150" style="fill:#f0f0f0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
   <polygon points="160,120 160,140 180,130" style="fill:#f0f0f0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
 
   <!-- Front face -->
-  <polygon points="20,50 120,100 120,140 80,120 60,130 60,150 20,130" style="fill:#d0d0d0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <polygon points="20,90 80,120 60,130 60,150 20,130" style="fill:#d0d0d0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
   <polygon points="100,150 120,160 120,180 80,160" style="fill:#d0d0d0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
   <polygon points="60,130 80,140 80,160 60,150" style="fill:#d0d0d0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
-  <polygon points="140,130 140,150 120,140" style="fill:#d0d0d0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <polygon points="120,120 140,130 140,150 120,140" style="fill:<%= data.colours.front %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
 
   <!-- Right face -->
-  <polygon points="180,70 180,110 160,120 160,140 180,130 180,150 120,180 120,160 140,150 140,130 120,140 120,100" style="fill:#b0b0b0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
-  <polygon points="80,140 100,130 120,140 80,160" style="fill:#b0b0b0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <polygon points="160,120 160,140 180,130 180,150 120,180 120,160 140,150 140,130" style="fill:#b0b0b0;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <polygon points="80,140 120,120 120,140 80,160" style="fill:<%= data.colours.right %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <polygon points="140,110 180,90 180,110 160,120" style="fill:<%= data.colours.right %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+
+  <!-- Transparent -->
+  <!-- Up face -->
+  <polygon points="80,20 180,70 120,100 20,50" style="fill:<%= data.colours.up %>;opacity:<%= data.opacity.see_through %>;stroke-dasharray:5;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+
+  <!-- Front face -->
+  <polygon points="20,50 120,100 120,140 20,90" style="fill:<%= data.colours.front %>;opacity:<%= data.opacity.see_through %>;stroke-dasharray:5;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+
+  <!-- Right face -->
+  <polygon points="180,70 180,110 120,140 120,100" style="fill:<%= data.colours.right %>;opacity:<%= data.opacity.see_through %>;stroke-dasharray:5;stroke:<%= data.colours.stroke %>;stroke-width:1" />
 </svg>
 
