@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+
+  <polygon points="120,20 180,50 80,100 20,70" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+
+  <line x1="100" y1="30" x2="160" y2="60" style="stroke:#404040;stroke-width:1" />
+  <line x1="80" y1="40" x2="140" y2="70" style="stroke:#404040;stroke-width:1" />
+  <line x1="60" y1="50" x2="120" y2="80" style="stroke:#404040;stroke-width:1" />
+  <line x1="40" y1="60" x2="100" y2="90" style="stroke:#404040;stroke-width:1" />
+
+  <line x1="140" y1="30" x2="40" y2="80" style="stroke:#404040;stroke-width:1" />
+  <line x1="160" y1="40" x2="60" y2="90" style="stroke:#404040;stroke-width:1" />
+
+      <polygon points="120,20 140,30 120,40 100,30" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="140,30 160,40 140,50 120,40" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="160,40 180,50 160,60 140,50" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="100,30 120,40 100,50 80,40" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="140,50 160,60 140,70 120,60" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="80,40 100,50 80,60 60,50" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="100,50 120,60 100,70 80,60" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="120,60 140,70 120,80 100,70" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="60,50 80,60 60,70 40,60" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="100,70 120,80 100,90 80,80" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="40,60 60,70 40,80 20,70" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="60,70 80,80 60,90 40,80" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="80,80 100,90 80,100 60,90" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+
+
+
+  <polygon points="20,70 80,100 80,180 20,150" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+
+  <line x1="20" y1="90" x2="80" y2="120" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="110" x2="80" y2="140" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="130" x2="80" y2="160" style="stroke:#404040;stroke-width:1" />
+
+  <line x1="40" y1="80" x2="40" y2="160" style="stroke:#404040;stroke-width:1" />
+  <line x1="60" y1="90" x2="60" y2="170" style="stroke:#404040;stroke-width:1" />
+
+      <polygon points="20,70 40,80 40,100 20,90" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="40,80 60,90 60,110 40,100" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="60,90 80,100 80,120 60,110" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="60,110 80,120 80,140 60,130" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="20,130 40,140 40,160 20,150" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="40,140 60,150 60,170 40,160" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="60,150 80,160 80,180 60,170" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+
+
+
+  <polygon points="80,100.0 180,50.0 180,130.0 80,180.0" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+
+  <line x1="80" y1="120.0" x2="180" y2="70.0" style="stroke:#404040;stroke-width:1" />
+  <line x1="80" y1="140.0" x2="180" y2="90.0" style="stroke:#404040;stroke-width:1" />
+  <line x1="80" y1="160.0" x2="180" y2="110.0" style="stroke:#404040;stroke-width:1" />
+
+  <line x1="100" y1="90.0" x2="100" y2="170.0" style="stroke:#404040;stroke-width:1" />
+  <line x1="120" y1="80.0" x2="120" y2="160.0" style="stroke:#404040;stroke-width:1" />
+  <line x1="140" y1="70.0" x2="140" y2="150.0" style="stroke:#404040;stroke-width:1" />
+  <line x1="160" y1="60.0" x2="160" y2="140.0" style="stroke:#404040;stroke-width:1" />
+
+      <polygon points="80,100.0 100,90.0 100,110.0 80,120.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="100,90.0 120,80.0 120,100.0 100,110.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="120,80.0 140,70.0 140,90.0 120,100.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="140,70.0 160,60.0 160,80.0 140,90.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="160,60.0 180,50.0 180,70.0 160,80.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="80,120.0 100,110.0 100,130.0 80,140.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="160,80.0 180,70.0 180,90.0 160,100.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="160,100.0 180,90.0 180,110.0 160,120.0" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="80,160.0 100,150.0 100,170.0 80,180.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="100,150.0 120,140.0 120,160.0 100,170.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="120,140.0 140,130.0 140,150.0 120,160.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="140,130.0 160,120.0 160,140.0 140,150.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+      <polygon points="160,120.0 180,110.0 180,130.0 160,140.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
+
+
+</svg>
+
