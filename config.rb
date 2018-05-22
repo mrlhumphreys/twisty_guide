@@ -1,8 +1,21 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
+end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  # Optional Settings
+  # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
+  deploy.remote = 'git@github.com:mrlhumphreys/twisty_guide.git'
+  # deploy.branch   = 'custom-branch' # default: gh-pages
+  deploy.branch = 'master'
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
 
 # Layouts
@@ -94,7 +107,8 @@ end
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
+configure :build do
+  set :http_prefix, '/twisty_guide'
 #   activate :minify_css
 #   activate :minify_javascript
-# end
+end
