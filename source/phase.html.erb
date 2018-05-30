@@ -1,22 +1,22 @@
 <article>
-  <% if defined?(puzzle) && defined?(phase) %>
-  <h1><%= puzzle %> - Phase <%= phase %></h1>
+  <% if defined?(guide) && defined?(phase) %>
+  <h1><%= guide.titleize %> - Phase <%= phase %></h1>
 
   <nav class="page_links">
-    <% data.cases.select { |c| c.puzzle == puzzle }.map(&:phase).uniq.each do |p| %>
+    <% data.cases.select { |c| c.guide == guide }.map(&:phase).uniq.each do |p| %>
       <% if p == phase %>
-        <a href="<%= p %>.html" class="current">Phase <%= p %></a>
+        <a href="<%= p %>.html" class="current"><%= p %></a>
       <% else %>
-        <a href="<%= p %>.html">Phase <%= p %></a>
+        <a href="<%= p %>.html"><%= p %></a>
       <% end %>
     <% end %>
   </nav>
 
-  <% data.cases.select { |c| c.puzzle == puzzle && c.phase == phase }.map(&:step).uniq.each do |step| %>
-    <%= partial(:step, locals: {cases: data.cases.select { |c| c.puzzle == puzzle && c.phase == phase && c.step == step }}) %>
+  <% data.cases.select { |c| c.guide == guide && c.phase == phase }.map(&:step).uniq.each do |step| %>
+    <%= partial(:step, locals: {cases: data.cases.select { |c| c.guide == guide && c.phase == phase && c.step == step }}) %>
   <% end %>
 
-  <% unless data.cases.select { |c| c.puzzle == puzzle }.map(&:phase).max == phase %>
+  <% unless data.cases.select { |c| c.guide == guide }.map(&:phase).max == phase %>
     <a class="next_page" href="<%= phase + 1 %>.html">Next Phase</a>
   <% end %>
   <% end %>

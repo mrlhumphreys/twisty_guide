@@ -48,18 +48,20 @@ nav.top_level a:hover {
   color: #404040;
 }
 
+
 nav.page_links {
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav.page_links a {
   color: #404040;
   padding: 0.5em 10px;
   margin: 0 10px;
-  border-bottom: dashed 1px #404040
+  border-top: solid 1px #404040;
+  border-bottom: solid 1px #404040;
 }
 
 nav.page_links a.current {
@@ -68,7 +70,8 @@ nav.page_links a.current {
 }
 
 nav.page_links a:hover {
-  border-bottom: solid 1px #404040
+  color: #d0d0d0;
+  background-color: #404040;
 }
 
 
@@ -86,6 +89,10 @@ footer p {
   padding: 1em 0;
 }
 
+.guides {
+  list-style: none;
+}
+
 .step_header {
   margin-top: 2em;
   padding: 0 10px;
@@ -93,15 +100,11 @@ footer p {
 
 .cases {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.cases .case {
-  width: 300px;
+  overflow-x: scroll;
 }
 
 .case {
+  flex: 0 0 280px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

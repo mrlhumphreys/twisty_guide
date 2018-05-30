@@ -1,808 +1,808 @@
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'a'
   number: 1
   description: 'No Up Corners sticking out. Move to step B.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'a' 
   number: 2
   description: 'One Corner Sticking Out of U Layer. Move to step B.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'a'
   number: 3
   description: 'Two Corners Sticking Out of U Layer. Move to step B.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'a'
   number: 4
   description: 'Three Corners Sticking Out of U Layer. Rotate U Layer.'
   algorithm: 'U'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'a'
   number: 5 
   description: 'Four Corners Sticking Out of U Layer. Rotate U Layer.'
   algorithm: 'U'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'b'
   number: 1
   description: 'No Down Corners sticking out. Move to step E.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'b'
   number: 2 
   description: 'One Corner Sticking Out of D Layer. Move to step C.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'b'
   number: 3 
   description: 'Two Corners Sticking Out of D Layer. Move to step C.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'b'
   number: 4
   description: 'Three Corners Sticking Out of D Layer. Rotate D Layer.'
   algorithm: 'D'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'b'
   number: 5
   description: 'Four Corners Sticking Out of D Layer. Rotate D Layer.'
   algorithm: 'D'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'c'
   number: 1
   description: 'Two Corners Sticking out of U and D layers. Bring corners to U Layer, facing the front.'
   algorithm: 'Combination of B, D, Lw'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'c'
   number: 2
   description: 'Four Corners Stickout out of U and D Layers. Bring at least three corners to U Layer, then turn U. Then bring corners to the U Layer, facing the front.'
   algorithm: 'Combination of B D Lw, then U'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'd'
   number: null
   description: 'Two Corners Sticking out of Front U layer. Perform algorithm so that they do not stick out.'
   algorithm: "Rw U' B U B U"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'e'
   number: 1
   description: 'No edges sticking out. Go to step I.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'e'
   number: 2
   description: 'Edge sticking out. Move edge to U Layer, facing the back.'
   algorithm: 'F, U and/or B'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'f'
   number: 1
   description: 'Sunken edge on top left. Go to step G.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'f'
   number: 2
   description: 'Sunken edge not on top left. Move edge to U Layer, facing the left.'
   algorithm: 'Rw, Lw and/or D'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'g'
   number: null
   description: 'Edge sticking out of back and sunken on left. Swap Edges.'
   algorithm: "Lw D' Lw F Rw U" 
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'h'
   number: null
   description: 'Repeat steps E-G until no edges stick out of U and D Layers.'
   algorithm: '-' 
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'i'
   number: 1
   description: 'No u Corners sticking out. Go to step J.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'i'
   number: 2
   description: 'One Corner Sticking Out of u Layer. Go to step J.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'i'
   number: 3
   description: 'Two Corners Sticking Out of u Layer. Go to step J.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'i'
   number: 4
   description: 'Three Corners Sticking Out of u Layer. Rotate u Layer.'
   algorithm: 'u'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'i'
   number: 5
   description: 'Four Corners Sticking Out of u Layer. Rotate u Layer.'
   algorithm: 'u'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'j'
   number: 1
   description: 'No corners sticking out of d Layer. Go to step M.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'j'
   number: 2 
   description: 'One Corner Sticking Out of d Layer. Go to step K.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'j'
   number: 3 
   description: 'Two corners sticking out of d Layer. Go to step K.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'j'
   number: 4 
   description: 'Three corners sticking out of d Layer. Rotate d Layer.'
   algorithm: 'd'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'j'
   number: 5 
   description: 'Four corners sticking out of d Layer. Rotate d Layer.'
   algorithm: 'd'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'k'
   number: 1
   description: 'Two Corners Sticking out of u and d layers. Bring corners to u layer, facing the front.'
   algorithm: 'Combination of B, d, Lw'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'k'
   number: 2
   description: 'Four Corners Stickout out of u and d Layers. Bring at least three corners to u, then turn u. Then bring corners to the u layer, facing the front.'
   algorithm: 'Combination of B d Lw, then u'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'l'
   number: null
   description: 'Two corners sticking out of u layer, facing the front. Perform algorithm so they do not stick out.' 
   algorithm: "Rw u' B u B u"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'm'
   number: 1 
   description: 'No edges sticking out. Go to phase 2.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'm'
   number: 2 
   description: 'Edge sticking out. Move edge to u Layer, facing the back.'
   algorithm: 'F, u and/or B'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'n'
   number: 1 
   description: 'Sunken edge on u layer, facing left. Go to step O.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'n'
   number: 2
   description: 'Sunken edge not on u layer, facing left. Rotate until sunken edge is on u layer, facing left.'
   algorithm: 'Rw, Lw and/or d'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'o'
   number: null
   description: 'Edge sticking out of back and sunken edge on left. Swap edges.'
   algorithm: "Lw d' Lw F Rw u"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 1
   step: 'p'
   number: null
   description: 'Repeat steps M-O until no edges stick out of u and d Layers.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'a'
   number: 1 
   description: 'Up Back Left Corner at Up Back Left. Go to step B.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'a'
   number: 2 
   description: 'Up Back Left Corner at Down Front Left. Move to Up Back Left.'
   algorithm: 'L'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'a'
   number: 3 
   description: 'Up Back Left Corner at Up Front Right. Move to Up Back Left.'
   algorithm: 'R D<sup>2</sup> L'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'a'
   number: 4 
   description: 'Up Back Left Corner at Down Back Right. Move to Up Back Left.'
   algorithm: 'D<sup>2</sup> L'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'b'
   number: 1 
   description: 'Up Front Left Corner at Up Front Left. Go to Step C.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'b'
   number: 2 
   description: 'Up Front Left Corner at Down Back Left. Move to Up Front Left.'
   algorithm: 'D<sup>2</sup> F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'b'
   number: 3 
   description: 'Up Front Left Corner at Up Back Right. Move to Up Front Left.'
   algorithm: 'R F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'b'
   number: 4 
   description: 'Up Front Left Corner at Down Front Right. Move to Up Front Left.'
   algorithm: 'F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'c'
   number: 1 
   description: 'Up Back Right Corner at Up Back Right. Go to step D.'
   algorithm: 'R and/or D2'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'c'
   number: 2 
   description: 'Up Back Right Corner at Down Back Left. Move to Up Back Right.'
   algorithm: 'D<sup>2</sup> R'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'c'
   number: 3 
   description: 'Up Back Right Corner at Down Front Right. Move to Up Back Right.'
   algorithm: 'R'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'd'
   number: 1
   description: 'Up Front Right Corner at Up Front Right. Go to step E.' 
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'd'
   number: 2
   description: 'Up Front Right Corner at Down Back Left. Move to Up Front Right.'
   algorithm: "D<sup>2</sup> F Rw D' Rw U F U<sup>2</sup> Rw D Rw U"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'd'
   number: 3
   description: 'Up Front Right Corner at Down Front Right. Move to Up Front Right.'
   algorithm: "F Rw D' Rw U F U<sup>2</sup> Rw D Rw U"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'e'
   number: 1
   description: 'Up Right Corners and Up Left Corners match faces. Go to Step F.'
   algorithm: '-' 
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'e'
   number: 2
   description: "Up Right Corners and Up Left Corners don't match faces. Swap Corners."
   algorithm: 'R F R'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'f'
   number: 1
   description: 'Down Right Corners and Down Left Corners match faces. Go to Step G.'
   algorithm:  '-' 
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'f'
   number: 2
   description: "Down Right Corners and Down Left Corners don't match faces. Swap Corners."
   algorithm: "Rw U<sup>2</sup> F U Rw F U<sup>2</sup> F U F U<sup>2</sup> Rw U"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'g'
   number: 1
   description: "All Corners Match. Go to Phase 3."
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 2
   step: 'g'
   number: 2
   description: "Top Corners don't match bottom corners. Rotate Down Layer."
   algorithm: "D<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'a'
   number: 1
   description: "Up Back left Edge at Up Back left. Go to step B."
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'a'
   number: 2
   description: "Up Back left Edge at Up Front right. Move to Up Back left."
   algorithm: "r U<sup>2</sup> r U<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'a'
   number: 3
   description: "Up Back left Edge at Down Front Left. Move to Up Back left."
   algorithm: 'l'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'a'
   number: 4
   description: "Up Back left Edge at Down Back Right. Move to Up Back left." 
   algorithm: "D<sup>2</sup> l D<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'b'
   number: 1
   description: "Up Front left Edge at Up Front left. Go to step C."
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'b'
   number: 2
   description: "Up Front left Edge at Up Back right. Move to Up Front left." 
   algorithm: 'F r F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'b'
   number: 3
   description: "Up Front left Edge at Down Front right. Move to Up Front left." 
   algorithm: 'r F r F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'b'
   number: 4
   description: "Up Front left Edge at Down Back Left. Move to Up Front left." 
   algorithm: "D<sup>2</sup> r F r F D<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'c'
   number: 1
   description: "Up Back right Edge at Up Back right. Go to Step D." 
   algorithm: '-' 
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'c'
   number: 2 
   description: "Up Back right Edge at Down Front right. Move to Up Back right."
   algorithm: 'r'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'c'
   number: 3
   description: "Up Back right Edge at Down Back left. Move to Up Back right."
   algorithm: "D<sup>2</sup> r D<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'd'
   number: 1
   description: "Up Front right Edge at Up Front right. Go to Step E."
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'd'
   number: 2
   description: "Up Front right Edge at Down Back right. Move to Up Front right." 
   algorithm: "Lw D Rw U' Lw U Rw D' r D Rw U' Lw U Rw D' Lw r" 
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'd'
   number: 3
   description: "Up Front right Edge at Down Front left. Move to Up Front right." 
   algorithm: "D<sup>2</sup> Lw D Rw U' Lw U Rw D' r D Rw U' Lw U Rw D' Lw r D<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'e'
   number: 1
   description: "Down Layer Edges Correct. Go to Phase 4."
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 3
   step: 'e'
   number: 2
   description: "Down Layer Edges incorrect. Swap edges."
   algorithm: "r D<sup>2</sup> r D<sup>2</sup> r"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'a'
   number: 1
   description: 'Down Back Edge at Down Back. Go to step B.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'a'
   number: 2
   description: 'Down Back Edge at Down Front. Move to Down Back.'
   algorithm: 'D<sup>2</sup> Rw D<sup>2</sup> Rw D<sup>2</sup> Rw'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'a'
   number: 3
   description: 'Down Back Edge at Up Back. Move to Down Back.'
   algorithm: 'B Rw Lw F Rw Lw'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'a'
   number: 4
   description: 'Down Back Edge at Up Front. Move to Down Back.'
   algorithm: 'U<sup>2</sup> B Rw Lw F Rw Lw U<sup>2</sup>'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'b'
   number: 1 
   description: 'Down Front Edge at Down Front. Go to step C.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'b'
   number: 2 
   description: 'Down Front Edge at Up Back. Move to Down Front.'
   algorithm: 'Rw F Rw U<sup>2</sup> Rw F Rw U<sup>2</sup>'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'b'
   number: 3 
   description: 'Down Front Edge at Up Front. Move to Down Front.'
   algorithm: 'U<sup>2</sup> Rw F Rw U<sup>2</sup> Rw F Rw'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'c'
   number: 1 
   description: 'Up Front Edge and Up Back are in right place. Go to Step D.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'c'
   number: 2  
   description: 'Up Front Edge and Up Back are incorrect. Swap Edges.'
   algorithm: 'U<sup>2</sup> Rw U<sup>2</sup> Rw U<sup>2</sup> Rw'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'd'
   number: 1  
   description: 'Down Left Edge at Down Left. Go to Step E.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'd'
   number: 2  
   description: 'Down Left Edge at Down Right. Move to Down Left.'
   algorithm: 'D<sup>2</sup> F D<sup>2</sup> F D<sup>2</sup> F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'd'
   number: 3  
   description: 'Down Left Edge at Up Left. Move to Down Left.'
   algorithm: 'Lw F B Rw F B'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'd'
   number: 4  
   description: 'Down Left Edge at Up Right. Move to Down Left.'
   algorithm: 'U<sup>2</sup> Lw F B Rw F B U<sup>2</sup>'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'e'
   number: 1  
   description: 'Down Right Edge at Down Right. Go to Step F.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'e'
   number: 2  
   description: 'Down Right Edge at Up Left. Move to Down Right.'
   algorithm: 'F Rw F U<sup>2</sup> F Rw F U<sup>2</sup>'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'e'
   number: 3  
   description: 'Down Right Edge at Up Right. Move to Down Right.'
   algorithm: 'U<sup>2</sup> F Rw F U<sup>2</sup> F Rw F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'f'
   number: 1  
   description: 'Up Left and Up Right Edges are correct. Go to Step G.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 4
   step: 'f'
   number: 2  
   description: 'Up Left and Up Right Edges are incorrect. Swap edges.'
   algorithm: 'U<sup>2</sup> F U<sup>2</sup> F U<sup>2</sup> F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'a'
   number: 1  
   description: 'up Back Left at up Back Left. Go to Step B.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'a'
   number: 2  
   description: 'up Back Left at up Front Right. Move to up Back Left.'
   algorithm: 'u<sup>2</sup>'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'a'
   number: 3  
   description: 'up Back Left at down Front Left. Move to up Back Left.'
   algorithm: 'F u<sup>2</sup> F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'a'
   number: 4  
   description: 'up Back Left at down Back Right. Move to up Back Left.'
   algorithm: 'L d<sup>2</sup> L'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'b'
   number: 1  
   description: 'up Front Left at up Front Left. Go to Step C.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'b'
   number: 2  
   description: 'up Front Left at down Back Left. Move to up Front Left.'
   algorithm: 'F d<sup>2</sup> F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'b'
   number: 3  
   description: 'up Front Left at down Front Right. Move to up Front Left.'
   algorithm: 'd<sup>2</sup> F d<sup>2</sup> F'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'b'
   number: 4  
   description: 'up Front Left at up Back Right'
   algorithm: 'R d<sup>2</sup> R F d<sup>2</sup> F. Move to up Front Left.'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'c'
   number: 1  
   description: 'up Back Right at up Back Right. Go to Step D.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'c'
   number: 2  
   description: 'up Back Right at down Back Left. Move to up Back Right.'
   algorithm: 'R d<sup>2</sup> R'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'c'
   number: 3  
   description: 'up Back Right at down Front Right. Move to up Back Right.'
   algorithm: 'd<sup>2</sup> R d<sup>2</sup> R'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'd'
   number: 1  
   description: 'up Front Right at up Front Right. Go to Step E.'
   algorithm: '-'
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'd'
   number: 2  
   description: 'up Front Right at down Front Left. Move to up Front Right.'
   algorithm: "F Rw d' Rw u F u<sup>2</sup> Rw d Rw u"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'd'
   number: 3  
   description: 'up Front Right at down Back Right. Move to up Front Right.'
   algorithm: "d<sup>2</sup> F Rw d' Rw u F u<sup>2</sup> Rw d Rw u d<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'e'
   number: 1  
   description: 'down Front Right at down Front Right. Go to Step F.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'e'
   number: 2  
   description: 'down Front Right not at down Front Right. Rotate d Layer.'
   algorithm: "d<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'f'
   number: 1  
   description: 'down layer edges correct. Go to Phase 6.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 5 
   step: 'f'
   number: 2  
   description: 'down layer edges incorrect. Swap edges.'
   algorithm: "F Rw u<sup>2</sup> Rw u F u<sup>2</sup> Rw u F u<sup>2</sup> F Rw u"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'a'
   number: 1  
   description: 'Both up left and up right centers are correct. Go to Step B.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'a'
   number: 2  
   description: 'both up left and up right centers are not correct. Swap centers.'
   algorithm: "r F B l F B"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'a'
   number: 3  
   description: 'up left and down right centers are not correct. Swap centers.'
   algorithm: "F r F U<sup>2</sup> F r F U<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'a'
   number: 4  
   description: 'up right and down right centers are not correct. Swap centers.'
   algorithm: "U<sup>2</sup> F r F U<sup>2</sup> F r F"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'b'
   number: 1  
   description: 'both left centers and right centers are correct. Go to Phase 7.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'b'
   number: 2  
   description: 'both left centers and right centers are not correct. Swap centers.'
   algorithm: "u<sup>2</sup> F B d<sup>2</sup> F B"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'b'
   number: 3  
   description: 'left up center and right up center are not correct. Swap centers.'
   algorithm: "R F u<sup>2</sup> F R F u<sup>2</sup> F"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 6 
   step: 'b'
   number: 4  
   description: 'left up center and right down center are not correct. Swap centers.'
   algorithm: "F u<sup>2</sup> F R F u<sup>2</sup> F R"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'a'
   number: 1  
   description: 'one or both of front and back middle centers are not correct. Go to Step B.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'a'
   number: 2  
   description: 'Both front and back middle centers are incorrect. Swap centers.'
   algorithm: "u<sup>2</sup> Rw Lw d<sup>2</sup> Rw Lw"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'b'
   number: 1  
   description: 'back down middle center is correct. Go to Step C.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'b'
   number: 2  
-  description: 'back down middle center is incorrect. Rotate puzzle until it is correct.'
+  description: 'back down middle center is incorrect. Rotate guide until it is correct.'
   algorithm: "x<sup>2</sup> or y<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'c'
   number: 1  
   description: 'front up middle center is correct. Go to Step D.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'c'
   number: 2  
   description: 'front up middle center is incorrect. Swap it for correct center.'
   algorithm: "F Rw u<sup>2</sup> Rw F Rw u<sup>2</sup> Rw"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'd'
   number: 1  
   description: 'front down middle center is correct. Go to Step E.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'd'
   number: 2  
   description: 'front down middle center is incorrect. Swap it for correct center.'
   algorithm: "Rw u<sup>2</sup> Rw F Rw u<sup>2</sup> Rw F"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'e'
   number: 1  
   description: 'front up left center is correct. Go to Step F.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'e'
   number: 2  
   description: 'front up left center is incorrect. Swap it for correct center.'
   algorithm: "r u<sup>2</sup> r u<sup>2</sup> (1x or 2x)"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'f'
   number: 1  
   description: 'front down right center is correct. Go to Step G.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'f'
   number: 2  
   description: 'front down right center is incorrect. Swap it for correct center.'
   algorithm: "r d<sup>2</sup> r d<sup>2</sup> (1x or 2x)"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'g'
   number: 1  
   description: 'one or both of front up right center and front down left center are incorrect. Go to Step H.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'g'
   number: 2  
   description: 'front up right center and front down left centers are both incorrect. Swap them for correct centers.'
   algorithm: "F r u<sup>2</sup> r u<sup>2</sup> F r u<sup>2</sup> r u<sup>2</sup>"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'h'
   number: 1  
   description: 'All centers correct. Puzzle solved.'
   algorithm: "-"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'h'
   number: 2  
   description: 'back down right correct and front down left incorrect. Swap it for correct center.'
   algorithm: "Lw d Rw u' Lw u Rw d' r d Rw u' Lw u Rw d' Lw r"
-- puzzle: '3x4x5-cuboid'
+- guide: '3x4x5-cuboid'
   phase: 7 
   step: 'h'
   number: 3  

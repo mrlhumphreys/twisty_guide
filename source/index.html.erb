@@ -1,4 +1,12 @@
 <article>
   <h1>Twisty Puzzle Guide</h1>
   <p>Guides to solving Twisty Puzzles</p>
+
+  <ul class="guides">
+    <% data.cases.map(&:guide).uniq.each do |guide| %>
+      <li class="guide">
+        <a href="puzzles/<%= guide %>/phases/1.html"><%= guide.titleize %></a>
+      </li>
+    <% end %>
+  </ul>
 </article>

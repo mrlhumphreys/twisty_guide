@@ -40,19 +40,9 @@ page '/*.txt', layout: false
 #   },
 # ) 
 
-PHASES = [
-  { puzzle: '3x4x5-cuboid', number: 1 },
-  { puzzle: '3x4x5-cuboid', number: 2 },
-  { puzzle: '3x4x5-cuboid', number: 3 },
-  { puzzle: '3x4x5-cuboid', number: 4 },
-  { puzzle: '3x4x5-cuboid', number: 5 },
-  { puzzle: '3x4x5-cuboid', number: 6 },
-  { puzzle: '3x4x5-cuboid', number: 7 },
-  { puzzle: '3x4x5-cuboid', number: 8 }
-]
-
-PHASES.each do |phase|
-  proxy "/puzzles/#{phase[:puzzle]}/phases/#{phase[:number]}.html", "/phase.html", locals: {puzzle: phase[:puzzle], phase: phase[:number] }
+@app.data.cases.map { |c| [c.guide, c.phase] }.uniq.each do |guide, phase|
+  proxy "/puzzles/#{guide}/phases/#{phase}.html", "/phase.html", locals: {guide: guide, phase: phase }
+ 
 end
 
 # Helpers
@@ -89,18 +79,6 @@ helpers do
 
   def facing_square(args)
     FacingSquare.new(args)
-  end
-
-  def top_square(x,y)
-    "#{x+20},#{y} #{x+40},#{y+10} #{x+20},#{y+20} #{x},#{y+10}"
-  end
-
-  def front_square(x,y)
-    "#{x},#{y} #{x+20},#{y+10} #{x+20},#{y+30} #{x},#{y+20}"
-  end
-
-  def right_square(x,y)
-    "#{x+20},#{y} #{x+20},#{y+20} #{x},#{y+30} #{x},#{y+10}"
   end
 end
 
