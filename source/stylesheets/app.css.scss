@@ -1,3 +1,11 @@
+$background-main: #e0e0e0;
+$background-secondary: #f0f0f0;
+$background-focus: #c0c0c0;
+
+$content-main: #400000;
+$content-secondary: #606060;
+$content-focus: #ff4500;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +13,12 @@
 }
 
 body {
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Century Gothic", Arial, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: $background-main;
+  color: $content-main;
 }
 
 .wrapper {
@@ -21,7 +31,7 @@ body {
 }
 
 .nav_wrapper {
-  background-color: #404040;
+  background-color: $content-main;
 }
 
 .main_wrapper {
@@ -29,7 +39,7 @@ body {
 }
 
 .footer_wrapper {
-  background-color: #d0d0d0;
+  background-color: $background-focus;
 }
 
 nav.top_level {
@@ -39,15 +49,14 @@ nav.top_level {
 }
 
 nav.top_level a {
-  color: #d0d0d0;
+  color: $background-main;
   padding: 1em 10px;
 }
 
 nav.top_level a:hover {
-  background-color: #d0d0d0;
-  color: #404040;
+  background-color: #e0e0e0;
+  color: #a0a0a0;
 }
-
 
 nav.page_links {
   display: flex;
@@ -57,26 +66,25 @@ nav.page_links {
 }
 
 nav.page_links a {
-  color: #404040;
+  color: $content-focus;
   padding: 0.5em 10px;
   margin: 0 10px;
-  border-top: solid 1px #404040;
-  border-bottom: solid 1px #404040;
+  border-top: solid 1px $content-focus;
+  border-bottom: solid 1px $content-focus;
 }
 
 nav.page_links a.current {
-  background-color: #404040;
-  color: #d0d0d0;
+  background-color: $content-focus;
+  color: $background-main;
 }
 
 nav.page_links a:hover {
-  color: #d0d0d0;
-  background-color: #404040;
+  color: $background-main;
+  background-color: $content-focus;
 }
 
-
 article {
-  padding: 1em 0;
+  padding: 0;
 }
 
 article h1 {
@@ -89,13 +97,28 @@ footer p {
   padding: 1em 0;
 }
 
+.subtitle {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
 .guides {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.guide {
+  text-align: center;
+}
+
+.guide a {
+  color: $content-focus;
 }
 
 .step_header {
-  margin-top: 2em;
-  padding: 0 10px;
+  padding: 1.5em 10px 0.5em;
+  text-align: center;
 }
 
 .cases {
@@ -110,21 +133,18 @@ footer p {
   justify-content: space-between;
   flex-grow: 1;
   align-items: center;
-  margin: 1em 10px;
-  background-color: #f0f0f0;
+  margin: 0 10px;
+  background-color: $background-secondary;
 }
 
 .case h3 {
-  border-top: solid 1px #404040;
-  border-bottom: solid 1px #404040;
-  text-align: center;
-  padding: 1em 0;
-  width: 100%;
+  align-self: flex-start;
+  padding: 0.5em 10px;
 }
 
 .case .description {
-  padding: 1em 10px;
-  color: #a0a0a0;
+  padding: 0.5em 10px;
+  color: $content-secondary;
 }
 
 .case .diagram {
@@ -132,8 +152,8 @@ footer p {
 }
 
 .case .algorithm {
-  background-color: #d0d0d0;
-  color: #404040;
+  background-color: $background-focus;
+  color: $content-main;
   padding: 1em 0;
   width: 100%;
   text-align: center;
@@ -145,12 +165,12 @@ footer p {
   margin: 2em auto;
   width: 300px;
   text-align: center;
-  background-color: #404040;
-  color: #d0d0d0;
+  background-color: $content-focus;
+  color: $background-main;
   padding: 1em 0;
 }
 
 .next_page:hover {
-  color: #404040;
-  background-color: #d0d0d0;
+  color: $content-focus;
+  background-color: $background-main;
 }
