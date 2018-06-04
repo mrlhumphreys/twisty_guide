@@ -26,12 +26,18 @@ body {
 .nav_wrapper {
   background-color: #400000; }
 
+.divider {
+  height: 0.5em;
+  background: -webkit-gradient(linear, left top, right top, color-stop(17%, white), color-stop(17%, blue), color-stop(33%, blue), color-stop(33%, orange), color-stop(50%, orange), color-stop(50%, green), color-stop(66%, green), color-stop(66%, yellow), color-stop(83%, yellow), color-stop(83%, red), to(red));
+  background: linear-gradient(to right, white 17%, blue 17%, blue 33%, orange 33%, orange 50%, green 50%, green 66%, yellow 66%, yellow 83%, red 83%, red 100%); }
+
 .main_wrapper {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1; }
 
 .footer_wrapper {
+  margin-top: 2em;
   background-color: #c0c0c0; }
 
 nav.top_level {
