@@ -34,11 +34,17 @@ body {
   background-color: $content-main;
 }
 
+.divider {
+  height: 0.5em;
+  background: linear-gradient(to right, white 17%, blue 17%, blue 33%, orange 33%, orange 50%, green 50%, green 66%, yellow 66%, yellow 83%, red 83%, red 100%);
+}
+
 .main_wrapper {
   flex: 1;
 }
 
 .footer_wrapper {
+  margin-top: 2em;
   background-color: $background-focus;
 }
 

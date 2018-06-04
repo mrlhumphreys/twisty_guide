@@ -597,7 +597,7 @@
   step: 'b'
   number: 4  
   description: 'up Front Left at up Back Right'
-  algorithm: 'R d<sup>2</sup> R F d<sup>2</sup> F. Move to up Front Left.'
+  algorithm: 'R d<sup>2</sup> R F d<sup>2</sup> F.'
 - guide: '3x4x5-cuboid'
   phase: 5 
   step: 'c'
