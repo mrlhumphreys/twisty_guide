@@ -39,8 +39,11 @@ page '/*.txt', layout: false
 # ) 
 
 @app.data.cases.map { |c| [c.guide, c.phase] }.uniq.each do |guide, phase|
-  proxy "/puzzles/#{guide}/phases/#{phase}.html", "/phase.html", locals: {guide: guide, phase: phase }
- 
+  if phase.nil?
+    proxy "/puzzles/#{guide}.html", "/phase.html", locals: {guide: guide, phase: phase }
+  else
+    proxy "/puzzles/#{guide}/phases/#{phase}.html", "/phase.html", locals: {guide: guide, phase: phase }
+  end
 end
 
 # Helpers
@@ -54,6 +57,11 @@ helpers do
   require './lib/square'
   require './lib/facing_grid'
   require './lib/facing_square'
+  require './lib/bordered_grid'
+  require './lib/vertical_arrow'
+  require './lib/horizontal_arrow'
+  require './lib/diagonal_down_arrow'
+  require './lib/diagonal_up_arrow'
 
   def top_grid(args)
     TopGrid.new(args)
@@ -77,6 +85,26 @@ helpers do
 
   def facing_square(args)
     FacingSquare.new(args)
+  end
+
+  def bordered_grid(args)
+    BorderedGrid.new(args)
+  end
+
+  def vertical_arrow(args)
+    VerticalArrow.new(args)
+  end
+
+  def horizontal_arrow(args)
+    HorizontalArrow.new(args)
+  end
+
+  def diagonal_down_arrow(args)
+    DiagonalDownArrow.new(args)
+  end
+
+  def diagonal_up_arrow(args)
+    DiagonalUpArrow.new(args)
   end
 end
 

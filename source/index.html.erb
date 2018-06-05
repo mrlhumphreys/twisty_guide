@@ -4,9 +4,13 @@
   <p class="subtitle">Guides to solving Twisty Puzzles</p>
 
   <ul class="guides">
-    <% data.cases.map(&:guide).uniq.each do |guide| %>
+    <% data.cases.select { |c| c.phase == 1 || c.phase.nil? }.map { |c| [c.guide, c.phase] }.uniq.each do |guide, phase| %>
       <li class="guide">
-        <a href="puzzles/<%= guide %>/phases/1.html"><%= guide.titleize %></a>
+        <% if phase.nil? %>
+          <a href="puzzles/<%= guide %>.html"><%= guide.titleize %></a>
+        <% else %>
+          <a href="puzzles/<%= guide %>/phases/1.html"><%= guide.titleize %></a>
+        <% end %>
       </li>
     <% end %>
   </ul>

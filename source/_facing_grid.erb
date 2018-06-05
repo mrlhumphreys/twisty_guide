@@ -1,17 +1,17 @@
 <polygon points="<%= "#{grid.x},#{grid.y} #{grid.max_x},#{grid.y} #{grid.max_x},#{grid.max_y} #{grid.x},#{grid.max_y}" %>" style="fill:<%= data.colours.fill %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
 
-<% (1..(grid.height-1)).to_a.each do |row| %>
+<% grid.rows.each do |row| %>
   <line x1="<%= grid.x %>" y1="<%= grid.unit_y(row) %>" x2="<%= grid.max_x %>" y2="<%= grid.unit_y(row) %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
 <% end %>
 
-<% (1..(grid.width-1)).to_a.each do |col| %>
+<% grid.columns.each do |col| %>
   <line x1="<%= grid.unit_x(col) %>" y1="<%= grid.y %>" x2="<%= grid.unit_x(col) %>" y2="<%= grid.max_y %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
 <% end %>
 
 <% grid.squares.each_with_index do |row,row_num| %>
   <% row.each_with_index do |square,col_num| %>
     <% unless square.nil? %>
-      <%= partial('facing_square', locals: {square: facing_square(x: (grid.x + col_num * grid.units), y: (grid.y + row_num * grid.units), units: grid.units, colour: square[:colour], opacity: square[:opacity])}) %>
+      <%= partial('facing_square', locals: {square: facing_square(x: grid.unit_x(col_num), y: grid.unit_y(row_num), width: grid.unit_width(col_num), height: grid.unit_height(row_num), colour: square[:colour], opacity: square[:opacity])}) %>
     <% end %>
   <% end %>
 <% end %>

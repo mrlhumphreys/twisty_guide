@@ -1,5 +1,5 @@
-class FacingSquare
-  def initialize(x:, y:, width:, height: , colour:, opacity:)
+class BorderedSquare
+  def initialize(x: , y:, width:, height:, colour:, opacity:)
     @x, @y = x, y
     @width, @height = width, height
     @colour = colour
