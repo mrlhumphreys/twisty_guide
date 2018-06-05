@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="135" height="135">
+
+  <polygon points="30,30 104,30 104,104 30,104" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+
+  <line x1="30" y1="37" x2="104" y2="37" style="stroke:#404040;stroke-width:1" />
+  <line x1="30" y1="67" x2="104" y2="67" style="stroke:#404040;stroke-width:1" />
+  <line x1="30" y1="97" x2="104" y2="97" style="stroke:#404040;stroke-width:1" />
+
+  <line x1="37" y1="30" x2="37" y2="104" style="stroke:#404040;stroke-width:1" />
+  <line x1="67" y1="30" x2="67" y2="104" style="stroke:#404040;stroke-width:1" />
+  <line x1="97" y1="30" x2="97" y2="104" style="stroke:#404040;stroke-width:1" />
+
+      <polygon points="30,37 37,37 37,67 30,67" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="67,37 97,37 97,67 67,67" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="97,67 104,67 104,97 97,97" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="37,97 67,97 67,104 37,104" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+
+
+</svg>
+
