@@ -1,0 +1,22 @@
+<div class="section">
+  <% cases = data.cases.select { |c| c.guide == section.guide && c.phase == section.phase && c.section == section.number } %>
+
+  <h2 class="section_header"><%= section.title ? section.title : "Step #{section.number.to_s.upcase}" %></h2>
+
+  <% if section.description %>
+    <p class="section_description"><%= section.description %></p>
+  <% end %>
+
+  <% if cases.size > 1 %>
+    <div class="cases">
+  <% end %>
+
+  <% cases.each do |c| %>
+    <%= partial(:case, locals: c) %>
+  <% end %>
+
+  <% if cases.size > 1 %>
+    </div>
+  <% end %>
+</div>
+

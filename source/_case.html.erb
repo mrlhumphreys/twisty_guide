@@ -1,6 +1,6 @@
 <div class="case">
   <h3><%= number ? "Case #{number}" : "Only Case" %></h3>
   <p class="description"><%= description %></p>
-  <%= image_tag [guide, phase, step, number].compact.join('-') + '.svg', class: 'diagram' %> 
+  <%= image_tag [guide, phase, section, number].compact.join('-') + '.svg', class: 'diagram' %> 
   <p class="algorithm"><%= algorithm %></p>
 </div>

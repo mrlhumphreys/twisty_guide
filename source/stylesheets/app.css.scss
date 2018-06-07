@@ -69,6 +69,7 @@ nav.page_links {
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1em 10px;
 }
 
 nav.page_links a {
@@ -94,6 +95,7 @@ article {
 }
 
 article h1 {
+  font-size: 2em;
   padding: 1em 0;
   text-align: center;
 }
@@ -122,8 +124,17 @@ footer p {
   color: $content-focus;
 }
 
-.step_header {
-  padding: 1.5em 10px 0.5em;
+.section {
+  padding: 0.5em 0;
+}
+
+.section_header {
+  padding: 0.5em 10px;
+  text-align: center;
+}
+
+.section_description {
+  padding: 0em 10px 1em;
   text-align: center;
 }
 
