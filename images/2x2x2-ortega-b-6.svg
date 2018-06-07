@@ -1,25 +1,25 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="135" height="135">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180" height="180">
 
-  <polygon points="30,30 104,30 104,104 30,104" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+  <polygon points="40,40 140,40 140,140 40,140" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
 
-  <line x1="30" y1="37" x2="104" y2="37" style="stroke:#404040;stroke-width:1" />
-  <line x1="30" y1="67" x2="104" y2="67" style="stroke:#404040;stroke-width:1" />
-  <line x1="30" y1="97" x2="104" y2="97" style="stroke:#404040;stroke-width:1" />
+  <line x1="40" y1="50" x2="140" y2="50" style="stroke:#404040;stroke-width:1" />
+  <line x1="40" y1="90" x2="140" y2="90" style="stroke:#404040;stroke-width:1" />
+  <line x1="40" y1="130" x2="140" y2="130" style="stroke:#404040;stroke-width:1" />
 
-  <line x1="37" y1="30" x2="37" y2="104" style="stroke:#404040;stroke-width:1" />
-  <line x1="67" y1="30" x2="67" y2="104" style="stroke:#404040;stroke-width:1" />
-  <line x1="97" y1="30" x2="97" y2="104" style="stroke:#404040;stroke-width:1" />
+  <line x1="50" y1="40" x2="50" y2="140" style="stroke:#404040;stroke-width:1" />
+  <line x1="90" y1="40" x2="90" y2="140" style="stroke:#404040;stroke-width:1" />
+  <line x1="130" y1="40" x2="130" y2="140" style="stroke:#404040;stroke-width:1" />
 
-      <polygon points="67,30 97,30 97,37 67,37" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+      <polygon points="90,40 130,40 130,50 90,50" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="30,37 37,37 37,67 30,67" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+      <polygon points="40,50 50,50 50,90 40,90" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="30,67 37,67 37,97 30,97" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+      <polygon points="40,90 50,90 50,130 40,130" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="67,97 97,97 97,104 67,104" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+      <polygon points="90,130 130,130 130,140 90,140" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 

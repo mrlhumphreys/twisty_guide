@@ -72,7 +72,8 @@ nav.page_links {
       flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  padding: 1em 10px; }
 
 nav.page_links a {
   color: #ff4500;
@@ -93,6 +94,7 @@ article {
   padding: 0; }
 
 article h1 {
+  font-size: 2em;
   padding: 1em 0;
   text-align: center; }
 
@@ -120,8 +122,15 @@ footer p {
 .guide a {
   color: #ff4500; }
 
-.step_header {
-  padding: 1.5em 10px 0.5em;
+.section {
+  padding: 0.5em 0; }
+
+.section_header {
+  padding: 0.5em 10px;
+  text-align: center; }
+
+.section_description {
+  padding: 0em 10px 1em;
   text-align: center; }
 
 .cases {
