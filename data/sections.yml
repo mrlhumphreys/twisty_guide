@@ -13,6 +13,26 @@
   number: 'c'
   title: 'Permutate Both Layers' 
   description: 'Move the pieces of both layers into their proper positions.' 
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  number: 'a'
+  title: 'Solve Tips'
+  description: 'Rotate tips until they line up with the piece next to them.'
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  number: 'b'
+  title: 'Solve Centers'
+  description: 'Rotate centers until each face has three matching centers.'
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  number: 'c'
+  title: 'Solve First Layer'
+  description: 'Move three edge pieces into one layer.'
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  number: 'd'
+  title: 'Solve Last Layer'
+  description: 'Position and orient last layer edge pieces.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'

@@ -38,7 +38,7 @@ page '/*.txt', layout: false
 #   },
 # ) 
 
-@app.data.cases.map { |c| [c.guide, c.phase] }.uniq.each do |guide, phase|
+@app.data.sections.map { |c| [c.guide, c.phase] }.uniq.each do |guide, phase|
   if phase.nil?
     proxy "/puzzles/#{guide}.html", "/phase.html", locals: {guide: guide, phase: phase }
   else

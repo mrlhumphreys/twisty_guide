@@ -106,6 +106,66 @@
   number: 8 
   description: ''
   algorithm: "R<sup>2</sup> F<sup>2</sup> R<sup>2</sup>"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'a'
+  number: null
+  description: ''
+  algorithm: 'r, l, u and/or b'
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'b'
+  number: null
+  description: ''
+  algorithm: 'R, L, U and/or B'
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'c'
+  number: 1 
+  description: 'Move edge to first layer.'
+  algorithm: "R' D R"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'c'
+  number: 2 
+  description: 'Move edge to first layer.'
+  algorithm: "L D' L'"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'c'
+  number: 3 
+  description: 'Rotate edge in first layer.'
+  algorithm: "L D' L' D' R' D R"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'd'
+  number: 1 
+  description: 'Swap two edges on last layer.'
+  algorithm: "R U' R' U R' L R L'"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'd'
+  number: 2 
+  description: 'Cycle three edges on last layer anti-clockwise.'
+  algorithm: "R U R' U R U R'"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'd'
+  number: 3 
+  description: 'Cycle three edges on last layer clockwise.'
+  algorithm: "R U' R' U' R U' R'"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'd'
+  number: 4 
+  description: 'Cycle three edges and rotate two edges on last layer anti-clockwise.'
+  algorithm: "L R U R' U' L'"
+- guide: 'pyraminx-layer-by-layer'
+  phase: null
+  section: 'd'
+  number: 5 
+  description: 'Cycle three edges and rotate two edges on last layer clockwise.'
+  algorithm: "R' L' U' L U R"
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'
