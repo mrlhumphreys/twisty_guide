@@ -1,27 +1,53 @@
-class HorizontalArrow
-  def initialize(x:, y:)
-    @x, @y = x, y
-  end
+require 'lib/arrow.rb'
 
-  attr_reader :x, :y
+class HorizontalArrow < Arrow
+  ARROW_WIDTH = 16
+  ARROW_LENGTH = 8
+  LINE_WIDTH = 6
+  LINE_LENGTH = 24
 
   def points
     [
-      [x,y+7],
-      [x+7,y],
-      [x+7,y+4],
-      [x+33,y+4],
-      [x+33,y],
-      [x+40,y+7],
-      [x+33,y+14],
-      [x+33,y+10],
-      [x+7,y+10],
-      [x+7,y+14]
+      [
+        x,
+        y+(ARROW_WIDTH/2)
+      ],
+      [
+        x+ARROW_LENGTH,
+        y
+      ],
+      [
+        x+ARROW_LENGTH,
+        y+(ARROW_WIDTH/2)-(LINE_WIDTH/2)
+      ],
+      [
+        x+ARROW_LENGTH+LINE_LENGTH,
+        y+(ARROW_WIDTH/2)-(LINE_WIDTH/2)
+      ],
+      [
+        x+ARROW_LENGTH+LINE_LENGTH,
+        y
+      ],
+      [
+        x+(2*ARROW_LENGTH)+LINE_LENGTH,
+        y+(ARROW_WIDTH/2)
+      ],
+      [
+        x+ARROW_LENGTH+LINE_LENGTH,
+        y+ARROW_WIDTH
+      ],
+      [
+        x+ARROW_LENGTH+LINE_LENGTH,
+        y+(ARROW_WIDTH/2)+(LINE_WIDTH/2)
+      ],
+      [
+        x+ARROW_LENGTH,
+        y+(ARROW_WIDTH/2)+(LINE_WIDTH/2)
+      ],
+      [
+        x+ARROW_LENGTH,
+        y+ARROW_WIDTH
+      ]
     ]
   end
-
-  def points_string
-    points.map { |p| p.join(',') }.join(' ')
-  end
-
 end

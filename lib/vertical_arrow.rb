@@ -1,27 +1,54 @@
-class VerticalArrow
-  def initialize(x:, y:)
-    @x, @y = x, y
-  end
+require 'lib/arrow.rb'
 
-  attr_reader :x, :y
+class VerticalArrow < Arrow
+  ARROW_WIDTH = 16
+  ARROW_LENGTH = 8
+  LINE_WIDTH = 6
+  LINE_LENGTH = 24 
 
   def points
     [
-      [x+8,y],
-      [x+16,y+8],
-      [x+11,y+8],
-      [x+11,y+32],
-      [x+16,y+32],
-      [x+8,y+40],
-      [x,y+32],
-      [x+5,y+32],
-      [x+5,y+8],
-      [x,y+8]
+      [
+        x+(ARROW_WIDTH/2),
+        y
+      ],
+      [
+        x+ARROW_WIDTH,
+        y+ARROW_LENGTH
+      ],
+      [
+        x+(ARROW_WIDTH/2)+(LINE_WIDTH/2),
+        y+ARROW_LENGTH
+      ],
+      [
+        x+(ARROW_WIDTH/2)+(LINE_WIDTH/2),
+        y+ARROW_LENGTH+LINE_LENGTH
+      ],
+      [
+        x+ARROW_WIDTH,
+        y+ARROW_LENGTH+LINE_LENGTH
+      ],
+      [
+        x+(ARROW_WIDTH/2),
+        y+(ARROW_LENGTH*2)+LINE_LENGTH
+      ],
+      [
+        x,
+        y+ARROW_LENGTH+LINE_LENGTH
+      ],
+      [
+        x+(ARROW_WIDTH/2)-(LINE_WIDTH/2),
+        y+ARROW_LENGTH+LINE_LENGTH
+      ],
+      [
+        x+(ARROW_WIDTH/2)-(LINE_WIDTH/2),
+        y+ARROW_LENGTH
+      ],
+      [
+        x,
+        y+ARROW_LENGTH
+      ]
     ]
-  end
-
-  def points_string
-    points.map { |p| p.join(',') }.join(' ')
   end
 
 end

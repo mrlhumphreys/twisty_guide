@@ -1,27 +1,52 @@
-class DiagonalDownArrow
-  def initialize(x:, y:)
-    @x, @y = x, y
-  end
+require 'lib/arrow.rb'
 
-  attr_reader :x, :y
+class DiagonalDownArrow < Arrow
+  ARROW_SIDE = 10
+  ARROW_OVERHANG = 3
+  LINE_SIZE = 30
 
   def points
     [
-      [x,y],
-      [x+10,y],
-      [x+7,y+3],
-      [x+37,y+33],
-      [x+40,y+30],
-      [x+40,y+40],
-      [x+30,y+40],
-      [x+33,y+37],
-      [x+3,y+7],
-      [x,y+10]
+      [
+        x,
+        y
+      ],
+      [
+        x+ARROW_SIDE,
+        y
+      ],
+      [
+        x+ARROW_SIDE-ARROW_OVERHANG,
+        y+ARROW_OVERHANG
+      ],
+      [
+        x+(ARROW_SIDE-ARROW_OVERHANG)+LINE_SIZE,
+        y+LINE_SIZE+ARROW_OVERHANG
+      ],
+      [
+        x+ARROW_SIDE+LINE_SIZE,
+        y+LINE_SIZE
+      ],
+      [
+        x+ARROW_SIDE+LINE_SIZE,
+        y+ARROW_SIDE+LINE_SIZE
+      ],
+      [
+        x+LINE_SIZE,
+        y+ARROW_SIDE+LINE_SIZE
+      ],
+      [
+        x+LINE_SIZE+ARROW_OVERHANG,
+        y+ARROW_SIDE+LINE_SIZE-ARROW_OVERHANG
+      ],
+      [
+        x+ARROW_OVERHANG,
+        y+ARROW_SIDE-ARROW_OVERHANG
+      ],
+      [
+        x,
+        y+ARROW_SIDE
+      ]
     ]
   end
-
-  def points_string
-    points.map { |p| p.join(',') }.join(' ')
-  end
-
 end
