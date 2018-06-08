@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160" height="160">
   <%
     up_squares = [
       [ 
@@ -15,7 +15,7 @@
     ]
   %>
 
-  <%= partial('grid', locals: {grid: top_grid(x: 30, y: 30, units: 30, squares: up_squares)} ) %>
+  <%= partial('grid', locals: {grid: top_grid(x: 20, y: 20, units: 30, squares: up_squares)} ) %>
 
   <%
     front_squares = [
@@ -30,7 +30,7 @@
     ]
   %>
 
-  <%= partial('grid', locals: {grid: front_grid(x: 30, y: 60, units: 30, squares: front_squares)} ) %>
+  <%= partial('grid', locals: {grid: front_grid(x: 20, y: 50, units: 30, squares: front_squares)} ) %>
 
   <%
     right_squares = [
@@ -45,6 +45,6 @@
     ]
   %>
 
-  <%= partial('grid', locals: {grid: right_grid(x: 90, y: 60, units: 30, squares: right_squares)} ) %>
+  <%= partial('grid', locals: {grid: right_grid(x: 80, y: 50, units: 30, squares: right_squares)} ) %>
 </svg>
 
