@@ -32,7 +32,7 @@
   phase: null
   number: 'd'
   title: 'Solve Last Layer'
-  description: 'Position and orient last layer edge pieces.'
+  description: 'Flip the puzzle. Then position and orient last layer edge pieces.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'

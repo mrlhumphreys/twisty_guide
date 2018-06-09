@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="190" height="190">
+  <%= partial('pyraminx_grid', locals: {grid: pyraminx_grid(x: 20, y: 20, size: 3, units: 25) }) %>
+
+  <!-- shapes -->
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 70, y: 20, units: 25, direction: :up, colour: data.colours.yellow, opacity: data.opacity.faded)  }) %> 
+
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 45, y: 45, units: 25, direction: :up, colour: data.colours.blue, opacity: data.opacity.full)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 70, y: 45, units: 25, direction: :down, colour: data.colours.yellow, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 95, y: 45, units: 25, direction: :up, colour: data.colours.blue, opacity: data.opacity.full)  }) %> 
+
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 20, y: 70, units: 25, direction: :up, colour: data.colours.yellow, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 45, y: 70, units: 25, direction: :down, colour: data.colours.yellow, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 70, y: 70, units: 25, direction: :up, colour: data.colours.yellow, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 95, y: 70, units: 25, direction: :down, colour: data.colours.yellow, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 120, y: 70, units: 25, direction: :up, colour: data.colours.yellow, opacity: data.opacity.faded)  }) %> 
+
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 20, y: 95, units: 25, direction: :down, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 45, y: 95, units: 25, direction: :up, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 70, y: 95, units: 25, direction: :down, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 95, y: 95, units: 25, direction: :up, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 120, y: 95, units: 25, direction: :down, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 45, y: 120, units: 25, direction: :down, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 70, y: 120, units: 25, direction: :up, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 95, y: 120, units: 25, direction: :down, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+
+  <%= partial('pyraminx_triangle', locals: { triangle: pyraminx_triangle(x: 70, y: 145, units: 25, direction: :down, colour: data.colours.green, opacity: data.opacity.faded)  }) %> 
+
+
+</svg>

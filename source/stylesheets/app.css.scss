@@ -114,14 +114,21 @@ footer p {
   list-style: none;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .guide {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0.5em 0;
 }
 
 .guide a {
   color: $content-focus;
+  padding: 1em 0;
+  border: solid 1px $content-focus;
 }
 
 .section {

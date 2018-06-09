@@ -15,7 +15,7 @@
   section: 'a'
   number: 3 
   description: 'Corner facing up. Move to bottom right corner facing down.'
-  algorithm: "R U<sup>2</sup> R' U' R U R'"
+  algorithm: "U R<sup>2</sup> U' R<sup>2</sup>"
 - guide: '2x2x2-ortega'
   phase: null 
   section: 'b'
@@ -135,7 +135,7 @@
   section: 'c'
   number: 3 
   description: 'Rotate edge in first layer.'
-  algorithm: "L D' L' D' R' D R"
+  algorithm: "L D L' D' R' D R"
 - guide: 'pyraminx-layer-by-layer'
   phase: null
   section: 'd'
