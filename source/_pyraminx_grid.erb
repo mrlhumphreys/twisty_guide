@@ -1,0 +1,14 @@
+<polygon points="<%= grid.shape_points_string %>" style="fill:<%= data.colours.fill %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+
+<% grid.vertical_line_points.each do |line| %>
+  <line x1="<%= line[:x1] %>" y1="<%= line[:y1] %>" x2="<%= line[:x2] %>" y2="<%= line[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<% end %>
+
+<% grid.diagonal_down_line_points.each do |line| %>
+  <line x1="<%= line[:x1] %>" y1="<%= line[:y1] %>" x2="<%= line[:x2] %>" y2="<%= line[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<% end %>
+
+<% grid.diagonal_up_line_points.each do |line| %>
+  <line x1="<%= line[:x1] %>" y1="<%= line[:y1] %>" x2="<%= line[:x2] %>" y2="<%= line[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<% end %>
+

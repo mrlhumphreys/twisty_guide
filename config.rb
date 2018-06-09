@@ -62,6 +62,8 @@ helpers do
   require './lib/horizontal_arrow'
   require './lib/diagonal_down_arrow'
   require './lib/diagonal_up_arrow'
+  require './lib/pyraminx_grid'
+  require './lib/pyraminx_triangle'
 
   def top_grid(args)
     TopGrid.new(args)
@@ -105,6 +107,14 @@ helpers do
 
   def diagonal_up_arrow(args)
     DiagonalUpArrow.new(args)
+  end
+
+  def pyraminx_grid(args)
+    PyraminxGrid.new(args)
+  end
+
+  def pyraminx_triangle(args)
+    PyraminxTriangle.new(args)
   end
 end
 
