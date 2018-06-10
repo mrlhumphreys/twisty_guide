@@ -25,5 +25,30 @@ class Square
   def bottom_left
     top_left + height_unit
   end 
+
+  def points
+    [
+      [
+        top_left.x,
+        top_left.y
+      ],
+      [
+        top_right.x,
+        top_right.y
+      ],
+      [
+        bottom_right.x,
+        bottom_right.y
+      ],
+      [
+        bottom_left.x,
+        bottom_left.y
+      ]
+    ]
+  end
+
+  def points_string
+    points.map { |x,y| [x,y].join(',') }.join(' ')
+  end
 end
 

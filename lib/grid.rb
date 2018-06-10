@@ -60,6 +60,53 @@ class Grid
   def column_line_end(n)
     bottom_left + width_unit*n
   end
+
+  def rows
+    Array.new(height) do |i|
+      {
+        x1: row_line_start(i+1).x,
+        y1: row_line_start(i+1).y,
+        x2: row_line_end(i+1).x,
+        y2: row_line_end(i+1).y
+      }
+    end
+  end
+
+  def columns 
+    Array.new(width) do |i|
+      {
+        x1: column_line_start(i+1).x,
+        y1: column_line_start(i+1).y,
+        x2: column_line_end(i+1).x,
+        y2: column_line_end(i+1).y
+      }
+    end
+  end
+
+  def points
+    [
+      [
+        top_left.x,
+        top_left.y
+      ],
+      [
+        top_right.x,
+        top_right.y
+      ],
+      [
+        bottom_right.x,
+        bottom_right.y
+      ],
+      [
+        bottom_left.x,
+        bottom_left.y
+      ]
+    ]
+  end
+
+  def points_string
+    points.map { |x,y| [x,y].join(',') }.join(' ')
+  end
 end
 
 

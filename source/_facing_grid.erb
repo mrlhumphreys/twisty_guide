@@ -1,11 +1,11 @@
-<polygon points="<%= "#{grid.x},#{grid.y} #{grid.max_x},#{grid.y} #{grid.max_x},#{grid.max_y} #{grid.x},#{grid.max_y}" %>" style="fill:<%= data.colours.fill %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<polygon points="<%= grid.points_string %>" style="fill:<%= data.colours.fill %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
 
 <% grid.rows.each do |row| %>
-  <line x1="<%= grid.x %>" y1="<%= grid.unit_y(row) %>" x2="<%= grid.max_x %>" y2="<%= grid.unit_y(row) %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <line x1="<%= row[:x1] %>" y1="<%= row[:y1] %>" x2="<%= row[:x2] %>" y2="<%= row[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
 <% end %>
 
 <% grid.columns.each do |col| %>
-  <line x1="<%= grid.unit_x(col) %>" y1="<%= grid.y %>" x2="<%= grid.unit_x(col) %>" y2="<%= grid.max_y %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+  <line x1="<%= col[:x1] %>" y1="<%= col[:y1] %>" x2="<%= col[:x2] %>" y2="<%= col[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
 <% end %>
 
 <% grid.squares.each_with_index do |row,row_num| %>

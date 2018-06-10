@@ -15,4 +15,29 @@ class FacingSquare
   def max_y
     y + height 
   end
+
+  def points
+    [
+      [
+        x,
+        y
+      ],
+      [
+        max_x,
+        y
+      ],
+      [
+        max_x,
+        max_y
+      ],
+      [
+        x,
+        max_y
+      ]
+    ]
+  end
+
+  def points_string
+    points.map { |x,y| [x,y].join(',') }.join(' ')
+  end
 end
