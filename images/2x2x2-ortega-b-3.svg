@@ -8,10 +8,12 @@
   <line x1="20" y1="30" x2="120" y2="30" style="stroke:#404040;stroke-width:1" />
   <line x1="20" y1="70" x2="120" y2="70" style="stroke:#404040;stroke-width:1" />
   <line x1="20" y1="110" x2="120" y2="110" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="150" x2="120" y2="150" style="stroke:#404040;stroke-width:1" />
 
   <line x1="30" y1="20" x2="30" y2="120" style="stroke:#404040;stroke-width:1" />
   <line x1="70" y1="20" x2="70" y2="120" style="stroke:#404040;stroke-width:1" />
   <line x1="110" y1="20" x2="110" y2="120" style="stroke:#404040;stroke-width:1" />
+  <line x1="150" y1="20" x2="150" y2="120" style="stroke:#404040;stroke-width:1" />
 
       <polygon points="30,30 70,30 70,70 30,70" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 

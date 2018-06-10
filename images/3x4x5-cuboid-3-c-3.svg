@@ -9,9 +9,11 @@
   <line x1="80" y1="40" x2="140" y2="70" style="stroke:#404040;stroke-width:1" />
   <line x1="60" y1="50" x2="120" y2="80" style="stroke:#404040;stroke-width:1" />
   <line x1="40" y1="60" x2="100" y2="90" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="70" x2="80" y2="100" style="stroke:#404040;stroke-width:1" />
 
   <line x1="140" y1="30" x2="40" y2="80" style="stroke:#404040;stroke-width:1" />
   <line x1="160" y1="40" x2="60" y2="90" style="stroke:#404040;stroke-width:1" />
+  <line x1="180" y1="50" x2="80" y2="100" style="stroke:#404040;stroke-width:1" />
 
       <polygon points="120,20 140,30 120,40 100,30" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
@@ -37,9 +39,11 @@
   <line x1="20" y1="90" x2="80" y2="120" style="stroke:#404040;stroke-width:1" />
   <line x1="20" y1="110" x2="80" y2="140" style="stroke:#404040;stroke-width:1" />
   <line x1="20" y1="130" x2="80" y2="160" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="150" x2="80" y2="180" style="stroke:#404040;stroke-width:1" />
 
   <line x1="40" y1="80" x2="40" y2="160" style="stroke:#404040;stroke-width:1" />
   <line x1="60" y1="90" x2="60" y2="170" style="stroke:#404040;stroke-width:1" />
+  <line x1="80" y1="100" x2="80" y2="180" style="stroke:#404040;stroke-width:1" />
 
       <polygon points="20,70 40,80 40,100 20,90" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
@@ -57,11 +61,13 @@
   <line x1="80" y1="120.0" x2="180" y2="70.0" style="stroke:#404040;stroke-width:1" />
   <line x1="80" y1="140.0" x2="180" y2="90.0" style="stroke:#404040;stroke-width:1" />
   <line x1="80" y1="160.0" x2="180" y2="110.0" style="stroke:#404040;stroke-width:1" />
+  <line x1="80" y1="180.0" x2="180" y2="130.0" style="stroke:#404040;stroke-width:1" />
 
   <line x1="100" y1="90.0" x2="100" y2="170.0" style="stroke:#404040;stroke-width:1" />
   <line x1="120" y1="80.0" x2="120" y2="160.0" style="stroke:#404040;stroke-width:1" />
   <line x1="140" y1="70.0" x2="140" y2="150.0" style="stroke:#404040;stroke-width:1" />
   <line x1="160" y1="60.0" x2="160" y2="140.0" style="stroke:#404040;stroke-width:1" />
+  <line x1="180" y1="50.0" x2="180" y2="130.0" style="stroke:#404040;stroke-width:1" />
 
       <polygon points="80,100.0 100,90.0 100,110.0 80,120.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
