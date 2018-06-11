@@ -33,6 +33,36 @@
   number: 'd'
   title: 'Solve Last Layer'
   description: 'Flip the puzzle. Then position and orient last layer edge pieces.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 1 
+  number: 'a'
+  title: 'Solve Cross'
+  description: 'Make a solved cross shape for the bottom layer.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  number: 'a'
+  title: 'Corner Correct'
+  description: 'Match the edge with the corner.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  number: 'b'
+  title: 'Edge Correct'
+  description: 'Match the corner with the edge.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  number: 'c'
+  title: 'Corner in correct position with bottom facing front.'
+  description: 'Rotate corner and match with edge.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  number: 'd'
+  title: 'Corner in correct position with bottom facing right.'
+  description: 'Rotate corner and match with edge.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  number: 'e'
+  title: 'Corner in top layer with bottom facing up.'
+  description: 'Match with edge and slot into position.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'
