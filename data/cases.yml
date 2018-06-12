@@ -310,6 +310,174 @@
   number: 9 
   description: 'Match up pair and slot into position.'
   algorithm: "(F' L' U<sup>2</sup>) (L F)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 1 
+  description: 'Break Pair, then match up and slot into position.'
+  algorithm: "Dw (R' U' R Dw') (R U R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 2 
+  description: 'Pair matched, move and slot into position.'
+  algorithm: "Dw' (L' U L)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 3 
+  description: 'Break Pair, then match up and slot into position.'
+  algorithm: "Dw (R' U<sup>2</sup> R Dw') (R U R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 4 
+  description: 'Match up pair and slot into position.'
+  algorithm: "Dw (R' U' R U<sup>2</sup>) (R' U R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 5 
+  description: 'Match up pair and slot into position.'
+  algorithm: "Dw (R' U R Dw') (R U R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 6 
+  description: 'Break pair, then match up and slot into position.'
+  algorithm: "U' (R U' R' U) (R U R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 7 
+  description: 'Break pair, then match up and slot into position.'
+  algorithm: "(R U') (R' U<sup>2</sup>) y' (R' U' R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 8 
+  description: 'Match up pair and slot into position.'
+  algorithm: "(R U R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'f'
+  number: 9 
+  description: 'Match up pair and slot into position.'
+  algorithm: "Dw (R' U<sup>2</sup> R U<sup>2</sup>) (R' U R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 1 
+  description: 'Break pair, then match up and slot into position.'
+  algorithm: "U' (R U R' Dw) (R' U' R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 2 
+  description: 'Break pair, then match up and slot into position.'
+  algorithm: "Dw (R' U R U') (R' U' R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 3 
+  description: 'Break pair, then match up and slot into position.'
+  algorithm: "Lw U L F') (L' U' Lw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 4 
+  description: 'Match up pair and slot into position.'
+  algorithm: "(L' U' L)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 5 
+  description: 'Match up pair and slot into position.'
+  algorithm: "U' (R U<sup>2</sup> R' U<sup>2</sup>) (R U' R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 6 
+  description: 'Break pair, then match up and slot into position.'
+  algorithm: "U (R U' R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 7 
+  description: 'Break pair, then match up and slot into position.'
+  algorithm: "U' (R U<sup>2</sup> R' Dw) (R' U' R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 8 
+  description: 'Match up pair and slot into position.'
+  algorithm: "U' (R U R' U<sup>2</sup>) (R U' R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  section: 'g'
+  number: 9 
+  description: 'Match up pair and slot into position.'
+  algorithm: "U' (R U' R' Dw) (R' U' R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'a'
+  number: 1 
+  description: 'Flip left and back edges.'
+  algorithm: "(M' U M) U<sup>2</sup> (M' U M)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'a'
+  number: 2 
+  description: 'Flip front and back edges.'
+  algorithm: "(R U R' U') (M' U R U') Rw'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'a'
+  number: 3 
+  description: 'Flip all edges.'
+  algorithm: "Rw' (R U) (R U R' U' Rw<sup>2</sup>) (R<sup>2</sup>) U) (R U') Rw'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'b'
+  number: 1 
+  description: 'Two corners facing front.'
+  algorithm: "(R<sup>2</sup>) (R' U<sup>2</sup>) (R D') (R' U<sup>2</sup> R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'b'
+  number: 2 
+  description: 'Two corners facing out.'
+  algorithm: "(Lw' U') (L U) (R U') (Rw' F)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'b'
+  number: 3 
+  description: 'Two opposite corners facing out.'
+  algorithm: "(R' F) (R B') (R' F') (R B)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'b'
+  number: 4 
+  description: 'Three corners facing out.'
+  algorithm: "(R U R' U) (R U<sup>2</sup> R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'b'
+  number: 5 
+  description: 'Three corners facing out.'
+  algorithm: "(R U<sup>2</sup>) (R' U' R U' R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'b'
+  number: 6 
+  description: 'Two corners facing left, two corners facing out.'
+  algorithm: "(R U<sup>2</sup>) (R<sup>2</sup> U') (R<sup>2</sup> U') (R<sup>2</sup> U<sup>2</sup> R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'b'
+  number: 7 
+  description: 'Two corners facing back, two corners facing front.'
+  algorithm: "(R U<sup>2</sup>) (R' U' R U R' U' R U' R')"
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'

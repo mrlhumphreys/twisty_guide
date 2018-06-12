@@ -63,6 +63,26 @@
   number: 'e'
   title: 'Corner in top layer with bottom facing up.'
   description: 'Match with edge and slot into position.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  number: 'f'
+  title: 'Corner in top layer with bottom facing right.'
+  description: 'Match with edge and slot into position.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 2 
+  number: 'g'
+  title: 'Corner in top layer with bottom facing front.'
+  description: 'Match with edge and slot into position.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  number: 'a'
+  title: 'Corners are correct, but edges are flipped.'
+  description: 'Flip edges.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  number: 'b'
+  title: "Edges are correct, but corners aren't facing up."
+  description: 'Flip edges.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'
