@@ -478,6 +478,60 @@
   number: 7 
   description: 'Two corners facing back, two corners facing front.'
   algorithm: "(R U<sup>2</sup>) (R' U' R U R' U' R U' R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'c'
+  number: 1 
+  description: 'Only one corner facing up.'
+  algorithm: "Fw (R U R' U') Fw' U' F (R U R' U') F'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'c'
+  number: 2 
+  description: 'Only one corner facing up.'
+  algorithm: "Fw (R U R' U') Fw' U F (R U R' U') F'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'c'
+  number: 3 
+  description: 'Two opposite corners facing up.'
+  algorithm: "(R U R' U) (R' F R F') U<sup>2</sup> (R' F R F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'c'
+  number: 4 
+  description: 'Two corners on one side facing up.'
+  algorithm: "Rw' (R U) (R U R' U' Rw) x (R<sup>2</sup> U) (R U')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'c'
+  number: 5 
+  description: 'Two corners on one side facing up.'
+  algorithm: "F (R U R' U) y' (R' U<sup>2</sup>) (R' F R F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'c'
+  number: 6 
+  description: 'No corners facing up.'
+  algorithm: "F (R U R' U') S (R U R' U') Fw'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'c'
+  number: 7 
+  description: 'No corners facing up.'
+  algorithm: "(R U<sup>2</sup>) (R<sup>2</sup> F R F') U<sup>2</sup> (R' F R F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'd'
+  number: 1 
+  description: 'Incorrect pieces facing front and back.'
+  algorithm: "(R U R' U') (R' F R F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'd'
+  number: 2 
+  description: 'Incorrect pieces facing front, back and side.'
+  algorithm: "F (R U R' U') F'"
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'

@@ -83,6 +83,16 @@
   number: 'b'
   title: "Edges are correct, but corners aren't facing up."
   description: 'Flip edges.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  number: 'c'
+  title: "All edges flipped."
+  description: 'Flip edges.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  number: 'd'
+  title: "T Shape"
+  description: 'Flip corners and edges.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'
