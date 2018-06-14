@@ -532,6 +532,252 @@
   number: 2 
   description: 'Incorrect pieces facing front, back and side.'
   algorithm: "F (R U R' U') F'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'e'
+  number: 1 
+  description: 'd shape on right, opposite side pieces facing left.' 
+  algorithm: "Fw (R U R' U') Fw'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'e'
+  number: 2 
+  description: 'b shape on left, opposite side pieces facing right.' 
+  algorithm: "Fw' (L' U' L U) Fw"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'e'
+  number: 3 
+  description: 'd shape on right, only one piece opposite facing left.' 
+  algorithm: "(R Dw) (L' Dw') (R' U) (Lw U Lw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'e'
+  number: 4 
+  description: 'q shape on right, only one piece opposite facing left.' 
+  algorithm: "(R' U') F (U R U' R') F' R"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'f'
+  number: 1 
+  description: 'Two pieces on the side facing right on the front.' 
+  algorithm: "(R U R' U) (R U' R' U') (R' F R F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'f'
+  number: 2 
+  description: 'Two pieces on the side facing left on the front.' 
+  algorithm: "(L' U' L U') (L' U L U) (L F' L' F)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'g'
+  number: 1 
+  description: 'Left side pieces facing left. Right side pieces facing right.' 
+  algorithm: "(Rw U) (R' U) (R U') (R' U) (R U<sup>2</sup> Rw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'g'
+  number: 2 
+  description: 'Left side pieces facing left. Right side pieces facing right.' 
+  algorithm: "(Rw' U') (R U') (R' U) (R U') (R' U<sup>2</sup> Rw)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'g'
+  number: 3 
+  description: 'Left side pieces facing left. Two pieces facing back.' 
+  algorithm: "(R B' R B R<sup>2</sup>) U<sup>2</sup> (F R' F' R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'g'
+  number: 4 
+  description: 'Left side pieces facing left. Two pieces facing front.' 
+  algorithm: "(R' F R' F' R<sup>2</sup>) U<sup>2</sup> y (R' F R F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'g'
+  number: 5 
+  description: 'Two pieces facing left. Two pieces facing front.' 
+  algorithm: "F (R U R' U') (R U R' U') F'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'g'
+  number: 6 
+  description: 'Two pieces facing right. Two pieces facing front.' 
+  algorithm: "F' (L' U' L U) (L' U' L U) F"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'h'
+  number: 1 
+  description: 'Two pieces facing back on the back left.' 
+  algorithm: "(L F') (L' U' L U) F U' L'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'h'
+  number: 2 
+  description: 'Two pieces facing back on the back right.' 
+  algorithm: "(R' F) (R U R' U') F' U R"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'i'
+  number: 1 
+  description: 'Three pieces on one side facing different directions.' 
+  algorithm: "(R U R<sup>2</sup> U') (R' F) (R U) (R U') F'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'i'
+  number: 2 
+  description: 'Three pieces on one side facing the same directions' 
+  algorithm: "(R' U') (R' F R F') (U R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'j'
+  number: 1 
+  description: 'Opposite corner of square shape facing back.' 
+  algorithm: "(Rw' U<sup>2</sup>) (R U R' U Rw)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'j'
+  number: 2 
+  description: 'Opposite corner of square shape facing front.' 
+  algorithm: "(Rw U<sup>2</sup>) (R' U' R U' Rw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'k'
+  number: 1 
+  description: 'Two pieces facing right and two pieces facing front.' 
+  algorithm: "(Rw U R' U) (R U<sup>2</sup> Rw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'k'
+  number: 2 
+  description: 'Two pieces facing back on the left.' 
+  algorithm: "(M U<sup>2</sup>) (R' U' R U') (R' U<sup>2</sup> R) U M'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'k'
+  number: 3 
+  description: 'Two pieces facing right and two pieces facing back.' 
+  algorithm: "(Rw' U' R U') (R' U<sup>2</sup> Rw)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'k'
+  number: 4 
+  description: 'Two pieces facing back on the right.' 
+  algorithm: "Rw' (R<sup>2</sup> U R' U R U<sup>2</sup> R') U M'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'l'
+  number: 1 
+  description: 'Big square with pairs of pieces facing out.' 
+  algorithm: "F (R U') (R' U' R U) (R' F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'l'
+  number: 2 
+  description: 'Big square with individual pieces facing out.' 
+  algorithm: "(R U<sup>2</sup>) (R<sup>2</sup>) F) (R F' R U<sup>2</sup> R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'l'
+  number: 3 
+  description: 'L shape on the left with two pieces facing back.' 
+  algorithm: "(R U R' U) (R' F R F') (R U<sup>2</sup> R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'l'
+  number: 4 
+  description: 'L shape on the left with two pieces facing front.' 
+  algorithm: "(R U R' U' R' F) (R<sup>2</sup> U R' U' F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'm'
+  number: 1 
+  description: 'Two pieces facing back and two pieces facing front.' 
+  algorithm: "Fw (R U R' U') (R U R' U') Fw'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'm'
+  number: 2 
+  description: 'Three pieces facing right, one piece facing left.' 
+  algorithm: "(R U R' U R Dw') (R U' R' F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'm'
+  number: 3 
+  description: 'No pairs of pieces facing out.' 
+  algorithm: "Fw (R U R' U') Fw' F (R U R' U') (R U R' U') F'"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'm'
+  number: 4 
+  description: 'Three pieces facing left and three pieces facing right.' 
+  algorithm: "(R U<sup>2</sup>) (R<sup>2</sup> U' R U' R' U<sup>2</sup>) (F R F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'n'
+  number: 1 
+  description: 'L Shape with two pieces facing front and two pieces facing back.' 
+  algorithm: "(Rw U' Rw' U') (Rw U Rw') y' (R' U R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'n'
+  number: 2 
+  description: 'L Shape with two pieces facing front.' 
+  algorithm: "(Rw U Rw') (R U R' U') (Rw U' Rw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'n'
+  number: 3 
+  description: 'Backwards L Shape with two pieces facing front and back.' 
+  algorithm: "(R' F) (R U R' F' R) y' (R U' R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'n'
+  number: 4 
+  description: 'Backwards L Shape with two pieces facing front.' 
+  algorithm: "(Lw' U' Lw) (L' U' L U) (Lw' U Lw)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'o'
+  number: 1 
+  description: 'S shape with pieces facing out.' 
+  algorithm: "(R U') (R' U<sup>2</sup>) (R U) y (R U') (R' U' F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'o'
+  number: 2 
+  description: 'S shape with two pieces facing left.' 
+  algorithm: "(R<sup>2</sup> U R' B') (R U') (R<sup>2</sup> U) (Lw U Lw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'o'
+  number: 3 
+  description: 'Z shape with pieces facing out.' 
+  algorithm: "(L' U) (L U<sup>2</sup>) (L' U') y' (L' U) (L U F)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 3 
+  section: 'o'
+  number: 4 
+  description: 'Z shape with two pieces facing right.' 
+  algorithm: "(L<sup>2</sup> U' L B) (L' U) (L<sup>2</sup> U') (Rw' U' Rw)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'a'
+  number: 1 
+  description: 'Cycle 3 corners clockwise' 
+  algorithm: "x (R' U R') D<sup>2</sup> (R U' R') D<sup>2</sup> R<sup>2</sup>"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'a'
+  number: 2 
+  description: 'Cycle 3 corners anti-clockwise' 
+  algorithm: "x R<sup>2</sup> D<sup>2</sup> (R U R') D<sup>2</sup> (R U' R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'a'
+  number: 3 
+  description: 'Cycle 2 pairs of corners parallel' 
+  algorithm: "x' (R U') (R' D) (R U R' D') (R U R' D) (R U') (R' D')"
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'
