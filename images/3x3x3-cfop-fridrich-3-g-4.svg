@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="152" height="152">
+
+  <polygon points="20,20 132,20 132,132 20,132" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+
+  <line x1="20" y1="28" x2="132" y2="28" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="60" x2="132" y2="60" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="92" x2="132" y2="92" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="124" x2="132" y2="124" style="stroke:#404040;stroke-width:1" />
+  <line x1="20" y1="156" x2="132" y2="156" style="stroke:#404040;stroke-width:1" />
+
+  <line x1="28" y1="20" x2="28" y2="132" style="stroke:#404040;stroke-width:1" />
+  <line x1="60" y1="20" x2="60" y2="132" style="stroke:#404040;stroke-width:1" />
+  <line x1="92" y1="20" x2="92" y2="132" style="stroke:#404040;stroke-width:1" />
+  <line x1="124" y1="20" x2="124" y2="132" style="stroke:#404040;stroke-width:1" />
+  <line x1="156" y1="20" x2="156" y2="132" style="stroke:#404040;stroke-width:1" />
+
+      <polygon points="92,20 124,20 124,28 92,28" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="20,28 28,28 28,60 20,60" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="60,28 92,28 92,60 60,60" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="20,60 28,60 28,92 20,92" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="60,60 92,60 92,92 60,92" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="92,60 124,60 124,92 92,92" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="20,92 28,92 28,124 20,124" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="60,124 92,124 92,132 60,132" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+      <polygon points="92,124 124,124 124,132 92,132" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+
+
+
+</svg>
+
