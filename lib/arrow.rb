@@ -1,9 +1,11 @@
 class Arrow
-  def initialize(x:, y:)
+  def initialize(x:, y:, length:, direction: :uni)
     @x, @y = x, y
+    @length = length
+    @direction = direction
   end
 
-  attr_reader :x, :y
+  attr_reader :x, :y, :length, :direction
 
   def points
     []

@@ -4,7 +4,6 @@ class VerticalArrow < Arrow
   ARROW_WIDTH = 16
   ARROW_LENGTH = 8
   LINE_WIDTH = 6
-  LINE_LENGTH = 24 
 
   def points
     [
@@ -22,23 +21,23 @@ class VerticalArrow < Arrow
       ],
       [
         x+(ARROW_WIDTH/2)+(LINE_WIDTH/2),
-        y+ARROW_LENGTH+LINE_LENGTH
+        y+ARROW_LENGTH+length
       ],
       [
         x+ARROW_WIDTH,
-        y+ARROW_LENGTH+LINE_LENGTH
+        y+ARROW_LENGTH+length
       ],
       [
         x+(ARROW_WIDTH/2),
-        y+(ARROW_LENGTH*2)+LINE_LENGTH
+        y+(ARROW_LENGTH*2)+length
       ],
       [
         x,
-        y+ARROW_LENGTH+LINE_LENGTH
+        y+ARROW_LENGTH+length
       ],
       [
         x+(ARROW_WIDTH/2)-(LINE_WIDTH/2),
-        y+ARROW_LENGTH+LINE_LENGTH
+        y+ARROW_LENGTH+length
       ],
       [
         x+(ARROW_WIDTH/2)-(LINE_WIDTH/2),

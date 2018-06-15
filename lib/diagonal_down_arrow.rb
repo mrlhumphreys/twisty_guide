@@ -3,7 +3,6 @@ require 'lib/arrow.rb'
 class DiagonalDownArrow < Arrow
   ARROW_SIDE = 10
   ARROW_OVERHANG = 3
-  LINE_SIZE = 30
 
   def points
     [
@@ -20,24 +19,24 @@ class DiagonalDownArrow < Arrow
         y+ARROW_OVERHANG
       ],
       [
-        x+(ARROW_SIDE-ARROW_OVERHANG)+LINE_SIZE,
-        y+LINE_SIZE+ARROW_OVERHANG
+        x+(ARROW_SIDE-ARROW_OVERHANG)+length,
+        y+length+ARROW_OVERHANG
       ],
       [
-        x+ARROW_SIDE+LINE_SIZE,
-        y+LINE_SIZE
+        x+ARROW_SIDE+length,
+        y+length
       ],
       [
-        x+ARROW_SIDE+LINE_SIZE,
-        y+ARROW_SIDE+LINE_SIZE
+        x+ARROW_SIDE+length,
+        y+ARROW_SIDE+length
       ],
       [
-        x+LINE_SIZE,
-        y+ARROW_SIDE+LINE_SIZE
+        x+length,
+        y+ARROW_SIDE+length
       ],
       [
-        x+LINE_SIZE+ARROW_OVERHANG,
-        y+ARROW_SIDE+LINE_SIZE-ARROW_OVERHANG
+        x+length+ARROW_OVERHANG,
+        y+ARROW_SIDE+length-ARROW_OVERHANG
       ],
       [
         x+ARROW_OVERHANG,

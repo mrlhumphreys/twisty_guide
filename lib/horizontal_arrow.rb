@@ -4,7 +4,6 @@ class HorizontalArrow < Arrow
   ARROW_WIDTH = 16
   ARROW_LENGTH = 8
   LINE_WIDTH = 6
-  LINE_LENGTH = 24
 
   def points
     [
@@ -21,23 +20,23 @@ class HorizontalArrow < Arrow
         y+(ARROW_WIDTH/2)-(LINE_WIDTH/2)
       ],
       [
-        x+ARROW_LENGTH+LINE_LENGTH,
+        x+ARROW_LENGTH+length,
         y+(ARROW_WIDTH/2)-(LINE_WIDTH/2)
       ],
       [
-        x+ARROW_LENGTH+LINE_LENGTH,
+        x+ARROW_LENGTH+length,
         y
       ],
       [
-        x+(2*ARROW_LENGTH)+LINE_LENGTH,
+        x+(2*ARROW_LENGTH)+length,
         y+(ARROW_WIDTH/2)
       ],
       [
-        x+ARROW_LENGTH+LINE_LENGTH,
+        x+ARROW_LENGTH+length,
         y+ARROW_WIDTH
       ],
       [
-        x+ARROW_LENGTH+LINE_LENGTH,
+        x+ARROW_LENGTH+length,
         y+(ARROW_WIDTH/2)+(LINE_WIDTH/2)
       ],
       [
