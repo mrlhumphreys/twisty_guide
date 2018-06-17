@@ -4,8 +4,12 @@ class DiagonalUpArrow < Arrow
   ARROW_SIDE = 10
   ARROW_OVERHANG = 3
 
-  def points
+  def arrow_start_point
     [
+      [
+        x+ARROW_SIDE,
+        y+length+ARROW_SIDE
+      ],
       [
         x,
         y+length+ARROW_SIDE
@@ -13,7 +17,25 @@ class DiagonalUpArrow < Arrow
       [
         x,
         y+length
+      ]
+    ]
+  end
+
+  def arrow_start_flat
+    [
+      [
+        x,
+        y+length+(2*ARROW_OVERHANG)
       ],
+      [
+        x+ARROW_SIDE-(2*ARROW_OVERHANG),
+        y+length+ARROW_SIDE
+      ]
+    ]
+  end
+
+  def arrow_start_side
+    [
       [
         x+ARROW_OVERHANG,
         y+length+ARROW_OVERHANG
@@ -21,18 +43,42 @@ class DiagonalUpArrow < Arrow
       [
         x+length+ARROW_OVERHANG,
         y+ARROW_OVERHANG
-      ],
+      ]
+    ]
+  end
+
+  def arrow_end_point
+    [
       [
         x+length,
         y
       ],
       [
-        x+length+ARROW_SIDE,y
+        x+length+ARROW_SIDE,
+        y
       ],
       [
         x+length+ARROW_SIDE,
         y+ARROW_SIDE
+      ]
+    ]
+  end
+
+  def arrow_end_flat
+    [
+      [
+        x+length+(2*ARROW_OVERHANG),
+        y
       ],
+      [
+        x+length+ARROW_SIDE,
+        y+ARROW_SIDE-(2*ARROW_OVERHANG)
+      ]
+    ]
+  end
+
+  def arrow_end_side
+    [
       [
         x+length+ARROW_SIDE-ARROW_OVERHANG,
         y+ARROW_SIDE-ARROW_OVERHANG
@@ -40,11 +86,19 @@ class DiagonalUpArrow < Arrow
       [
         x+ARROW_SIDE-ARROW_OVERHANG,
         y+length+ARROW_SIDE-ARROW_OVERHANG
-      ],
-      [
-        x+ARROW_SIDE,
-        y+length+ARROW_SIDE
       ]
     ]
   end
+
+  def points
+    case direction
+    when :forward
+      arrow_start_flat + arrow_start_side + arrow_end_point + arrow_end_side
+    when :backward
+      arrow_start_point + arrow_start_side + arrow_end_flat + arrow_end_side
+    else
+      arrow_start_point + arrow_start_side + arrow_end_point + arrow_end_side
+    end
+  end
+
 end
