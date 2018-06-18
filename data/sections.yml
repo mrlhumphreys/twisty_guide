@@ -153,6 +153,11 @@
   number: 'a'
   title: "Only corners not oriented."
   description: 'Rotate corners around.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  number: 'b'
+  title: "Only edges not oriented."
+  description: 'Rotate edges around.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'

@@ -1,8 +1,8 @@
 require 'lib/arrow.rb'
 
 class DiagonalDownArrow < Arrow
-  ARROW_SIDE = 10
-  ARROW_OVERHANG = 3
+  ARROW_SIDE = 12
+  ARROW_OVERHANG = 4 
 
   def arrow_start_point
     [

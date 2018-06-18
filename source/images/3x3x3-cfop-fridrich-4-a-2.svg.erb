@@ -24,8 +24,8 @@
 
   <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 30, squares: squares)} ) %>
 
-  <%= partial('arrow', locals: {points: vertical_arrow(x: 87, y: 40, length: 34, direction: :forward).points_string } ) %>
-  <%= partial('arrow', locals: {points: horizontal_arrow(x: 40, y: 27, length: 34, direction: :forward).points_string } ) %>
-  <%= partial('arrow', locals: {points: diagonal_down_arrow(x: 40, y: 40, length: 38, direction: :backward).points_string } ) %>
+  <%= partial('arrow', locals: {points: vertical_arrow(x: 87, y: 40, length: 34, direction: :backward).points_string } ) %>
+  <%= partial('arrow', locals: {points: horizontal_arrow(x: 40, y: 27, length: 34, direction: :backward).points_string } ) %>
+  <%= partial('arrow', locals: {points: diagonal_down_arrow(x: 40, y: 40, length: 38, direction: :forward).points_string } ) %>
 </svg>
 

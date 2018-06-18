@@ -68,12 +68,12 @@ class VerticalArrow < Arrow
   def arrow_end_flat
     [
       [
-        x+(ARROW_WIDTH/2)-(LINE_WIDTH/2),
-        y+ARROW_LENGTH+length
+        x+(ARROW_WIDTH/2)+(LINE_WIDTH/2),
+        y+(2*ARROW_LENGTH)+length
       ],
       [
-        x+(ARROW_WIDTH/2)+(LINE_WIDTH/2),
-        y+ARROW_LENGTH+length
+        x+(ARROW_WIDTH/2)-(LINE_WIDTH/2),
+        y+(2*ARROW_LENGTH)+length
       ]
     ]
   end

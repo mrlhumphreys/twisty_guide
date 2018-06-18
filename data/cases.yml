@@ -778,6 +778,30 @@
   number: 3 
   description: 'Cycle 2 pairs of corners parallel' 
   algorithm: "x' (R U') (R' D) (R U R' D') (R U R' D) (R U') (R' D')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'b'
+  number: 1 
+  description: 'Cycle 3 edges anti-clockwise.' 
+  algorithm: "(R U' R U) (R U) (R U') (R' U' R<sup>2</sup>)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'b'
+  number: 2 
+  description: 'Cycle 3 edges clockwise.' 
+  algorithm: "(R<sup>2</sup> U) (R U R' U') (R' U') (R' U R')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'b'
+  number: 3 
+  description: 'Swap opposite edges.' 
+  algorithm: "(M<sup>2</sup> U) (M<sup>2</sup> U<sup>2</sup>) (M<sup>2</sup> U) (M<sup>2</sup>)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'b'
+  number: 4 
+  description: 'Swap adjacent edges in parallel.' 
+  algorithm: "(M<sup>2</sup> U) (M<sup>2</sup> U) (M' U<sup>2</sup>) (M<sup>2</sup> U<sup>2</sup>) (M' U<sup>2</sup>)"
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'

@@ -68,12 +68,12 @@ class HorizontalArrow < Arrow
   def arrow_end_flat
     [
       [
-        x+ARROW_LENGTH+length,
-        y+(ARROW_WIDTH/2)+(LINE_WIDTH/2)
+        x+(2*ARROW_LENGTH)+length,
+        y+(ARROW_WIDTH/2)-(LINE_WIDTH/2)
       ],
       [
-        x+ARROW_LENGTH+length,
-        y+(ARROW_WIDTH/2)-(LINE_WIDTH/2)
+        x+(2*ARROW_LENGTH)+length,
+        y+(ARROW_WIDTH/2)+(LINE_WIDTH/2)
       ]
     ]
   end

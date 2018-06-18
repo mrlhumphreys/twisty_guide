@@ -1,8 +1,8 @@
 require 'lib/arrow.rb'
 
 class DiagonalUpArrow < Arrow
-  ARROW_SIDE = 10
-  ARROW_OVERHANG = 3
+  ARROW_SIDE = 12
+  ARROW_OVERHANG = 4 
 
   def arrow_start_point
     [
@@ -24,12 +24,12 @@ class DiagonalUpArrow < Arrow
   def arrow_start_flat
     [
       [
-        x,
-        y+length+(2*ARROW_OVERHANG)
-      ],
-      [
         x+ARROW_SIDE-(2*ARROW_OVERHANG),
         y+length+ARROW_SIDE
+      ],
+      [
+        x,
+        y+length+(2*ARROW_OVERHANG)
       ]
     ]
   end
