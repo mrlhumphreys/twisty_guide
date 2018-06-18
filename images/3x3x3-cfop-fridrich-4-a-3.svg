@@ -33,11 +33,9 @@
 
 
 
-  <polygon points="92,40 98,40 98,48 98,82 103,82 95,90 87,82 92,82 92,48" style="stroke:black;fill:white;" />
+  <polygon points="87,41 95,33 103,41 98,41 98,91 103,91 95,99 87,91 92,91 92,41" style="stroke:black;fill:white;" />
 
-  <polygon points="40,38 40,32 48,32 82,32 82,27 90,35 82,43 82,38 48,38" style="stroke:black;fill:white;" />
-
-  <polygon points="40,52 40,40 52,40 48,44 86,82 90,86 86,90 82,86 44,48" style="stroke:black;fill:white;" />
+  <polygon points="27,41 35,33 43,41 38,41 38,91 43,91 35,99 27,91 32,91 32,41" style="stroke:black;fill:white;" />
 
 </svg>
 
