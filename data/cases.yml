@@ -802,6 +802,66 @@
   number: 4 
   description: 'Swap adjacent edges in parallel.' 
   algorithm: "(M<sup>2</sup> U) (M<sup>2</sup> U) (M' U<sup>2</sup>) (M<sup>2</sup> U<sup>2</sup>) (M' U<sup>2</sup>)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'c'
+  number: 1 
+  description: 'Swap two corners on the back and swap left and back edges.' 
+  algorithm: "(R' U L') U<sup>2</sup> (R U' R') U<sup>2</sup> (L R U')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'c'
+  number: 2 
+  description: 'Swap two corners on the right and swap right and front edges.' 
+  algorithm: "(R U R' F') (R U R' U') (R' F) (R<sup>2</sup> U') (R' U')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'c'
+  number: 3 
+  description: 'Swap two corners on the right and swap right and left edges.' 
+  algorithm: "(R U R' U') (R' F) (R<sup>2</sup> U') (R' U' R U) (R' F')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'c'
+  number: 4 
+  description: 'Swap two corners on the back and swap right and front edges.' 
+  algorithm: "(R' U<sup>2</sup>) (R U<sup>2</sup>) (R' F R U R' U') (R' F' R<sup>2</sup> U')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'c'
+  number: 5 
+  description: 'Swap two corners on the right and swap left and back edges.' 
+  algorithm: "(R U R' F') (R U<sup>2</sup> R' U<sup>2</sup>) (R' F) (R U) (R U<sup>2</sup> R' U')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'c'
+  number: 6 
+  description: 'Swap two corners on the right and swap front and back edges.' 
+  algorithm: "R' U' F' (R U R' U') (R' F) (R<sup>2</sup> U') (R' U' R U) (R' U R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'd'
+  number: 1 
+  description: 'Cycle corners clockwise and edges anticlockwise.' 
+  algorithm: "(R<sup>2</sup> Uw) (R' U R' U' R Uw') R<sup>2</sup> y' (R' U R)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'd'
+  number: 2 
+  description: 'Cycle corners anticlockwise and edges clockwise.' 
+  algorithm: "(R' U' R) y (R<sup>2</sup> Uw R' U) (R U' R Uw' R<sup>2</sup>)"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'd'
+  number: 3 
+  description: 'Cycle corners anticlockwise and edges clockwise.' 
+  algorithm: "(R<sup>2</sup> Uw' R U') (R U R' Uw R<sup>2</sup>) (Fw R' Fw')"
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  section: 'd'
+  number: 4 
+  description: 'Cycle corners anticlockwise and edges clockwise.' 
+  algorithm: "(R U R') y' (R<sup>2</sup> Uw' R U') (R' U R' Uw R<sup>2</sup>)"
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'

@@ -5,12 +5,12 @@
   <% 
     squares = [
       [ 
-        {colour: data.colours.yellow, opacity: data.opacity.faded },
         {colour: data.colours.yellow, opacity: data.opacity.full },
-        {colour: data.colours.yellow, opacity: data.opacity.faded }
+        {colour: data.colours.yellow, opacity: data.opacity.faded },
+        {colour: data.colours.yellow, opacity: data.opacity.full }
       ],
       [ 
-        {colour: data.colours.yellow, opacity: data.opacity.full },
+        {colour: data.colours.yellow, opacity: data.opacity.faded },
         {colour: data.colours.yellow, opacity: data.opacity.faded },
         {colour: data.colours.yellow, opacity: data.opacity.full }
       ],
@@ -24,7 +24,7 @@
 
   <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 30, squares: squares)} ) %>
 
-  <%= partial('arrow', locals: {points: horizontal_arrow(x: 33, y: 57, length: 47, direction: :bi).points_string } ) %>
-  <%= partial('arrow', locals: {points: vertical_arrow(x: 57, y: 33, length: 47, direction: :bi).points_string } ) %>
+  <%= partial('arrow', locals: {points: horizontal_arrow(x: 33, y: 27, length: 47, direction: :bi).points_string } ) %>
+  <%= partial('arrow', locals: {points: diagonal_up_arrow(x: 62, y: 62, length: 25, direction: :bi).points_string } ) %>
 </svg>
 

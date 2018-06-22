@@ -158,6 +158,16 @@
   number: 'b'
   title: "Only edges not oriented."
   description: 'Rotate edges around.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  number: 'c'
+  title: "Four pieces not oriented."
+  description: 'Swap two edges and two corners.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  number: 'd'
+  title: "Only two pieces oriented."
+  description: 'Cycle three corners and three edges.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'
