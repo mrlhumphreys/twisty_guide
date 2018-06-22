@@ -13,13 +13,13 @@
   <line x1="80" y1="20" x2="80" y2="110" style="stroke:#404040;stroke-width:1" />
   <line x1="110" y1="20" x2="110" y2="110" style="stroke:#404040;stroke-width:1" />
 
-      <polygon points="20,20 50,20 50,50 20,50" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+      <polygon points="20,20 50,20 50,50 20,50" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
-      <polygon points="50,20 80,20 80,50 50,50" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:0.4"  />
+      <polygon points="50,20 80,20 80,50 50,50" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
       <polygon points="80,20 110,20 110,50 80,50" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="20,50 50,50 50,80 20,80" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:0.4"  />
+      <polygon points="20,50 50,50 50,80 20,80" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
       <polygon points="50,50 80,50 80,80 50,80" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
@@ -33,11 +33,9 @@
 
 
 
-  <polygon points="35,38 35,32 43,32 82,32 82,27 90,35 82,43 82,38 43,38" style="stroke:black;fill:white;" />
+  <polygon points="87,41 95,33 103,41 98,41 98,88 103,88 95,96 87,88 92,88 92,41" style="stroke:black;fill:white;" />
 
-  <polygon points="92,35 98,35 98,43 98,82 103,82 95,90 87,82 92,82 92,43" style="stroke:black;fill:white;" />
-
-  <polygon points="40,52 40,40 52,40 48,44 93,89 97,93 93,97 89,93 44,48" style="stroke:black;fill:white;" />
+  <polygon points="44,69 32,69 32,57 36,61 61,36 57,32 69,32 69,44 65,40 40,65" style="stroke:black;fill:white;" />
 
 </svg>
 
