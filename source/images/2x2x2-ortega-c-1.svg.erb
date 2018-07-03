@@ -32,6 +32,6 @@
 
   <%= partial('facing_grid', locals: {grid: facing_grid(x: 110, y: 20, units: 30, squares: down_squares)} ) %>
 
-  <%= partial('arrow', locals: {points: vertical_arrow(x: 57, y: 30, length: 24, direction: :bi).points_string } ) %>
+  <%= partial('arrow', locals: {arrow: vertical_arrow(x: 57, y: 30, length: 24, direction: :bi) } ) %>
 </svg>
 

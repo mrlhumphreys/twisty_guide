@@ -168,6 +168,11 @@
   number: 'd'
   title: "Only two pieces oriented."
   description: 'Cycle three corners and three edges.'
+- guide: '3x3x3-cfop-fridrich'
+  phase: 4 
+  number: 'e'
+  title: "Diagonal corner swap."
+  description: 'Swap two diagonal corners and two edges.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'
