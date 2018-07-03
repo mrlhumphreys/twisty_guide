@@ -21,7 +21,7 @@
 
       <polygon points="20,50 50,50 50,80 20,80" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="50,50 80,50 80,80 50,80" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+      <polygon points="50,50 80,50 80,80 50,80" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
       <polygon points="80,50 110,50 110,80 80,80" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
@@ -33,18 +33,18 @@
 
 
 
-  <polygon points="35,68 35,62 43,62 82,62 82,57 90,65 82,73 82,68 43,68" style="stroke:black;fill:white;" />
+  <polygon points="35,68 35,62 43,62 82,62 82,57 90,65 82,73 82,68 43,68" style="stroke:black;fill:#707070;" />
 
-  <polygon points="71,53 71,41 83,41 79,45 91,57 95,61 91,65 87,61 75,49" style="stroke:black;fill:white;" />
+  <polygon points="71,53 71,41 83,41 79,45 91,57 95,61 91,65 87,61 75,49" style="stroke:black;fill:#707070;" />
 
-  <polygon points="53,58 41,58 41,46 45,50 57,38 61,34 65,38 61,42 49,54" style="stroke:black;fill:white;" />
+  <polygon points="53,58 41,58 41,46 45,50 57,38 61,34 65,38 61,42 49,54" style="stroke:black;fill:#707070;" />
 
 
-  <polygon points="35,38 35,32 43,32 82,32 82,27 90,35 82,43 82,38 43,38" style="stroke:black;fill:white;" />
+  <polygon points="35,38 35,32 43,32 82,32 82,27 90,35 82,43 82,38 43,38" style="stroke:black;fill:#ffffff;" />
 
-  <polygon points="27,48 35,40 43,48 38,48 38,87 38,95 32,95 32,87 32,48" style="stroke:black;fill:white;" />
+  <polygon points="27,48 35,40 43,48 38,48 38,87 38,95 32,95 32,87 32,48" style="stroke:black;fill:#ffffff;" />
 
-  <polygon points="53,90 41,90 41,78 45,82 90,37 94,33 98,37 94,41 49,86" style="stroke:black;fill:white;" />
+  <polygon points="53,90 41,90 41,78 45,82 90,37 94,33 98,37 94,41 49,86" style="stroke:black;fill:#ffffff;" />
 
 </svg>
 

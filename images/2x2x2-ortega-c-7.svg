@@ -40,9 +40,9 @@
 
 
 
-  <polygon points="30,42 30,30 42,30 38,34 68,64 72,60 72,72 60,72 64,68 34,38" style="stroke:black;fill:white;" />
+  <polygon points="30,42 30,30 42,30 38,34 68,64 72,60 72,72 60,72 64,68 34,38" style="stroke:black;fill:#ffffff;" />
 
-  <polygon points="128,44 120,36 128,28 128,33 152,33 152,28 160,36 152,44 152,39 128,39" style="stroke:black;fill:white;" />
+  <polygon points="128,44 120,36 128,28 128,33 152,33 152,28 160,36 152,44 152,39 128,39" style="stroke:black;fill:#ffffff;" />
 
 </svg>
 
