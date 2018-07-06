@@ -203,7 +203,8 @@ footer p {
   text-align: center;
   background-color: #ff4500;
   color: #e0e0e0;
-  padding: 1em 0; }
+  padding: 1em 0;
+  border: solid 1px #ff4500; }
 
 .next_page:hover {
   color: #ff4500;
