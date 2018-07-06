@@ -2,9 +2,9 @@
   <% if defined?(guide) && defined?(phase) %>
   <h1>
     <% if phase.nil? %>
-      <%= guide.titleize %>
+      <%= guide.title %>
     <% else %>
-      <%= guide.titleize %> - Phase <%= phase %>
+      <%= guide.title %> - Phase <%= phase %>
     <% end %>
   </h1>
 
@@ -20,11 +20,11 @@
     </nav>
   <% end %>
 
-  <% data.sections.select { |c| c.guide == guide && c.phase == phase }.each do |section| %>
+  <% data.sections.select { |c| c.guide == guide.name && c.phase == phase }.each do |section| %>
     <%= partial(:section, locals: { section: section }) %>
   <% end %>
 
-  <% unless data.sections.select { |c| c.guide == guide }.map(&:phase).max == phase %>
+  <% unless data.sections.select { |c| c.guide == guide.name }.map(&:phase).max == phase %>
     <a class="next_page" href="<%= phase + 1 %>.html">Next Phase</a>
   <% end %>
   <% end %>

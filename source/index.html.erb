@@ -4,12 +4,12 @@
   <p class="subtitle">Guides to solving Twisty Puzzles</p>
 
   <ul class="guides">
-    <% data.sections.select { |c| c.phase == 1 || c.phase.nil? }.map { |c| [c.guide, c.phase] }.uniq.each do |guide, phase| %>
+    <% data.guides.each do |guide| %>
       <li class="guide">
-        <% if phase.nil? %>
-          <a href="puzzles/<%= guide %>.html"><%= guide.titleize %></a>
+        <% if guide.phases_count == 1 %>
+          <a href="puzzles/<%= guide.name %>.html"><%= guide.title %></a>
         <% else %>
-          <a href="puzzles/<%= guide %>/phases/1.html"><%= guide.titleize %></a>
+          <a href="puzzles/<%= guide.name %>/phases/1.html"><%= guide.title %></a>
         <% end %>
       </li>
     <% end %>

@@ -25,6 +25,6 @@
   <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 30, squares: squares)} ) %>
 
   <%= partial('arrow', locals: {arrow: vertical_arrow(x: 87, y: 33, length: 47, direction: :bi) } ) %>
-  <%= partial('arrow', locals: {arrow: diagonal_up_arrow(x: 32, y: 32, length: 25, direction: :bi) } ) %>
+  <%= partial('arrow', locals: {arrow: diagonal_up_arrow(x: 32, y: 32, length: 25, direction: :bi, colour: data.colours.medium) } ) %>
 </svg>
 

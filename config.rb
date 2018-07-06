@@ -38,11 +38,12 @@ page '/*.txt', layout: false
 #   },
 # ) 
 
-@app.data.sections.map { |c| [c.guide, c.phase] }.uniq.each do |guide, phase|
-  if phase.nil?
-    proxy "/puzzles/#{guide}.html", "/phase.html", locals: {guide: guide, phase: phase }
+@app.data.sections.map { |c| [c.guide, c.phase] }.uniq.each do |guide_name, phase|
+  guide = @app.data.guides.find { |g| g.name == guide_name } 
+  if guide.phases_count == 1 
+    proxy "/puzzles/#{guide.name}.html", "/phase.html", locals: {guide: guide, phase: phase }
   else
-    proxy "/puzzles/#{guide}/phases/#{phase}.html", "/phase.html", locals: {guide: guide, phase: phase }
+    proxy "/puzzles/#{guide.name}/phases/#{phase}.html", "/phase.html", locals: {guide: guide, phase: phase }
   end
 end
 

@@ -1,0 +1,20 @@
+- name: '2x2x2-ortega'
+  puzzle: "2x2 Rubik's Pocket"
+  title: '2x2 - Ortega Method' 
+  description: '' 
+  phases_count: 1 
+- name: 'pyraminx-layer-by-layer'
+  puzzle: 'Pyraminx'
+  title: 'Pyraminx - Layer by Layer Method'
+  description: ''
+  phases_count: 1 
+- name: '3x3x3-cfop-fridrich'
+  puzzle: "3x3 Rubik's Cube"
+  title: '3x3 - CFOP/Fridrich Method'
+  description: ''
+  phases_count: 4 
+- name: '3x4x5-cuboid'
+  puzzle: "3x4x5 Cuboid" 
+  title: "3x4x5 Cuboid" 
+  description: '' 
+  phases_count: 8 
