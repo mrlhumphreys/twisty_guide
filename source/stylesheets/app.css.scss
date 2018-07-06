@@ -192,6 +192,7 @@ footer p {
   background-color: $content-focus;
   color: $background-main;
   padding: 1em 0;
+  border: solid 1px $content-focus;
 }
 
 .next_page:hover {
