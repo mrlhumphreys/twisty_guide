@@ -10,7 +10,7 @@
 
   <% unless phase.nil? %>
     <nav class="page_links">
-      <% data.sections.select { |c| c.guide == guide }.map(&:phase).uniq.each do |p| %>
+      <% data.sections.select { |c| c.guide == guide.name }.map(&:phase).uniq.each do |p| %>
         <% if p == phase %>
           <a href="<%= p %>.html" class="current"><%= p %></a>
         <% else %>
