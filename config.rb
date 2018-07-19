@@ -52,13 +52,16 @@ end
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
-  require './lib/top_grid'
-  require './lib/front_grid'
-  require './lib/right_grid'
-  require './lib/square'
-  require './lib/facing_grid'
-  require './lib/facing_square'
-  require './lib/bordered_grid'
+  require './lib/cubic/top_grid'
+  require './lib/cubic/front_grid'
+  require './lib/cubic/right_grid'
+  require './lib/cubic/square'
+  require './lib/cubic/facing_grid'
+  require './lib/cubic/facing_square'
+  require './lib/cubic/bordered_grid'
+  require './lib/skewb/top_skewb_grid'
+  require './lib/skewb/left_skewb_grid'
+  require './lib/skewb/right_skewb_grid'
   require './lib/vertical_arrow'
   require './lib/horizontal_arrow'
   require './lib/diagonal_down_arrow'
@@ -67,31 +70,43 @@ helpers do
   require './lib/pyraminx_triangle'
 
   def top_grid(args)
-    TopGrid.new(args)
+    Cubic::TopGrid.new(args)
   end
 
   def front_grid(args)
-    FrontGrid.new(args)
+    Cubic::FrontGrid.new(args)
   end
 
   def right_grid(args)
-    RightGrid.new(args)
+    Cubic::RightGrid.new(args)
   end
 
   def square(args)
-    Square.new(args)
+    Cubic::Square.new(args)
   end
 
   def facing_grid(args)
-    FacingGrid.new(args)
+    Cubic::FacingGrid.new(args)
   end
 
   def facing_square(args)
-    FacingSquare.new(args)
+    Cubic::FacingSquare.new(args)
   end
 
   def bordered_grid(args)
-    BorderedGrid.new(args)
+    Cubic::BorderedGrid.new(args)
+  end
+
+  def top_skewb_grid(args)
+    Skewb::TopSkewbGrid.new(args)
+  end
+
+  def left_skewb_grid(args)
+    Skewb::LeftSkewbGrid.new(args)
+  end
+
+  def right_skewb_grid(args)
+    Skewb::RightSkewbGrid.new(args)
   end
 
   def vertical_arrow(args)
@@ -117,6 +132,8 @@ helpers do
   def pyraminx_triangle(args)
     PyraminxTriangle.new(args)
   end
+
+
 end
 
 # Build-specific configuration

@@ -33,6 +33,21 @@
   number: 'd'
   title: 'Solve Last Layer'
   description: 'Flip the puzzle. Then position and orient last layer edge pieces.'
+- guide: 'skewb-layer-by-layer'
+  phase: null
+  number: 'a'
+  title: 'Solve First Layer'
+  description: 'Pick a face and match corners with it.'
+- guide: 'skewb-layer-by-layer'
+  phase: null
+  number: 'b'
+  title: 'Solve Remaining Faces'
+  description: 'Cycle three faces at a time until faces are positioned right.'
+- guide: 'skewb-layer-by-layer'
+  phase: null
+  number: 'c'
+  title: 'Solve Last Layer Corners'
+  description: 'Cycle and rotate corners until fully solved.'
 - guide: '3x3x3-cfop-fridrich'
   phase: 1 
   number: 'a'

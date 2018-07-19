@@ -8,6 +8,11 @@
   title: 'Pyraminx - Layer by Layer Method'
   description: ''
   phases_count: 1 
+- name: 'skewb-layer-by-layer'
+  puzzle: 'Skewb'
+  title: 'Skewb - Layer by Layer Method'
+  description: ''
+  phases_count: 1 
 - name: '3x3x3-cfop-fridrich'
   puzzle: "3x3 Rubik's Cube"
   title: '3x3 - CFOP/Fridrich Method'

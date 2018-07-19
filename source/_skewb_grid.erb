@@ -1,0 +1,13 @@
+<polygon points="<%= grid.border_points_string %>" style="fill:<%= data.colours.fill %>;stroke:<%= data.colours.stroke %>;stroke-width:1" />
+
+<% grid.rows.each do |row| %>
+  <line x1="<%= row[:x1] %>" y1="<%= row[:y1] %>" x2="<%= row[:x2] %>" y2="<%= row[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<% end %>
+
+<% grid.columns.each do |col| %>
+  <line x1="<%= col[:x1] %>" y1="<%= col[:y1] %>" x2="<%= col[:x2] %>" y2="<%= col[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
+<% end %>
+
+<% grid.element_shapes.each do |element| %>
+  <%= partial('skewb_element', locals: {element: element}) %>
+<% end %>
