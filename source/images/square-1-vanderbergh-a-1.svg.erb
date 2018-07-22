@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180" height="180">
+  <%
+    up_elements = [
+      {shape: :edge, offset: 0, colour: data.colours.fill, opacity: data.opacity.full },
+      {shape: :edge, offset: Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+      {shape: :edge, offset: 2*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+      {shape: :edge, offset: 3*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+      {shape: :edge, offset: 4*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+
+      {shape: :corner, offset: 4*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+      {shape: :corner, offset: 6*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+
+      {shape: :edge, offset: 9*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+      {shape: :edge, offset: 10*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full },
+      {shape: :edge, offset: 11*Math::PI/6, colour: data.colours.fill, opacity: data.opacity.full }
+    ]
+  %>
+
+  <%= partial('square_one_face', locals: { square_one_face: square_one_face(x: 30, y: 30, units: 40, elements: up_elements) }) %>
+
+</svg>
+

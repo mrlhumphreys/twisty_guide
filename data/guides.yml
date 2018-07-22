@@ -13,6 +13,11 @@
   title: 'Skewb - Layer by Layer Method'
   description: ''
   phases_count: 1 
+- name: 'square-1-vanderbergh'
+  puzzle: 'Square-1'
+  title: "Square-1 - Vanderbergh Method"
+  description: ''
+  phases_count: 1 
 - name: '3x3x3-cfop-fridrich'
   puzzle: "3x3 Rubik's Cube"
   title: '3x3 - CFOP/Fridrich Method'

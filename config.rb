@@ -62,6 +62,7 @@ helpers do
   require './lib/skewb/top_skewb_grid'
   require './lib/skewb/left_skewb_grid'
   require './lib/skewb/right_skewb_grid'
+  require './lib/square_one/face'
   require './lib/vertical_arrow'
   require './lib/horizontal_arrow'
   require './lib/diagonal_down_arrow'
@@ -107,6 +108,10 @@ helpers do
 
   def right_skewb_grid(args)
     Skewb::RightSkewbGrid.new(args)
+  end
+  
+  def square_one_face(args)
+    SquareOne::Face.new(args)
   end
 
   def vertical_arrow(args)

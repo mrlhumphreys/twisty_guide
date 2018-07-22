@@ -1,0 +1,5 @@
+<% square_one_face.element_shapes.each do |element| %>
+  <polygon points="<%= element.points_string %>" style="fill:<%= element.colour %>;stroke:<%= data.colours.stroke %>;stroke-width:1;opacity:<%= element.opacity %>;" />
+<% end %>
+
+<line x1="<%= square_one_face.axis[:x1] %>" y1="<%= square_one_face.axis[:y1] %>" x2="<%= square_one_face.axis[:x2] %>" y2="<%= square_one_face.axis[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:5" />

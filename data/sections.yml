@@ -48,6 +48,46 @@
   number: 'c'
   title: 'Solve Last Layer Corners'
   description: 'Cycle and rotate corners until fully solved.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'a'
+  title: 'Gather small pieces together.'
+  description: 'Move all the small pieces to the top layer.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'b'
+  title: 'Restore Cubic Shape'
+  description: 'Restore the puzzle to a cubic shape.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'c'
+  title: 'Useful Algorithms'
+  description: 'During the next few steps, it may be necessary to perform these algorithms.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'd'
+  title: 'Corner Orientation'
+  description: 'Move corners onto their correct faces.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'e'
+  title: 'Edge Orientation'
+  description: 'Move edges onto their correct faces.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'f'
+  title: 'Corner Permutation'
+  description: 'Swap corners into their right position.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'g'
+  title: 'Edge Permutation'
+  description: 'Swap edges into their right position.'
+- guide: 'square-1-vanderbergh'
+  phase: null
+  number: 'h'
+  title: 'Edge Parity'
+  description: 'Cycle edges so that three edges are incorrect instead of just two. Then repeat the previous step.'
 - guide: '3x3x3-cfop-fridrich'
   phase: 1 
   number: 'a'

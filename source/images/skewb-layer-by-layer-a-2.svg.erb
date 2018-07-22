@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
-  <%=
+  <%
     up_squares = [
       [
         {colour: data.colours.white, opacity: data.opacity.faded }, 
@@ -24,7 +24,7 @@
 
   <%= partial('skewb_grid', locals: {grid: top_skewb_grid(x: 20, y: 20, units: 20, elements: up_squares)}) %> 
 
-  <%=
+  <%
     left_squares = [
       [
         {colour: data.colours.red, opacity: data.opacity.faded }, 
@@ -46,7 +46,7 @@
 
   <%= partial('skewb_grid', locals: {grid: left_skewb_grid(x: 20, y: 60, units: 20, elements: left_squares)}) %> 
 
-  <%=
+  <%
     right_squares = [
       [
         {colour: data.colours.white, opacity: data.opacity.full }, 

@@ -183,25 +183,85 @@
   section: 'b'
   number: 1 
   description: 'Rotate three faces (Left, Right & Down) clockwise.'
-  algorithm: "(R' D' R D) (L D L' D')"
+  algorithm: "(R' B' R B) (L B L' B')"
 - guide: 'skewb-layer-by-layer'
   phase: null
   section: 'b'
   number: 2 
   description: 'Rotate three faces (Right, Left & Down) anti-clockwise.'
-  algorithm: "(L D L' D') (R' D' R D)"
+  algorithm: "(L B L' B') (R' B' R B)"
 - guide: 'skewb-layer-by-layer'
   phase: null
   section: 'c'
   number: 1 
   description: 'Two corners are correctly facing down and two corners are facing back. Rotate other corners.'
-  algorithm: "(L' F L F') x 4"
+  algorithm: "(L' D L D') x 4"
 - guide: 'skewb-layer-by-layer'
   phase: null
   section: 'c'
   number: 2 
   description: 'Two corners are incorrectly facing right. Rotate all corners.'
-  algorithm: "(L' F L F') x 2"
+  algorithm: "(L' D L D') x 2"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'a'
+  number: 1 
+  description: 'Move all small pieces to the top layer.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'b'
+  number: 1 
+  description: 'All 8 small pieces next to each other.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'b'
+  number: 2 
+  description: '7 small pieces next to each other.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'c'
+  number: 1 
+  description: 'Swap top layer with bottom layer.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'c'
+  number: 2 
+  description: 'Restore middle layer to square shape.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'd'
+  number: 1 
+  description: 'Swap corner from top layer with bottom layer.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'e'
+  number: 1 
+  description: 'Swap right facing edge on down layer with back facing edge on top layer. Repeat for other swapped corners.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'f'
+  number: 1 
+  description: 'Swap two corners on the front of the down layer. Repeat for other swapped corners.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'g'
+  number: 1 
+  description: 'Swap back facing edge with right facing edge on both layers. Repeat for other swapped corners.'
+  algorithm: "-"
+- guide: 'square-1-vanderbergh'
+  phase: null
+  section: 'h'
+  number: 1 
+  description: 'Only two swapped edges remain. Perfom algorithm, then repeat the previous step until solved.'
+  algorithm: "-"
 - guide: '3x3x3-cfop-fridrich'
   phase: 1 
   section: 'a'
