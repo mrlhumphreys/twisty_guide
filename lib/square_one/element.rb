@@ -12,6 +12,10 @@ module SquareOne
 
     attr_reader :x, :y, :units, :offset, :colour, :opacity
 
+    def offset_radians
+      offset*Math::PI/6
+    end
+
     def half_edge_width 
       @half_edge_width ||= half_face_size * Math.tan(Math::PI/12) 
     end
@@ -30,8 +34,8 @@ module SquareOne
 
     def rotation_matrix
       @rotation_matrix ||= Matrix[
-        [Math.cos(offset), -1*Math.sin(offset)], 
-        [Math.sin(offset), Math.cos(offset)]
+        [Math.cos(offset_radians), -1*Math.sin(offset_radians)], 
+        [Math.sin(offset_radians), Math.cos(offset_radians)]
       ]
     end
 

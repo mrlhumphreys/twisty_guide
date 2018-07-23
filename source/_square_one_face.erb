@@ -1,4 +1,7 @@
 <% square_one_face.element_shapes.each do |element| %>
+  <% if element.opacity == data.opacity.faded %>
+    <polygon points="<%= element.points_string %>" style="fill:<%= data.colours.fill %>;stroke:<%= data.colours.stroke %>;stroke-width:1;opacity:1;" />
+  <% end %>
   <polygon points="<%= element.points_string %>" style="fill:<%= element.colour %>;stroke:<%= data.colours.stroke %>;stroke-width:1;opacity:<%= element.opacity %>;" />
 <% end %>
 
