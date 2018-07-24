@@ -1,4 +1,5 @@
 require './lib/position'
+require './lib/cubic/square'
 
 module Cubic
   class Grid
@@ -82,6 +83,16 @@ module Cubic
           y2: column_line_end(i+1).y
         }
       end
+    end
+
+    def element_shapes
+      squares.map.each_with_index do |row, row_num|
+        row.map.each_with_index do |col, col_num|
+          if col
+            Cubic::Square.new(x: square_position(row_num, col_num).x, y: square_position(row_num, col_num).y, width_unit: width_unit, height_unit: height_unit, offset_unit: offset_unit, colour: col[:colour], opacity: col[:opacity])
+          end
+        end
+      end.flatten.compact
     end
 
     def points

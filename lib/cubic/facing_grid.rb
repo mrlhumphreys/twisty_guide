@@ -1,3 +1,5 @@
+require 'lib/cubic/facing_square'
+
 module Cubic
   class FacingGrid
     def initialize(x:, y:, units:, squares: )
@@ -24,6 +26,22 @@ module Cubic
       y + height * units
     end
 
+    def unit_x(n)
+      x + n * units
+    end
+
+    def unit_y(n)
+      y + n * units
+    end
+
+    def unit_width(n)
+      units
+    end
+
+    def unit_height(n)
+      units
+    end
+
     def rows
       Array.new(height) do |i|
         {
@@ -46,20 +64,14 @@ module Cubic
       end
     end
 
-    def unit_x(n)
-      x + n * units
-    end
-
-    def unit_y(n)
-      y + n * units
-    end
-
-    def unit_width(n)
-      units
-    end
-
-    def unit_height(n)
-      units
+    def element_shapes
+      squares.map.each_with_index do |row, row_num|
+        row.map.each_with_index do |col, col_num|
+          if col 
+            Cubic::FacingSquare.new(x: unit_x(col_num), y: unit_y(row_num), width: unit_width(col_num), height: unit_height(row_num), colour: col[:colour], opacity: col[:opacity])
+          end
+        end
+      end.flatten.compact
     end
 
     def points

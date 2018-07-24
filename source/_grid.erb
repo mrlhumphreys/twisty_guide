@@ -8,10 +8,6 @@
   <line x1="<%= col[:x1] %>" y1="<%= col[:y1] %>" x2="<%= col[:x2] %>" y2="<%= col[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
 <% end %>
 
-<% grid.squares.each_with_index do |row,row_num| %>
-  <% row.each_with_index do |square,col_num| %>
-    <% unless square.nil? %>
-      <%= partial('square', locals: {square: square(x: grid.square_position(row_num, col_num).x, y: grid.square_position(row_num, col_num).y, width_unit: grid.width_unit, height_unit: grid.height_unit, offset_unit: grid.offset_unit, colour: square[:colour], opacity: square[:opacity])}) %>
-    <% end %>
-  <% end %>
+<% grid.element_shapes.each do |shape| %>
+  <%= partial('square', locals: {square: shape}) %>
 <% end %>
