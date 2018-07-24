@@ -11,7 +11,7 @@
   <line x1="110" y1="35" x2="50" y2="65" style="stroke:#404040;stroke-width:1" />
   <line x1="140" y1="50" x2="80" y2="80" style="stroke:#404040;stroke-width:1" />
 
-      <polygon points="80,50 110,65 80,80 50,65" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="80,50 110,65 80,80 50,65" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 

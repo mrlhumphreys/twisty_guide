@@ -33,7 +33,7 @@
   <line x1="110" y1="65.0" x2="110" y2="125.0" style="stroke:#404040;stroke-width:1" />
   <line x1="140" y1="50.0" x2="140" y2="110.0" style="stroke:#404040;stroke-width:1" />
 
-      <polygon points="80,80.0 110,65.0 110,95.0 80,110.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="80,80.0 110,65.0 110,95.0 80,110.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 </svg>

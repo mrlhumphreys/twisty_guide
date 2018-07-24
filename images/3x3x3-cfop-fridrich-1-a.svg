@@ -13,15 +13,15 @@
   <line x1="120" y1="40" x2="60" y2="70" style="stroke:#404040;stroke-width:1" />
   <line x1="140" y1="50" x2="80" y2="80" style="stroke:#404040;stroke-width:1" />
 
-      <polygon points="100,30 120,40 100,50 80,40" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="100,30 120,40 100,50 80,40" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="60,30 80,40 60,50 40,40" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="60,30 80,40 60,50 40,40" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="80,40 100,50 80,60 60,50" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="80,40 100,50 80,60 60,50" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="100,50 120,60 100,70 80,60" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="100,50 120,60 100,70 80,60" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-      <polygon points="60,50 80,60 60,70 40,60" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="60,50 80,60 60,70 40,60" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 
@@ -36,7 +36,7 @@
   <line x1="60" y1="70" x2="60" y2="130" style="stroke:#404040;stroke-width:1" />
   <line x1="80" y1="80" x2="80" y2="140" style="stroke:#404040;stroke-width:1" />
 
-      <polygon points="40,60 60,70 60,90 40,80" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="40,60 60,70 60,90 40,80" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 
@@ -51,7 +51,7 @@
   <line x1="120" y1="60.0" x2="120" y2="120.0" style="stroke:#404040;stroke-width:1" />
   <line x1="140" y1="50.0" x2="140" y2="110.0" style="stroke:#404040;stroke-width:1" />
 
-      <polygon points="100,70.0 120,60.0 120,80.0 100,90.0" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="100,70.0 120,60.0 120,80.0 100,90.0" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 </svg>
