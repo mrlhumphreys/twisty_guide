@@ -2,7 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="260" height="120">
-
   <polygon points="20,20 120,20 120,100 20,100" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
 
   <line x1="20" y1="40" x2="120" y2="40" style="stroke:#404040;stroke-width:1" />
@@ -49,8 +48,6 @@
   <polygon points="100,80 120,80 120,100 100,100" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
 
-
-
   <polygon points="140,20 240,20 240,100 140,100" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
 
   <line x1="140" y1="40" x2="240" y2="40" style="stroke:#404040;stroke-width:1" />
@@ -95,7 +92,6 @@
   <polygon points="200,80 220,80 220,100 200,100" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
 
   <polygon points="220,80 240,80 240,100 220,100" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:0.4"  />
-
 
 
 </svg>
