@@ -5,7 +5,14 @@ module Cubic
     def initialize(x:, y:, units:, squares: )
       @x, @y = x, y
       @units = units
-      @squares = squares
+      @squares = case squares
+      when String
+        FaceParser.new(squares).to_a
+      when Array
+        squares
+      else
+        raise ArgumentErro, "squares must be array or string" 
+      end
     end
 
     attr_reader :x, :y, :units, :squares

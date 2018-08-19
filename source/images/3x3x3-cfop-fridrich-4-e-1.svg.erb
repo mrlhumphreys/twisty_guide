@@ -2,27 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130" height="130">
-  <% 
-    squares = [
-      [ 
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        {colour: data.colours.yellow, opacity: data.opacity.faded }
-      ],
-      [ 
-        {colour: data.colours.yellow, opacity: data.opacity.faded },
-        {colour: data.colours.yellow, opacity: data.opacity.faded },
-        {colour: data.colours.yellow, opacity: data.opacity.full }
-      ],
-      [ 
-        {colour: data.colours.yellow, opacity: data.opacity.faded },
-        {colour: data.colours.yellow, opacity: data.opacity.faded },
-        {colour: data.colours.yellow, opacity: data.opacity.full }
-      ]
-    ]
-  %>
-
-  <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 30, squares: squares)} ) %>
+  <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 30, squares: "Y,Y,y\ny,y,Y\ny,y,Y")} ) %>
 
   <%= partial('arrow', locals: {arrow: diagonal_down_arrow(x: 35, y: 35, length: 50, direction: :bi) } ) %>
   <%= partial('arrow', locals: {arrow: diagonal_down_arrow(x: 65, y: 35, length: 20, direction: :bi, colour: data.colours.medium) } ) %>

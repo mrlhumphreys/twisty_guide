@@ -2,59 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180" height="120">
-  <% 
-    left_squares = [
-      [ 
-        {colour: data.colours.orange, opacity: data.opacity.faded },
-        {colour: data.colours.orange, opacity: data.opacity.faded },
-        {colour: data.colours.orange, opacity: data.opacity.faded }
-      ],
-      [ 
-        {colour: data.colours.orange, opacity: data.opacity.faded },
-        {colour: data.colours.red, opacity: data.opacity.full },
-        {colour: data.colours.orange, opacity: data.opacity.faded }
-      ],
-      [ 
-        {colour: data.colours.orange, opacity: data.opacity.faded },
-        {colour: data.colours.orange, opacity: data.opacity.faded },
-        {colour: data.colours.orange, opacity: data.opacity.faded }
-      ],
-      [ 
-        {colour: data.colours.orange, opacity: data.opacity.faded },
-        {colour: data.colours.orange, opacity: data.opacity.faded },
-        {colour: data.colours.orange, opacity: data.opacity.faded }
-      ]
-    ]
-  %>
-
-  <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 20, squares: left_squares)} ) %>
-
-  <% 
-    right_squares = [
-      [ 
-        {colour: data.colours.red, opacity: data.opacity.faded },
-        {colour: data.colours.red, opacity: data.opacity.faded },
-        {colour: data.colours.red, opacity: data.opacity.faded }
-      ],
-      [ 
-        {colour: data.colours.red, opacity: data.opacity.faded },
-        {colour: data.colours.red, opacity: data.opacity.faded },
-        {colour: data.colours.red, opacity: data.opacity.faded }
-      ],
-      [ 
-        {colour: data.colours.red, opacity: data.opacity.faded },
-        {colour: data.colours.orange, opacity: data.opacity.full },
-        {colour: data.colours.red, opacity: data.opacity.faded }
-      ],
-      [ 
-        {colour: data.colours.red, opacity: data.opacity.faded },
-        {colour: data.colours.red, opacity: data.opacity.faded },
-        {colour: data.colours.red, opacity: data.opacity.faded }
-      ]
-    ]
-  %>
-
-  <%= partial('facing_grid', locals: {grid: facing_grid(x: 100, y: 20, units: 20, squares: right_squares)} ) %>
-
+  <%= partial('facing_grid', locals: {grid: facing_grid(x: 20, y: 20, units: 20, squares: "o,o,o\no,R,o\no,o,o\no,o,o")} ) %>
+  <%= partial('facing_grid', locals: {grid: facing_grid(x: 100, y: 20, units: 20, squares: "r,r,r\nr,r,r\nr,O,r\nr,r,r")} ) %>
 </svg>
 
