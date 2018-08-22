@@ -1,3 +1,4 @@
+require 'lib/face_parser'
 require 'lib/cubic/facing_square'
 
 module Cubic
@@ -5,7 +6,14 @@ module Cubic
     def initialize(x:, y:, units:, squares: )
       @x, @y = x, y
       @units = units
-      @squares = squares
+      @squares = case squares
+      when String
+        FaceParser.new(squares).to_a
+      when Array
+        squares
+      else
+        raise ArgumentError, "squares must be array or string" 
+      end
     end
 
     attr_reader :x, :y, :units, :squares

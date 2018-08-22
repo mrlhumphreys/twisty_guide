@@ -4,3 +4,4 @@
 .sass-cache
 *.swp
 build/
+tmp/

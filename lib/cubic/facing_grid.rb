@@ -1,3 +1,4 @@
+require 'lib/face_parser'
 require 'lib/cubic/facing_square'
 
 module Cubic
@@ -11,7 +12,7 @@ module Cubic
       when Array
         squares
       else
-        raise ArgumentErro, "squares must be array or string" 
+        raise ArgumentError, "squares must be array or string" 
       end
     end
 

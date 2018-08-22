@@ -2,47 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="152" height="152">
-  <% 
-    up_squares = [
-      [ 
-        nil,
-        nil,
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        nil
-      ],
-      [ 
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        nil,
-        nil,
-        nil,
-        nil
-      ],
-      [ 
-        nil,
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        nil
-      ],
-      [ 
-        nil,
-        nil,
-        nil,
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        nil
-      ],
-      [ 
-        nil,
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        nil,
-        nil
-      ]
-    ]
-  %>
-
-  <%= partial('facing_grid', locals: {grid: bordered_grid(x: 20, y: 20, units: 32, squares: up_squares)} ) %>
-
+  <%= partial('facing_grid', locals: {grid: bordered_grid(x: 20, y: 20, units: 32, squares: "-,-,Y,Y,-\nY,-,-,-,-\n-,Y,Y,Y,-\n-,-,-,Y,-\n-,Y,Y,-,-")} ) %>
 </svg>
 
