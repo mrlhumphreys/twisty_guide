@@ -12,3 +12,7 @@
   <line x1="<%= line[:x1] %>" y1="<%= line[:y1] %>" x2="<%= line[:x2] %>" y2="<%= line[:y2] %>" style="stroke:<%= data.colours.stroke %>;stroke-width:1" />
 <% end %>
 
+<% grid.element_shapes.each do |shape| %>
+  <%= partial('pyraminx_triangle', locals: { triangle: shape  }) %> 
+<% end %>
+

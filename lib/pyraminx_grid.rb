@@ -1,11 +1,14 @@
+require 'lib/pyraminx_triangle'
+
 class PyraminxGrid
-  def initialize(x: ,y:, size: ,units:)
+  def initialize(x: ,y:, size: ,units: ,elements:)
     @x, @y = x, y
     @size = size
     @units = units
+    @elements = elements
   end
 
-  attr_reader :x, :y, :size, :units
+  attr_reader :x, :y, :size, :units, :elements
 
   def shape_points
     [
@@ -63,5 +66,17 @@ class PyraminxGrid
         y2: y+(i+1)*units
       }
     end
+  end
+
+  def element_shapes
+    elements.map do |row|
+      row.map do |element|
+        if element 
+          PyraminxTriangle.new(element)
+        else
+          nil
+        end
+      end
+    end.flatten.compact
   end
 end
