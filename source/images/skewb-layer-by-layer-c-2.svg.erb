@@ -2,71 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
-  <%
-    left_squares = [
-      [
-        {colour: data.colours.red, opacity: data.opacity.faded }, 
-        nil,
-        {colour: data.colours.red, opacity: data.opacity.faded } 
-      ],
-      [
-        nil,
-        {colour: data.colours.red, opacity: data.opacity.faded }, 
-        nil
-      ],
-      [
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        nil,
-        {colour: data.colours.blue, opacity: data.opacity.full }
-      ]
-    ]
-  %>
-
-  <%= partial('skewb_grid', locals: {grid: right_skewb_grid(x: 20, y: 20, units: 20, elements: left_squares)}) %> 
-
-  <%
-    right_squares = [
-      [
-        {colour: data.colours.blue, opacity: data.opacity.faded }, 
-        nil,
-        {colour: data.colours.blue, opacity: data.opacity.faded } 
-      ],
-      [
-        nil,
-        {colour: data.colours.blue, opacity: data.opacity.faded }, 
-        nil
-      ],
-      [
-        {colour: data.colours.yellow, opacity: data.opacity.full },
-        nil,
-        {colour: data.colours.yellow, opacity: data.opacity.full }
-      ]
-    ]
-  %>
-
-  <%= partial('skewb_grid', locals: {grid: left_skewb_grid(x: 100, y: 20, units: 20, elements: right_squares)}) %> 
-
-  <%
-    down_squares = [
-      [
-        {colour: data.colours.red, opacity: data.opacity.full }, 
-        nil,
-        {colour: data.colours.orange, opacity: data.opacity.full } 
-      ],
-      [
-        nil,
-        {colour: data.colours.yellow, opacity: data.opacity.faded }, 
-        nil
-      ],
-      [
-        {colour: data.colours.green, opacity: data.opacity.full }, 
-        nil,
-        {colour: data.colours.green, opacity: data.opacity.full }
-      ]
-    ]
-  %>
-
-  <%= partial('skewb_grid', locals: {grid: top_skewb_grid(x: 20, y: 100, units: 20, elements: down_squares)}) %> 
-
+  <%= partial('skewb_grid', locals: {grid: right_skewb_grid(x: 20, y: 20, units: 20, elements: "r,-,r\n-,r,-\nY,-,B")}) %> 
+  <%= partial('skewb_grid', locals: {grid: left_skewb_grid(x: 100, y: 20, units: 20, elements: "b,-,b\n-,b,-\nY,-,Y")}) %> 
+  <%= partial('skewb_grid', locals: {grid: top_skewb_grid(x: 20, y: 100, units: 20, elements: "R,-,O\n-,y,-\nG,-,G")}) %> 
 </svg>
 

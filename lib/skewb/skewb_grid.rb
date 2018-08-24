@@ -1,9 +1,18 @@
+require './lib/face_parser'
+
 module Skewb
   class SkewbGrid
     def initialize(x:, y:, units: , elements: )
       @x, @y = x, y
       @units = units
-      @elements = elements
+      @elements = case elements 
+      when String
+        FaceParser.new(elements).to_a
+      when Array
+        elements 
+      else
+        raise ArgumentError, "squares must be array or string"
+      end
     end
 
     attr_reader :x, :y, :units, :elements
