@@ -2,41 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160" height="300">
-  <%
-    up_elements = [
-      {shape: :edge, offset: 0, colour: data.colours.white, opacity: data.opacity.full },
-      {shape: :corner, offset: 0, colour: data.colours.white, opacity: data.opacity.faded },
-
-      {shape: :edge, offset: 3, colour: data.colours.white, opacity: data.opacity.full },
-      {shape: :corner, offset: 3, colour: data.colours.white, opacity: data.opacity.faded },
-
-      {shape: :edge, offset: 6, colour: data.colours.white, opacity: data.opacity.faded },
-      {shape: :corner, offset: 6, colour: data.colours.white, opacity: data.opacity.faded },
-
-      {shape: :edge, offset: 9, colour: data.colours.white, opacity: data.opacity.faded },
-      {shape: :corner, offset: 9, colour: data.colours.white, opacity: data.opacity.faded }
-    ]
-  %>
-
-  <%= partial('square_one_face', locals: { square_one_face: square_one_face(x: 20, y: 20, units: 40, elements: up_elements) }) %>
-
-  <%
-    down_elements = [
-      {shape: :edge, offset: 0, colour: data.colours.yellow, opacity: data.opacity.faded },
-      {shape: :corner, offset: 0, colour: data.colours.yellow, opacity: data.opacity.faded },
-
-      {shape: :edge, offset: 3, colour: data.colours.yellow, opacity: data.opacity.full },
-      {shape: :corner, offset: 3, colour: data.colours.yellow, opacity: data.opacity.faded },
-
-      {shape: :edge, offset: 6, colour: data.colours.yellow, opacity: data.opacity.full },
-      {shape: :corner, offset: 6, colour: data.colours.yellow, opacity: data.opacity.faded },
-
-      {shape: :edge, offset: 9, colour: data.colours.yellow, opacity: data.opacity.faded },
-      {shape: :corner, offset: 9, colour: data.colours.yellow, opacity: data.opacity.faded }
-    ]
-  %>
-
-  <%= partial('square_one_face', locals: { square_one_face: square_one_face(x: 20, y: 160, units: 40, elements: down_elements, axis_direction: :back) }) %>
-
+  <%= partial('square_one_face', locals: { square_one_face: square_one_face(x: 20, y: 20, units: 40, elements: "e0W,c0w,e3W,c3w,e6w,c6w,e9w,c9w") }) %>
+  <%= partial('square_one_face', locals: { square_one_face: square_one_face(x: 20, y: 160, units: 40, elements: "e0y,c0y,e3Y,c3y,e6Y,c6y,e9y,c9y", axis_direction: :back) }) %>
 </svg>
 

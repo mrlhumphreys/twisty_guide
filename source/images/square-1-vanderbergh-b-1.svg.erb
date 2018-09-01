@@ -2,24 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180" height="180">
-  <%
-    up_elements = [
-      {shape: :edge, offset: 0, colour: data.colours.fill, opacity: data.opacity.full },
-      {shape: :edge, offset: 1, colour: data.colours.fill, opacity: data.opacity.full },
-      {shape: :edge, offset: 2, colour: data.colours.fill, opacity: data.opacity.full },
-      {shape: :edge, offset: 3, colour: data.colours.fill, opacity: data.opacity.full },
-      {shape: :edge, offset: 4, colour: data.colours.fill, opacity: data.opacity.full },
-
-      {shape: :corner, offset: 4, colour: data.colours.fill, opacity: data.opacity.full },
-      {shape: :corner, offset: 6, colour: data.colours.fill, opacity: data.opacity.full },
-
-      {shape: :edge, offset: 9, colour: data.colours.fill, opacity: data.opacity.full },
-      {shape: :edge, offset: 10, colour: data.colours.fill, opacity: data.opacity.full },
-      {shape: :edge, offset: 11, colour: data.colours.fill, opacity: data.opacity.full }
-    ]
-  %>
-
-  <%= partial('square_one_face', locals: { square_one_face: square_one_face(x: 30, y: 30, units: 40, elements: up_elements) }) %>
-
+  <%= partial('square_one_face', locals: { square_one_face: square_one_face(x: 30, y: 30, units: 40, elements: "e0F,e1F,e2F,e3F,e4F,c4F,c6F,e9F,e10F,e11F") }) %>
 </svg>
 

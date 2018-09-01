@@ -1,3 +1,4 @@
+require 'lib/square_one_face_parser'
 require 'lib/square_one/edge'
 require 'lib/square_one/corner'
 require 'lib/square_one/middle'
@@ -8,7 +9,14 @@ module SquareOne
     def initialize(x:, y: , units: , elements:, axis_direction: :forward)
       @x, @y = x, y
       @units = units
-      @elements = elements
+      @elements = case elements 
+      when String
+        SquareOneFaceParser.new(elements).to_a
+      when Array
+        elements 
+      else
+        raise ArgumentError, "squares must be array or string" 
+      end
       @axis_direction = axis_direction
     end
 
