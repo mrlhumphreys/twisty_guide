@@ -1,0 +1,3 @@
+<%= partial('grid', locals: {grid: top_grid(x: iso.top_position[:x], y: iso.top_position[:y], units: iso.units, squares: iso.top)} ) %>
+<%= partial('grid', locals: {grid: front_grid(x: iso.front_position[:x], y: iso.front_position[:y], units: iso.units, squares: iso.front)} ) %>
+<%= partial('grid', locals: {grid: right_grid(x: iso.right_position[:x], y: iso.right_position[:y], units: iso.units, squares: iso.right)} ) %>

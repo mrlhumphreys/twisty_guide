@@ -52,6 +52,7 @@ end
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
+  require './lib/cubic/iso_view'
   require './lib/cubic/top_grid'
   require './lib/cubic/front_grid'
   require './lib/cubic/right_grid'
@@ -67,6 +68,10 @@ helpers do
   require './lib/diagonal_up_arrow'
   require './lib/pyraminx_grid'
   require './lib/pyraminx_triangle'
+
+  def iso_view(args)
+    Cubic::IsoView.new(args) 
+  end
 
   def top_grid(args)
     Cubic::TopGrid.new(args)
