@@ -30,7 +30,7 @@ module Cubic
     # positioning squares
 
     def top_left_square
-      @top_left_square ||= Position.new(x, y) + offset_unit*(height-1)
+      @top_left_square ||= Position.new(x, y) + offset_unit*square_offset_amount
     end
 
     def square_position(row, col)
@@ -40,7 +40,7 @@ module Cubic
     # positioning lines
 
     def top_left
-      @top_left ||= Position.new(x,y) + offset_unit*height
+      @top_left ||= Position.new(x,y) + offset_unit*line_offset_amount
     end
 
     def top_right

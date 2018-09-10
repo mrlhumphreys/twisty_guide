@@ -13,6 +13,14 @@ module Cubic
     def offset_unit
       @offset_unit ||= Position.new(units,0)
     end
+
+    def line_offset_amount
+      height
+    end
+
+    def square_offset_amount
+      height - 1
+    end
   end
 end
 
