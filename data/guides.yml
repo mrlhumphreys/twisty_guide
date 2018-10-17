@@ -23,6 +23,11 @@
   title: '3x3 - CFOP/Fridrich Method'
   description: ''
   phases_count: 4 
+- name: '4x4x4-reduction'
+  puzzle: "4x4 Rubik's Revenge"
+  title: '4x4 - Reduction Method'
+  description: ''
+  phases_count: 4 
 - name: '3x4x5-cuboid'
   puzzle: "3x4x5 Cuboid" 
   title: "3x4x5 Cuboid" 

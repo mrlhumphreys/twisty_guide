@@ -228,6 +228,46 @@
   number: 'e'
   title: "Diagonal corner swap."
   description: 'Swap two diagonal corners and two edges.'
+- guide: '4x4x4-reduction'
+  phase: 1 
+  number: 'a'
+  title: "Solve First Two Centers"
+  description: 'Solve the center pieces for two opposite faces.'
+- guide: '4x4x4-reduction'
+  phase: 1 
+  number: 'b'
+  title: "Solve Second Two Centers"
+  description: 'Solve the center pieces for two other adjacent faces.'
+- guide: '4x4x4-reduction'
+  phase: 1 
+  number: 'c'
+  title: "Solve Last Two Centers"
+  description: 'Solve the center pieces for the last two faces.'
+- guide: '4x4x4-reduction'
+  phase: 2 
+  number: 'a'
+  title: "Pair up an edge."
+  description: 'Pair up one set of edge pieces.'
+- guide: '4x4x4-reduction'
+  phase: 2 
+  number: 'b'
+  title: "Store the edge."
+  description: 'Move the pair into the up or down layer. Then repeat pairing and storing for first eight edges.'
+- guide: '4x4x4-reduction'
+  phase: 2 
+  number: 'c'
+  title: "Solve Last Four Edges"
+  description: 'Pair up the last edge pieces using some algorithms.'
+- guide: '4x4x4-reduction'
+  phase: 3 
+  number: 'a'
+  title: "Solve like a 3x3 rubik's cube"
+  description: 'Treat the paired edges as a singular edge when solving.'
+- guide: '4x4x4-reduction'
+  phase: 4 
+  number: 'a'
+  title: "Parity issues"
+  description: 'Sometimes some odd cases can appear. Edges might need twisted around.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'
