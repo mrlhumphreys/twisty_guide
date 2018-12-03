@@ -37,7 +37,7 @@
 
     <polygon points="100,60 140,120 100,100" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1;" />
 
-    <polygon points="180,100 180,140 140,120" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1;" />
+    <polygon points="180,100 180,140 140,120" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1;" />
 
  
   <polygon points="100,100 180,140 100,180 20,140" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />

@@ -56,13 +56,13 @@
   <line x1="160" y1="70.0" x2="160" y2="150.0" style="stroke:#404040;stroke-width:1" />
   <line x1="180" y1="60.0" x2="180" y2="140.0" style="stroke:#404040;stroke-width:1" />
 
-  <polygon points="120,110.0 140,100.0 140,120.0 120,130.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="120,110.0 140,100.0 140,120.0 120,130.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="140,100.0 160,90.0 160,110.0 140,120.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="140,100.0 160,90.0 160,110.0 140,120.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="120,130.0 140,120.0 140,140.0 120,150.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="120,130.0 140,120.0 140,140.0 120,150.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="140,120.0 160,110.0 160,130.0 140,140.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="140,120.0 160,110.0 160,130.0 140,140.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 

@@ -52,7 +52,7 @@
   <line x1="160" y1="80.0" x2="160" y2="160.0" style="stroke:#404040;stroke-width:1" />
   <line x1="180" y1="70.0" x2="180" y2="150.0" style="stroke:#404040;stroke-width:1" />
 
-  <polygon points="120,160.0 140,150.0 140,170.0 120,180.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="120,160.0 140,150.0 140,170.0 120,180.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 

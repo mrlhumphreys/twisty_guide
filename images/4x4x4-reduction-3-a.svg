@@ -28,7 +28,7 @@
 
   <polygon points="120,50 140,60 120,70 100,60" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="140,60 160,70 140,80 120,70" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="140,60 160,70 140,80 120,70" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="60,40 80,50 60,60 40,50" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
@@ -36,7 +36,7 @@
 
   <polygon points="100,60 120,70 100,80 80,70" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="120,70 140,80 120,90 100,80" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="120,70 140,80 120,90 100,80" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="40,50 60,60 40,70 20,60" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:1"  />
 
@@ -69,17 +69,17 @@
 
   <polygon points="20,80 40,90 40,110 20,100" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="40,90 60,100 60,120 40,110" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="40,90 60,100 60,120 40,110" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="60,100 80,110 80,130 60,120" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="60,100 80,110 80,130 60,120" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="80,110 100,120 100,140 80,130" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="20,100 40,110 40,130 20,120" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="40,110 60,120 60,140 40,130" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="40,110 60,120 60,140 40,130" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="60,120 80,130 80,150 60,140" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="60,120 80,130 80,150 60,140" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="80,130 100,140 100,160 80,150" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
 
@@ -89,7 +89,7 @@
 
   <polygon points="60,140 80,150 80,170 60,160" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="80,150 100,160 100,180 80,170" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="80,150 100,160 100,180 80,170" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
 
 <polygon points="100,100.0 180,60.0 180,140.0 100,180.0" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
@@ -104,7 +104,7 @@
   <line x1="160" y1="70.0" x2="160" y2="150.0" style="stroke:#404040;stroke-width:1" />
   <line x1="180" y1="60.0" x2="180" y2="140.0" style="stroke:#404040;stroke-width:1" />
 
-  <polygon points="100,100.0 120,90.0 120,110.0 100,120.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="100,100.0 120,90.0 120,110.0 100,120.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="120,90.0 140,80.0 140,100.0 120,110.0" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
@@ -112,7 +112,7 @@
 
   <polygon points="160,70.0 180,60.0 180,80.0 160,90.0" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="100,120.0 120,110.0 120,130.0 100,140.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="100,120.0 120,110.0 120,130.0 100,140.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="120,110.0 140,100.0 140,120.0 120,130.0" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
 
@@ -120,7 +120,7 @@
 
   <polygon points="160,90.0 180,80.0 180,100.0 160,110.0" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1"  />
 
-  <polygon points="100,140.0 120,130.0 120,150.0 100,160.0" style="fill:#ff8000;stroke:#404040;stroke-width:1;opacity:1"  />
+  <polygon points="100,140.0 120,130.0 120,150.0 100,160.0" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:1"  />
 
   <polygon points="120,130.0 140,120.0 140,140.0 120,150.0" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
 

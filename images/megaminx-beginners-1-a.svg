@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+  <polygon points="100,20 176,75 147,165 53,165 24,75" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+<polygon points="138,48 100,165 62,48 162,120 38,120" style="fill:none;stroke:#404040;stroke-width:1" />
+  <polygon points="100,75 124,92 115,120 85,120 76,92" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="138,48 124,92 100,75" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="162,120 115,120 124,92" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="100,165 85,120 115,120" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="38,120 76,92 85,120" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="62,48 100,75 76,92" style="fill:#ffffff;stroke:#404040;stroke-width:1;opacity:1" />
+
+ 
+</svg>
+

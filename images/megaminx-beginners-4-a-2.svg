@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="350" height="350">
+  <polygon points="153,30 175,98 118,139 61,98 83,30" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+<polygon points="164,64 89,118 118,30 147,118 72,64" style="fill:none;stroke:#404040;stroke-width:1" />
+  <polygon points="129,64 136,85 118,98 100,85 107,64" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="164,64 136,85 129,64" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="89,118 100,85 118,98" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="72,64 107,64 100,85" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="118,30 129,64 107,64" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="153,30 164,64 129,64 118,30" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="61,98 72,64 100,85 89,118" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="83,30 118,30 107,64 72,64" style="fill:#ff8080;stroke:#404040;stroke-width:1;opacity:0.4" />
+
+ 
+  <polygon points="267,30 289,98 232,139 175,98 197,30" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+<polygon points="278,64 203,118 232,30 261,118 186,64" style="fill:none;stroke:#404040;stroke-width:1" />
+  <polygon points="243,64 250,85 232,98 214,85 221,64" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="278,64 250,85 243,64" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="261,118 232,98 250,85" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="203,118 214,85 232,98" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="186,64 221,64 214,85" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="232,30 243,64 221,64" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="267,30 278,64 243,64 232,30" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="289,98 261,118 250,85 278,64" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="197,30 232,30 221,64 186,64" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:0.4" />
+
+ 
+
+  <polygon points="118,139 140,207 83,248 26,207 48,139" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+<polygon points="129,173 54,227 83,139 112,227 37,173" style="fill:none;stroke:#404040;stroke-width:1" />
+  <polygon points="94,173 101,194 83,207 65,194 72,173" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="112,227 83,207 101,194" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="54,227 65,194 83,207" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="37,173 72,173 65,194" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="83,139 94,173 72,173" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="83,248 54,227 83,207 112,227" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="26,207 37,173 65,194 54,227" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="48,139 83,139 72,173 37,173" style="fill:#80ff80;stroke:#404040;stroke-width:1;opacity:0.4" />
+
+  <text x="74" y="200" style="color:#404040;font-size:30px;font-family: Helvetica, Arial, sans-serif">L</text>
+ 
+  <polygon points="175,98 232,139 210,207 140,207 118,139" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+<polygon points="204,119 175,207 146,119 221,173 129,173" style="fill:none;stroke:#404040;stroke-width:1" />
+  <polygon points="175,139 193,152 186,173 164,173 157,152" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="221,173 186,173 193,152" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="129,173 157,152 164,173" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="146,119 175,139 157,152" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1" />
+
+  <text x="166" y="170" style="color:#404040;font-size:30px;font-family: Helvetica, Arial, sans-serif">U</text>
+ 
+  <polygon points="302,139 324,207 267,248 210,207 232,139" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+<polygon points="313,173 238,227 267,139 296,227 221,173" style="fill:none;stroke:#404040;stroke-width:1" />
+  <polygon points="278,173 285,194 267,207 249,194 256,173" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="313,173 285,194 278,173" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="296,227 267,207 285,194" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="238,227 249,194 267,207" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="267,139 278,173 256,173" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="302,139 313,173 278,173 267,139" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="324,207 296,227 285,194 313,173" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="267,248 238,227 267,207 296,227" style="fill:#ff0000;stroke:#404040;stroke-width:1;opacity:0.4" />
+
+  <text x="258" y="200" style="color:#404040;font-size:30px;font-family: Helvetica, Arial, sans-serif">R</text>
+ 
+
+  <polygon points="210,207 232,275 175,316 118,275 140,207" style="fill:#d0d0d0;stroke:#404040;stroke-width:1" />
+<polygon points="221,241 146,295 175,207 204,295 129,241" style="fill:none;stroke:#404040;stroke-width:1" />
+  <polygon points="186,241 193,262 175,275 157,262 164,241" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="221,241 193,262 186,241" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="204,295 175,275 193,262" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="146,295 157,262 175,275" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="129,241 164,241 157,262" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="175,207 186,241 164,241" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1" />
+  <polygon points="232,275 204,295 193,262 221,241" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="175,316 146,295 175,275 204,295" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+  <polygon points="118,275 129,241 157,262 146,295" style="fill:#ffb000;stroke:#404040;stroke-width:1;opacity:0.4" />
+
+  <text x="166" y="268" style="color:#404040;font-size:30px;font-family: Helvetica, Arial, sans-serif">F</text>
+ 
+</svg>
+
