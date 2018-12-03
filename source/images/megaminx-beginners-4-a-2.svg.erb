@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="350" height="350">
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 58, y: 19, units: 30, elements: "pi\npi,-,pi,pi,pi\npi,-,-,pi,pi", rotation_offset: Math::PI/5)}) %> 
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 172, y: 19, units: 30, elements: "b\nb,b,Y,b,b\nb,b,-,-,b", rotation_offset: Math::PI/5)}) %> 
+
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 23, y: 128, units: 30, elements: "l\n-,l,l,l,l\n-,-,l,l,l", rotation_offset: Math::PI/5, label: 'L' )}) %> 
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 115, y: 98, units: 30, elements: "y\n-,Y,-,Y,Y\n-,-,-,-,-", rotation_offset: 0, label: 'U' )}) %> 
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 207, y: 128, units: 30, elements: "r\nr,r,r,-,r\nr,r,r,-,-", rotation_offset: Math::PI/5, label: 'R' )}) %> 
+
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 115, y: 196, units: 30, elements: "o\no,o,o,o,Y\n-,o,o,o,-", rotation_offset: Math::PI/5, label: 'F' )}) %> 
+</svg>
+

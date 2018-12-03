@@ -1096,6 +1096,132 @@
   number: 2 
   description: 'Only two corners not oriented correctly. Break up and pair up edge. Then solve again as a 3x3.' 
   algorithm: "r<sup>2</sup> U<sup>2</sup> r<sup>2</sup> U<sup>2</sup> u<sup>2</sup> r<sup>2</sup> u<sup>2</sup>"
+- guide: 'megaminx-beginners'
+  phase: 1
+  section: 'a'
+  number: null 
+  description: 'Move edges to down layer to make a star shape.'
+  algorithm: '-'
+- guide: 'megaminx-beginners'
+  phase: 1
+  section: 'b'
+  number: 1 
+  description: 'Down edge facing right.'
+  algorithm: "R U R'"
+- guide: 'megaminx-beginners'
+  phase: 1
+  section: 'b'
+  number: 2 
+  description: 'Down edge facing front.'
+  algorithm: "F' U' F"
+- guide: 'megaminx-beginners'
+  phase: 1
+  section: 'b'
+  number: 3 
+  description: 'Down edge facing up.'
+  algorithm: "R U' R' U<sup>2</sup> R U R'"
+- guide: 'megaminx-beginners'
+  phase: 1
+  section: 'c'
+  number: 1 
+  description: 'Edge needs to be rotated clockwise around center.'
+  algorithm: "(U R U' R') (U' F' U F)" 
+- guide: 'megaminx-beginners'
+  phase: 1
+  section: 'c'
+  number: 2 
+  description: 'Edge needs to be rotated anti-clockwise around center.'
+  algorithm: "(U' F' U F) (U R U' R')" 
+- guide: 'megaminx-beginners'
+  phase: 2 
+  section: 'a'
+  number: null 
+  description: 'Move corners in place without disturbing first two layers.'
+  algorithm: '-'
+- guide: 'megaminx-beginners'
+  phase: 2 
+  section: 'b'
+  number: 1 
+  description: 'Move edge to the right of the corner.'
+  algorithm: "F L F<sup>2</sup> L' F'"
+- guide: 'megaminx-beginners'
+  phase: 2 
+  section: 'b'
+  number: 2 
+  description: 'Move edge to the left of the corner.'
+  algorithm: "F' R' F'<sup>2</sup> R F" 
+- guide: 'megaminx-beginners'
+  phase: 3  
+  section: 'a'
+  number: 1 
+  description: 'Down edge facing right.'
+  algorithm: "R U R'"
+- guide: 'megaminx-beginners'
+  phase: 3 
+  section: 'a'
+  number: 2 
+  description: 'Down edge facing front.'
+  algorithm: "F' U' F" 
+- guide: 'megaminx-beginners'
+  phase: 3 
+  section: 'a'
+  number: 3 
+  description: 'Down edge facing up.'
+  algorithm: "R U' R' U<sup>2</sup> R U R'" 
+- guide: 'megaminx-beginners'
+  phase: 3 
+  section: 'b'
+  number: 1 
+  description: 'Edge needs to be rotated clockwise around center.'
+  algorithm: "(U R U' R') (U' F' U F)"
+- guide: 'megaminx-beginners'
+  phase: 3 
+  section: 'b'
+  number: 2 
+  description: 'Edge needs to be rotated anti-clockwise around center.'
+  algorithm: "(U' F' U F) (U R U' R')" 
+- guide: 'megaminx-beginners'
+  phase: 4 
+  section: 'a'
+  number: 1 
+  description: 'Two adjacent edges facing out.'
+  algorithm: "F (U R U' R') F'" 
+- guide: 'megaminx-beginners'
+  phase: 4 
+  section: 'a'
+  number: 2 
+  description: 'Two opposite edges facing out.'
+  algorithm: "F (R U R' U') F'" 
+- guide: 'megaminx-beginners'
+  phase: 4 
+  section: 'b'
+  number: 1 
+  description: 'Cycle three edges clockwise.'
+  algorithm: "(R U R' U) (R U<sup>3</sup> R' U)" 
+- guide: 'megaminx-beginners'
+  phase: 4 
+  section: 'b'
+  number: 2 
+  description: 'Cycle three edges anti-clockwise.'
+  algorithm: "(U' R U<sup>2</sup> R') (U' R U' R')" 
+- guide: 'megaminx-beginners'
+  phase: 4 
+  section: 'c'
+  number: 1 
+  description: 'Cycle three corners clockwise.'
+  algorithm: "(L' U<sup>2</sup> R U'<sup>2</sup>) (L U<sup>2</sup> R' U'<sup>2</sup>)" 
+- guide: 'megaminx-beginners'
+  phase: 4 
+  section: 'c'
+  number: 2 
+  description: 'Cycle three corners anti-clockwise.'
+  algorithm: "(R U'<sup>2</sup> L' U<sup>2</sup>) (R' U'<sup>2</sup> L U<sup>2</sup>)" 
+- guide: 'megaminx-beginners'
+  phase: 4 
+  section: 'd'
+  number: null 
+  description: 'Corner rotating algorithm.'
+  algorithm: "R' D' R D"
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'

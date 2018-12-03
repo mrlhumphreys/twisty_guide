@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="270" height="250">
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 75, y: 20, units: 30, elements: "o\n-,-,-,-,-\n-,-,O,-,-", rotation_offset: Math::PI/5)}) %> 
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 18, y: 100, units: 30, elements: "s\n-,s,s,s,-\n-,S,s,s,-")}) %> 
+  <%= partial('megaminx_face', locals: {face: megaminx_face(x: 132, y: 100, units: 30, elements: "p\n-,p,p,p,-\n-,-,p,p,P", rotation_offset: 0)}) %> 
+</svg>
+

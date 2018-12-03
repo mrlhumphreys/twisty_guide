@@ -68,6 +68,7 @@ helpers do
   require './lib/diagonal_up_arrow'
   require './lib/pyraminx_grid'
   require './lib/pyraminx_triangle'
+  require './lib/megaminx/face'
 
   def iso_view(args)
     Cubic::IsoView.new(args) 
@@ -133,6 +134,9 @@ helpers do
     PyraminxTriangle.new(args)
   end
 
+  def megaminx_face(args)
+    Megaminx::Face.new(args)
+  end
 
 end
 

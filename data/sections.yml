@@ -268,6 +268,61 @@
   number: 'a'
   title: "Parity issues"
   description: 'Sometimes some odd cases can appear. Edges might need twisted around.'
+- guide: 'megaminx-beginners'
+  phase: 1 
+  number: 'a'
+  title: "Star Shape"
+  description: 'Match up the five edges with one center piece to form a star.'
+- guide: 'megaminx-beginners'
+  phase: 1 
+  number: 'b'
+  title: "First Layer"
+  description: 'Slot the corners into the first layer.'
+- guide: 'megaminx-beginners'
+  phase: 1 
+  number: 'c'
+  title: "Second Layer"
+  description: 'Slot the edges into the second layer.'
+- guide: 'megaminx-beginners'
+  phase: 2 
+  number: 'a'
+  title: "Third Layer Corners"
+  description: 'Move the matching corners above the previously inserted edges.'
+- guide: 'megaminx-beginners'
+  phase: 2 
+  number: 'b'
+  title: "Third Layer Edges"
+  description: 'Position the edges around each of the previously inserted corners.'
+- guide: 'megaminx-beginners'
+  phase: 3 
+  number: 'a'
+  title: "Third Layer Corners"
+  description: 'Slot the remaining corners in the third layer, similar to the first layer.'
+- guide: 'megaminx-beginners'
+  phase: 3 
+  number: 'b'
+  title: "Fourth Layer Edges"
+  description: 'Slot the edges in the fourth layer, similar to the second layer.'
+- guide: 'megaminx-beginners'
+  phase: 4 
+  number: 'a'
+  title: "Fifth Layer Orient Edges"
+  description: 'Match up the edges on the last layer and make a star shape.'
+- guide: 'megaminx-beginners'
+  phase: 4 
+  number: 'b'
+  title: "Fifth Layer Position Edges"
+  description: 'Cycle the edges around until they are in the right place.'
+- guide: 'megaminx-beginners'
+  phase: 4 
+  number: 'c'
+  title: "Fifth Layer Position Corners"
+  description: 'Cycle the corners around until they are in the right place.'
+- guide: 'megaminx-beginners'
+  phase: 4 
+  number: 'd'
+  title: "Fifth Layer Orient Corners"
+  description: 'Run an algorithm to rotate each of the corners until they face the right way.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'
