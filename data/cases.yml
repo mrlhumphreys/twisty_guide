@@ -573,7 +573,7 @@
   section: 'b'
   number: 1 
   description: 'Two corners facing front.'
-  algorithm: "(R<sup>2</sup>) (R' U<sup>2</sup>) (R D') (R' U<sup>2</sup> R')"
+  algorithm: "(R<sup>2</sup> D) (R' U<sup>2</sup>) (R D') (R' U<sup>2</sup> R')"
 - guide: '3x3x3-cfop-fridrich'
   phase: 3 
   section: 'b'
