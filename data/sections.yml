@@ -323,6 +323,21 @@
   number: 'd'
   title: "Fifth Layer Orient Corners"
   description: 'Run an algorithm to rotate each of the corners until they face the right way.'
+- guide: '2x2x3-cuboid'
+  phase: null
+  number: 'a'
+  title: 'Orient Top and Bottom Faces' 
+  description: 'Orienting one face will solve the other'
+- guide: '2x2x3-cuboid'
+  phase: null
+  number: 'b'
+  title: 'Permutate Top and Bottom Layers' 
+  description: 'Putting the top and bottom corners in the right place.'
+- guide: '2x2x3-cuboid'
+  phase: null
+  number: 'c'
+  title: 'Solve Middle Layer' 
+  description: 'Puttin the middle edge pieces in the right place.'
 - guide: '3x4x5-cuboid'
   phase: 1 
   number: 'a'

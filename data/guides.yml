@@ -33,6 +33,11 @@
   title: "Megaminx - Beginner's Method"
   description: ''
   phases_count: 4 
+- name: '2x2x3-cuboid'
+  puzzle: '2x2x3 Cuboid'
+  title: '2x2x3 Cuboid'
+  description: ''
+  phases_count: 1
 - name: '3x4x5-cuboid'
   puzzle: "3x4x5 Cuboid" 
   title: "3x4x5 Cuboid" 

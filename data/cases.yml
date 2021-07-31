@@ -1222,6 +1222,66 @@
   number: null 
   description: 'Corner rotating algorithm.'
   algorithm: "R' D' R D"
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'a'
+  number: 1
+  description: 'Faces Solved. Move to next step.'
+  algorithm: '-'
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'a'
+  number: 2 
+  description: 'Swap one corner.'
+  algorithm: "D' R<sup>2</sup> D R<sup>2</sup>"
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'a'
+  number: 3 
+  description: 'Swap two adjacent corners.'
+  algorithm: 'R<sup>2</sup>'
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'a'
+  number: 4 
+  description: 'Swap two diagonal corners.'
+  algorithm: 'R<sup>2</sup> y D<sup>2</sup> R<sup>2</sup>'
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'b'
+  number: 1 
+  description: 'Swap 2 pairs of adjacent corners.'
+  algorithm: "(R<sup>2</sup> U' R<sup>2</sup>) (U<sup>2</sup> y) (R<sup>2</sup> U' R<sup>2</sup>)"
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'b'
+  number: 2 
+  description: 'Swap 2 pairs of diagonal corners.'
+  algorithm: 'R<sup>2</sup> F<sup>2</sup> R<sup>2</sup>'
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'b'
+  number: 3 
+  description: 'Swap 1 pair of adjacent corners.'
+  algorithm: "(R<sup>2</sup> U R<sup>2</sup> U') (R<sup>2</sup> F<sup>2</sup>) (U' F<sup>2</sup> U F<sup>2</sup>)"
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'c'
+  number: 1 
+  description: 'Flip middle layer.'
+  algorithm: 'R<sup>2</sup> H<sup>2</sup> R<sup>2</sup>'
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'c'
+  number: 2 
+  description: 'Swap two adjacent edges.'
+  algorithm: 'R<sup>2</sup> Uw<sup>2</sup> R<sup>2</sup> U<sup>2</sup> R<sup>2</sup> D<sup>2</sup>'
+- guide: '2x2x3-cuboid'
+  phase: null
+  section: 'c'
+  number: 3 
+  description: 'Swap two diagonal edges.'
+  algorithm: 'R<sup>2</sup> H<sup>2</sup> R<sup>2</sup>'
 - guide: '3x4x5-cuboid'
   phase: 1
   section: 'a'
