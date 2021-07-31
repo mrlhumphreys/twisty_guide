@@ -71,73 +71,72 @@ helpers do
   require './lib/megaminx/face'
 
   def iso_view(args)
-    Cubic::IsoView.new(args) 
+    Cubic::IsoView.new(**args) 
   end
 
   def top_grid(args)
-    Cubic::TopGrid.new(args)
+    Cubic::TopGrid.new(**args)
   end
 
   def front_grid(args)
-    Cubic::FrontGrid.new(args)
+    Cubic::FrontGrid.new(**args)
   end
 
   def right_grid(args)
-    Cubic::RightGrid.new(args)
+    Cubic::RightGrid.new(**args)
   end
 
   def facing_grid(args)
-    Cubic::FacingGrid.new(args)
+    Cubic::FacingGrid.new(**args)
   end
 
   def bordered_grid(args)
-    Cubic::BorderedGrid.new(args)
+    Cubic::BorderedGrid.new(**args)
   end
 
   def top_skewb_grid(args)
-    Skewb::TopSkewbGrid.new(args)
+    Skewb::TopSkewbGrid.new(**args)
   end
 
   def left_skewb_grid(args)
-    Skewb::LeftSkewbGrid.new(args)
+    Skewb::LeftSkewbGrid.new(**args)
   end
 
   def right_skewb_grid(args)
-    Skewb::RightSkewbGrid.new(args)
+    Skewb::RightSkewbGrid.new(**args)
   end
   
   def square_one_face(args)
-    SquareOne::Face.new(args)
+    SquareOne::Face.new(**args)
   end
 
   def vertical_arrow(args)
-    VerticalArrow.new(args)
+    VerticalArrow.new(**args)
   end
 
   def horizontal_arrow(args)
-    HorizontalArrow.new(args)
+    HorizontalArrow.new(**args)
   end
 
   def diagonal_down_arrow(args)
-    DiagonalDownArrow.new(args)
+    DiagonalDownArrow.new(**args)
   end
 
   def diagonal_up_arrow(args)
-    DiagonalUpArrow.new(args)
+    DiagonalUpArrow.new(**args)
   end
 
   def pyraminx_grid(args)
-    PyraminxGrid.new(args)
+    PyraminxGrid.new(**args)
   end
 
   def pyraminx_triangle(args)
-    PyraminxTriangle.new(args)
+    PyraminxTriangle.new(**args)
   end
 
   def megaminx_face(args)
-    Megaminx::Face.new(args)
+    Megaminx::Face.new(**args)
   end
-
 end
 
 # Build-specific configuration

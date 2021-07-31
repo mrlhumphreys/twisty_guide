@@ -1,5 +1,5 @@
 class PyraminxTriangle
-  def initialize(x: , y: , units: , direction:, colour: , opacity:)
+  def initialize(x: , y: , units: , direction:, colour: , opacity: )
     @x, @y = x, y
     @units = units
     @direction = direction

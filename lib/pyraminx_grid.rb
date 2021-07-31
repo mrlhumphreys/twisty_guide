@@ -72,7 +72,7 @@ class PyraminxGrid
     elements.map do |row|
       row.map do |element|
         if element 
-          PyraminxTriangle.new(element)
+          PyraminxTriangle.new(**element)
         else
           nil
         end
