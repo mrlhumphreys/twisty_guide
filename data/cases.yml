@@ -285,7 +285,7 @@
   section: 'f'
   number: 1 
   description: 'Swap two corners on the front of the down layer. Repeat for other swapped corners.'
-  algorithm: "/ 3,-3 / 0,-3 / -3,0 / 3,0 / -3,0 /"
+  algorithm: "/ 3,-3 / 0,3 / -3,0 / 3,0 / -3,0 /"
 - guide: 'square-1-vanderbergh'
   phase: null
   section: 'g'
