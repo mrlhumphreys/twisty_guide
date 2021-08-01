@@ -43,3 +43,8 @@
   title: "3x4x5 Cuboid" 
   description: '' 
   phases_count: 8 
+- name: 'pocket-cube'
+  puzzle: 'Pocket Cube'
+  title: 'Pocket Cube'
+  description: ''
+  phases_count: 1

@@ -58,6 +58,9 @@ helpers do
   require './lib/cubic/right_grid'
   require './lib/cubic/facing_grid'
   require './lib/cubic/bordered_grid'
+  require './lib/cubic/top_square_factory'
+  require './lib/cubic/front_square_factory'
+  require './lib/cubic/right_square_factory'
   require './lib/skewb/top_skewb_grid'
   require './lib/skewb/left_skewb_grid'
   require './lib/skewb/right_skewb_grid'
@@ -93,6 +96,19 @@ helpers do
   def bordered_grid(args)
     Cubic::BorderedGrid.new(**args)
   end
+
+  def top_square(args)
+    Cubic::TopSquareFactory.new(**args).build
+  end
+  
+  def front_square(args)
+    Cubic::FrontSquareFactory.new(**args).build
+  end
+
+  def right_square(args)
+    Cubic::RightSquareFactory.new(**args).build
+  end
+
 
   def top_skewb_grid(args)
     Skewb::TopSkewbGrid.new(**args)

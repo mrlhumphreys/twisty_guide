@@ -588,3 +588,23 @@
   number: 'h'
   title: null
   description: null 
+- guide: 'pocket-cube'
+  phase: null
+  number: 'a'
+  title: 'Form Cube Shape'
+  description: 'Make moves to return the puzzle to a cube shape.'
+- guide: 'pocket-cube'
+  phase: null
+  number: 'b'
+  title: 'Orient Corner'
+  description: 'Orient the corner to match the centers.'
+- guide: 'pocket-cube'
+  phase: null
+  number: 'c'
+  title: 'Orient One Edge'
+  description: 'Orient one edge to match the corner and centers.'
+- guide: 'pocket-cube'
+  phase: null
+  number: 'd'
+  title: 'Orient Last Two Edges'
+  description: 'Orient last two edges to solve.'

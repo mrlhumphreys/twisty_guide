@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+  <%= partial('square', locals: { square: top_square(x: 60, y: 20, units: 40, colour: data.colours.up, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: top_square(x: 100, y: 40, units: 40, colour: data.colours.up, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: top_square(x: 20, y: 40, units: 40, colour: data.colours.up, opacity: data.opacity.full) }) %> 
+
+  <%= partial('square', locals: { square: top_square(x: 80, y: 60, units: 20, colour: data.colours.blue, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: top_square(x: 100, y: 70, units: 20, colour: data.colours.blue, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: top_square(x: 60, y: 70, units: 20, colour: data.colours.blue, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: top_square(x: 80, y: 80, units: 20, colour: data.colours.blue, opacity: data.opacity.full) }) %> 
+  
+  <%= partial('square', locals: { square: front_square(x: 20, y: 60, units: 40, colour: data.colours.front, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: front_square(x: 20, y: 100, units: 40, colour: data.colours.front, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: front_square(x: 60, y: 120, units: 40, colour: data.colours.front, opacity: data.opacity.full) }) %> 
+
+  <%= partial('square', locals: { square: front_square(x: 60, y: 80, units: 20, colour: data.colours.yellow, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: front_square(x: 80, y: 90, units: 20, colour: data.colours.yellow, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: front_square(x: 60, y: 100, units: 20, colour: data.colours.yellow, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: front_square(x: 80, y: 110, units: 20, colour: data.colours.yellow, opacity: data.opacity.full) }) %> 
+
+  <%= partial('square', locals: { square: right_square(x: 140, y: 60, units: 40, colour: data.colours.right, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: right_square(x: 100, y: 120, units: 40, colour: data.colours.right, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: right_square(x: 140, y: 100, units: 40, colour: data.colours.right, opacity: data.opacity.full) }) %> 
+
+  <%= partial('square', locals: { square: right_square(x: 100, y: 90, units: 20, colour: data.colours.green, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: right_square(x: 120, y: 80, units: 20, colour: data.colours.green, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: right_square(x: 100, y: 110, units: 20, colour: data.colours.green, opacity: data.opacity.full) }) %> 
+  <%= partial('square', locals: { square: right_square(x: 120, y: 100, units: 20, colour: data.colours.green, opacity: data.opacity.full) }) %> 
+</svg>
+

@@ -2092,3 +2092,57 @@
   number: 3  
   description: 'back down right correct and front up right incorrect. Swap it for correct center.'
   algorithm: "F Lw d Rw u' Lw u Rw d' r d Rw u' Lw u Rw d' Lw r F"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'a'
+  number: 1 
+  description: 'Cube in cube shape. Move to next step.'
+  algorithm: "-"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'a'
+  number: 2 
+  description: 'Shift a block back into place.'
+  algorithm: "(R F R' F') (R' D R D') (F D R')"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'a'
+  number: 3 
+  description: 'Shift a block back into place.'
+  algorithm: "(L' F' L' F) (L D' L' D) (F' D' L)"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'b'
+  number: 1 
+  description: 'Corner matches centers. Move to the next step.'
+  algorithm: "-"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'b'
+  number: 2 
+  description: 'Rotate a corner to match the centers. Repeat until corner matches centers.'
+  algorithm: "(L B' U' L') (B D L' F') (D' L B D') R' y (R F R' F') (R' D R D') (F D R')"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'c'
+  number: 1 
+  description: 'One edge matches corner. Move to the next step.'
+  algorithm: "-"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'c'
+  number: 2 
+  description: 'No Edge matches corner. Perform until at least one edge matches center.'
+  algorithm: "(L B' U' B) (L<sup>2</sup> D F<sup>2</sup> D') (L D L' F') (L' F' L F) (L D' L' D) (F' D' L')"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'd'
+  number: 1 
+  description: 'Cube is solved.'
+  algorithm: "-"
+- guide: 'pocket-cube'
+  phase: null
+  section: 'd'
+  number: 2 
+  description: 'Flip two edge pieces. Perform algorithm two times.'
+  algorithm: "(L B' U' L ') (B D L' F') (D' L B D') (R' B' D)"
