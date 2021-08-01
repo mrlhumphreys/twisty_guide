@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twisty Puzzle Guide - Guides to solving Twisty Puzzles</title>
+    <link href="/twisty_guide/stylesheets/app.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="divider"></div>
+
+    <div class="nav_wrapper wrapper">
+      <nav class="top_level">
+        <a href="/twisty_guide/" class="home_link">Twisty Puzzle Guide</a>
+      </nav>
+    </div>
+
+    <div class="main_wrapper wrapper">
+      <article>
+  <h1>
+      Pocket Cube
+  </h1>
+
+
+    <div class="section">
+
+  <h2 class="section_header">Form Cube Shape</h2>
+
+    <p class="section_description">Make moves to return the puzzle to a cube shape.</p>
+
+    <div class="cases">
+
+    <div class="case">
+  <h3>Case 1</h3>
+  <p class="description">Cube in cube shape. Move to next step.</p>
+  <img src="/twisty_guide/images/pocket-cube-a-1.svg" class="diagram" alt="" /> 
+  <p class="algorithm">-</p>
+</div>
+
+    <div class="case">
+  <h3>Case 2</h3>
+  <p class="description">Shift a block back into place.</p>
+  <img src="/twisty_guide/images/pocket-cube-a-2.svg" class="diagram" alt="" /> 
+  <p class="algorithm">(R F R' F') (R' D R D') (F D R')</p>
+</div>
+
+    <div class="case">
+  <h3>Case 3</h3>
+  <p class="description">Shift a block back into place.</p>
+  <img src="/twisty_guide/images/pocket-cube-a-3.svg" class="diagram" alt="" /> 
+  <p class="algorithm">(L' F' L' F) (L D' L' D) (F' D' L)</p>
+</div>
+
+
+    </div>
+</div>
+
+
+    <div class="section">
+
+  <h2 class="section_header">Orient Corner</h2>
+
+    <p class="section_description">Orient the corner to match the centers.</p>
+
+    <div class="cases">
+
+    <div class="case">
+  <h3>Case 1</h3>
+  <p class="description">Corner matches centers. Move to the next step.</p>
+  <img src="/twisty_guide/images/pocket-cube-b-1.svg" class="diagram" alt="" /> 
+  <p class="algorithm">-</p>
+</div>
+
+    <div class="case">
+  <h3>Case 2</h3>
+  <p class="description">Rotate a corner to match the centers. Repeat until corner matches centers.</p>
+  <img src="/twisty_guide/images/pocket-cube-b-2.svg" class="diagram" alt="" /> 
+  <p class="algorithm">(L B' U' L') (B D L' F') (D' L B D') R' y (R F R' F') (R' D R D') (F D R')</p>
+</div>
+
+
+    </div>
+</div>
+
+
+    <div class="section">
+
+  <h2 class="section_header">Orient One Edge</h2>
+
+    <p class="section_description">Orient one edge to match the corner and centers.</p>
+
+    <div class="cases">
+
+    <div class="case">
+  <h3>Case 1</h3>
+  <p class="description">One edge matches corner. Move to the next step.</p>
+  <img src="/twisty_guide/images/pocket-cube-c-1.svg" class="diagram" alt="" /> 
+  <p class="algorithm">-</p>
+</div>
+
+    <div class="case">
+  <h3>Case 2</h3>
+  <p class="description">No Edge matches corner. Perform until at least one edge matches center.</p>
+  <img src="/twisty_guide/images/pocket-cube-c-2.svg" class="diagram" alt="" /> 
+  <p class="algorithm">(L B' U' B) (L<sup>2</sup> D F<sup>2</sup> D') (L D L' F') (L' F' L F) (L D' L' D) (F' D' L')</p>
+</div>
+
+
+    </div>
+</div>
+
+
+    <div class="section">
+
+  <h2 class="section_header">Orient Last Two Edges</h2>
+
+    <p class="section_description">Orient last two edges to solve.</p>
+
+    <div class="cases">
+
+    <div class="case">
+  <h3>Case 1</h3>
+  <p class="description">Cube is solved.</p>
+  <img src="/twisty_guide/images/pocket-cube-d-1.svg" class="diagram" alt="" /> 
+  <p class="algorithm">-</p>
+</div>
+
+    <div class="case">
+  <h3>Case 2</h3>
+  <p class="description">Flip two edge pieces. Perform algorithm two times.</p>
+  <img src="/twisty_guide/images/pocket-cube-d-2.svg" class="diagram" alt="" /> 
+  <p class="algorithm">(L B' U' L ') (B D L' F') (D' L B D') (R' B' D)</p>
+</div>
+
+
+    </div>
+</div>
+
+
+
+</article>
+
+    </div>
+
+    <div class="footer_wrapper wrapper">
+      <footer>
+        <p>Twisty Puzzle Guide</p>
+      </footer>
+    </div>
+  </body>
+</html>

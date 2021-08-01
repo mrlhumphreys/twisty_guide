@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+  <polygon points="100,20 140,40 100,60 60,40" style="fill:#f0f0f0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="140,40 180,60 140,80 100,60" style="fill:#f0f0f0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="60,40 100,60 60,80 20,60" style="fill:#f0f0f0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+
+  <polygon points="100,60 120,70 100,80 80,70" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="120,70 140,80 120,90 100,80" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="80,70 100,80 80,90 60,80" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="100,80 120,90 100,100 80,90" style="fill:#0000ff;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  
+  <polygon points="20,60 60,80 60,120 20,100" style="fill:#d0d0d0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="20,100 60,120 60,160 20,140" style="fill:#d0d0d0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="60,120 100,140 100,180 60,160" style="fill:#d0d0d0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+
+  <polygon points="60,80 80,90 80,110 60,100" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="80,90 100,100 100,120 80,110" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="60,100 80,110 80,130 60,120" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="80,110 100,120 100,140 80,130" style="fill:#ffff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+
+  <polygon points="140,80.0 180,60.0 180,100.0 140,120.0" style="fill:#b0b0b0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="100,140.0 140,120.0 140,160.0 100,180.0" style="fill:#b0b0b0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="140,120.0 180,100.0 180,140.0 140,160.0" style="fill:#b0b0b0;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+
+  <polygon points="100,100.0 120,90.0 120,110.0 100,120.0" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="120,90.0 140,80.0 140,100.0 120,110.0" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="100,120.0 120,110.0 120,130.0 100,140.0" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+  <polygon points="120,110.0 140,100.0 140,120.0 120,130.0" style="fill:#00ff00;stroke:#404040;stroke-width:1;opacity:1"  />
+ 
+</svg>
+
