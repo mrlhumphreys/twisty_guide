@@ -3,15 +3,21 @@
 
   <p class="subtitle">Guides to solving Twisty Puzzles</p>
 
-  <ul class="guides">
-    <% data.guides.each do |guide| %>
-      <li class="guide">
-        <% if guide.phases_count == 1 %>
-          <a href="puzzles/<%= guide.name %>.html"><%= guide.title %></a>
-        <% else %>
-          <a href="puzzles/<%= guide.name %>/phases/1.html"><%= guide.title %></a>
-        <% end %>
-      </li>
+  <div class="puzzles">
+    <% data.puzzles.each do |puzzle| %>
+      <div class="puzzle">
+        <%= image_tag 'puzzle-default.svg', class: 'diagram' %>
+        <h2><%= puzzle.title %></h2>
+        <ul class="guide">
+          <% data.guides.select { |g| g.puzzle == puzzle.name }.each do |guide| %>
+            <% if guide.phases_count == 1 %>
+              <a href="puzzles/<%= guide.name %>.html"><%= guide.title %></a>
+            <% else %>
+              <a href="puzzles/<%= guide.name %>/phases/1.html"><%= guide.title %></a>
+            <% end %>
+          <% end %>
+        </ul>
+      </div>
     <% end %>
   </ul>
 </article>

@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160" height="160">
+  <%= partial('iso', locals: {iso: iso_view(x: 20, y: 20, units: 30, top: "-,-\n-,-", front: "-,W\n-,-", right: "-,-\n-,-") } ) %>
+  <polygon points="80,20 140,50 140,110 80,140 20,110 20,50" style="fill:<%= data.colours.stroke %>;stroke:<%= data.colours.stroke %>;stroke-width:1"  />
+</svg>
+

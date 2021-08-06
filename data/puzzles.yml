@@ -1,0 +1,21 @@
+- name: "2x2x2"
+  title: "2x2 Rubik's Pocket"
+- name: 'pyraminx'
+  title: 'Pyraminx'
+- name: 'skewb'
+  title: 'Skewb'
+- name: 'square-1'
+  title: 'Square-1'
+- name: '3x3x3'
+  title: "3x3 Rubik's Cube"
+- name: '4x4x4'
+  title: "4x4 Rubik's Revenge"
+- name: 'megaminx'
+  title: 'Megaminx'
+- name: '2x2x3'
+  title: '2x2x3 Cuboid'
+- name: '3x4x5'
+  title: '3x4x5 Cuboid'
+- name: 'pocket-cube'
+  title: "Meffert's Pocket Cube"
+
