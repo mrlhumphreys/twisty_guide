@@ -6,8 +6,8 @@
   <div class="puzzles">
     <% data.puzzles.each do |puzzle| %>
       <div class="puzzle">
-        <%= image_tag "puzzle-#{puzzle.image_name}.svg", class: 'diagram' %>
         <h2><%= puzzle.title %></h2>
+        <%= image_tag "puzzle-#{puzzle.image_name}.svg", class: 'diagram' %>
         <ul class="guide">
           <% data.guides.select { |g| g.puzzle == puzzle.name }.each do |guide| %>
             <% if guide.phases_count == 1 %>
