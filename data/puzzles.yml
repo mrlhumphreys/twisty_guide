@@ -9,7 +9,7 @@
   image_name: 'skewb'
 - name: 'square-1'
   title: 'Square-1'
-  image_name: 'default'
+  image_name: 'square-1'
 - name: '3x3x3'
   title: "3x3 Rubik's Cube"
   image_name: '3x3x3'
