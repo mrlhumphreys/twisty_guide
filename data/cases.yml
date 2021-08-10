@@ -1005,13 +1005,13 @@
   section: 'e'
   number: 2 
   description: 'Swap two corners diagonally. Swap two opposite edges.' 
-  algorithm: "z D (R' U) (R<sup>2</sup> D' R D U') (R' U) (R<sup>2</sup> D' R U' R)"
+  algorithm: "z U (R' D) (R<sup>2</sup> U' R D' U) (R' D) (R<sup>2</sup> U' R D')"
 - guide: '3x3x3-cfop-fridrich'
   phase: 4 
   section: 'e'
   number: 3 
   description: 'Swap two corners diagonally. Swap two opposite edges.' 
-  algorithm: "z U' (R D') (R<sup>2</sup> U R' D U') (R D') (R<sup>2</sup> U R' D R')"
+  algorithm: "z D' (R U') (R<sup>2</sup> D R' U D') (R U') (R<sup>2</sup> D R' U)"
 - guide: '3x3x3-cfop-fridrich'
   phase: 4 
   section: 'e'
