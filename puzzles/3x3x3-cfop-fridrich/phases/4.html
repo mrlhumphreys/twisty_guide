@@ -3,6 +3,7 @@
   <head>
     <title>Twisty Puzzle Guide - Guides to solving Twisty Puzzles</title>
     <link href="/twisty_guide/stylesheets/app.css" rel="stylesheet" />
+    <script src="/twisty_guide/javascripts/application.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -39,21 +40,30 @@
   <h3>Case 1</h3>
   <p class="description">Cycle 3 corners clockwise</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-a-1.svg" class="diagram" alt="" /> 
-  <p class="algorithm">x (R' U R') D<sup>2</sup> (R U' R') D<sup>2</sup> R<sup>2</sup></p>
+  <p class="algorithm">
+    <span class="text">x (R' U R') D<sup>2</sup> (R U' R') D<sup>2</sup> R<sup>2</sup></span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 2</h3>
   <p class="description">Cycle 3 corners anti-clockwise</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-a-2.svg" class="diagram" alt="" /> 
-  <p class="algorithm">x R<sup>2</sup> D<sup>2</sup> (R U R') D<sup>2</sup> (R U' R)</p>
+  <p class="algorithm">
+    <span class="text">x R<sup>2</sup> D<sup>2</sup> (R U R') D<sup>2</sup> (R U' R)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 3</h3>
   <p class="description">Cycle 2 pairs of corners parallel</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-a-3.svg" class="diagram" alt="" /> 
-  <p class="algorithm">x' (R U') (R' D) (R U R' D') (R U R' D) (R U') (R' D')</p>
+  <p class="algorithm">
+    <span class="text">x' (R U') (R' D) (R U R' D') (R U R' D) (R U') (R' D')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
 
@@ -73,28 +83,40 @@
   <h3>Case 1</h3>
   <p class="description">Cycle 3 edges anti-clockwise.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-b-1.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R U' R U) (R U) (R U') (R' U' R<sup>2</sup>)</p>
+  <p class="algorithm">
+    <span class="text">(R U' R U) (R U) (R U') (R' U' R<sup>2</sup>)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 2</h3>
   <p class="description">Cycle 3 edges clockwise.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-b-2.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R<sup>2</sup> U) (R U R' U') (R' U') (R' U R')</p>
+  <p class="algorithm">
+    <span class="text">(R<sup>2</sup> U) (R U R' U') (R' U') (R' U R')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 3</h3>
   <p class="description">Swap opposite edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-b-3.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(M<sup>2</sup> U) (M<sup>2</sup> U<sup>2</sup>) (M<sup>2</sup> U) (M<sup>2</sup>)</p>
+  <p class="algorithm">
+    <span class="text">(M<sup>2</sup> U) (M<sup>2</sup> U<sup>2</sup>) (M<sup>2</sup> U) (M<sup>2</sup>)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 4</h3>
   <p class="description">Swap adjacent edges in parallel.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-b-4.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(M<sup>2</sup> U) (M<sup>2</sup> U) (M' U<sup>2</sup>) (M<sup>2</sup> U<sup>2</sup>) (M' U<sup>2</sup>)</p>
+  <p class="algorithm">
+    <span class="text">(M<sup>2</sup> U) (M<sup>2</sup> U) (M' U<sup>2</sup>) (M<sup>2</sup> U<sup>2</sup>) (M' U<sup>2</sup>)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
 
@@ -114,42 +136,60 @@
   <h3>Case 1</h3>
   <p class="description">Swap two corners on the back and swap left and back edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-c-1.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R' U L') U<sup>2</sup> (R U' R') U<sup>2</sup> (L R U')</p>
+  <p class="algorithm">
+    <span class="text">(R' U L') U<sup>2</sup> (R U' R') U<sup>2</sup> (L R U')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 2</h3>
   <p class="description">Swap two corners on the right and swap right and front edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-c-2.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R U R' F') (R U R' U') (R' F) (R<sup>2</sup> U') (R' U')</p>
+  <p class="algorithm">
+    <span class="text">(R U R' F') (R U R' U') (R' F) (R<sup>2</sup> U') (R' U')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 3</h3>
   <p class="description">Swap two corners on the right and swap right and left edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-c-3.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R U R' U') (R' F) (R<sup>2</sup> U') (R' U' R U) (R' F')</p>
+  <p class="algorithm">
+    <span class="text">(R U R' U') (R' F) (R<sup>2</sup> U') (R' U' R U) (R' F')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 4</h3>
   <p class="description">Swap two corners on the back and swap right and front edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-c-4.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R' U<sup>2</sup>) (R U<sup>2</sup>) (R' F R U R' U') (R' F' R<sup>2</sup> U')</p>
+  <p class="algorithm">
+    <span class="text">(R' U<sup>2</sup>) (R U<sup>2</sup>) (R' F R U R' U') (R' F' R<sup>2</sup> U')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 5</h3>
   <p class="description">Swap two corners on the right and swap left and back edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-c-5.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R U R' F') (R U<sup>2</sup> R' U<sup>2</sup>) (R' F) (R U) (R U<sup>2</sup> R' U')</p>
+  <p class="algorithm">
+    <span class="text">(R U R' F') (R U<sup>2</sup> R' U<sup>2</sup>) (R' F) (R U) (R U<sup>2</sup> R' U')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 6</h3>
   <p class="description">Swap two corners on the right and swap front and back edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-c-6.svg" class="diagram" alt="" /> 
-  <p class="algorithm">R' U' F' (R U R' U') (R' F) (R<sup>2</sup> U') (R' U' R U) (R' U R)</p>
+  <p class="algorithm">
+    <span class="text">R' U' F' (R U R' U') (R' F) (R<sup>2</sup> U') (R' U' R U) (R' U R)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
 
@@ -169,28 +209,40 @@
   <h3>Case 1</h3>
   <p class="description">Cycle corners clockwise and edges anticlockwise.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-d-1.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R<sup>2</sup> Uw) (R' U R' U' R Uw') R<sup>2</sup> y' (R' U R)</p>
+  <p class="algorithm">
+    <span class="text">(R<sup>2</sup> Uw) (R' U R' U' R Uw') R<sup>2</sup> y' (R' U R)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 2</h3>
   <p class="description">Cycle corners anticlockwise and edges clockwise.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-d-2.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R' U' R) y (R<sup>2</sup> Uw R' U) (R U' R Uw' R<sup>2</sup>)</p>
+  <p class="algorithm">
+    <span class="text">(R' U' R) y (R<sup>2</sup> Uw R' U) (R U' R Uw' R<sup>2</sup>)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 3</h3>
   <p class="description">Cycle corners anticlockwise and edges clockwise.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-d-3.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R<sup>2</sup> Uw' R U') (R U R' Uw R<sup>2</sup>) (Fw R' Fw')</p>
+  <p class="algorithm">
+    <span class="text">(R<sup>2</sup> Uw' R U') (R U R' Uw R<sup>2</sup>) (Fw R' Fw')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 4</h3>
   <p class="description">Cycle corners anticlockwise and edges clockwise.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-d-4.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R U R') y' (R<sup>2</sup> Uw' R U') (R' U R' Uw R<sup>2</sup>)</p>
+  <p class="algorithm">
+    <span class="text">(R U R') y' (R<sup>2</sup> Uw' R U') (R' U R' Uw R<sup>2</sup>)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
 
@@ -210,28 +262,40 @@
   <h3>Case 1</h3>
   <p class="description">Swap two edges and corners parallel diagonally.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-e-1.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(R' U R' Dw') (R' F' R<sup>2</sup> U') (R' U R' F) (R F)</p>
+  <p class="algorithm">
+    <span class="text">(R' U R' Dw') (R' F' R<sup>2</sup> U') (R' U R' F) (R F)</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 2</h3>
   <p class="description">Swap two corners diagonally. Swap two opposite edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-e-2.svg" class="diagram" alt="" /> 
-  <p class="algorithm">z U (R' D) (R<sup>2</sup> U' R D' U) (R' D) (R<sup>2</sup> U' R D') R</p>
+  <p class="algorithm">
+    <span class="text">z U (R' D) (R<sup>2</sup> U' R D' U) (R' D) (R<sup>2</sup> U' R D') R</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 3</h3>
   <p class="description">Swap two corners diagonally. Swap two opposite edges.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-e-3.svg" class="diagram" alt="" /> 
-  <p class="algorithm">z D' (R U') (R<sup>2</sup> D R' U D') (R U') (R<sup>2</sup> D R' U) R'</p>
+  <p class="algorithm">
+    <span class="text">z D' (R U') (R<sup>2</sup> D R' U D') (R U') (R<sup>2</sup> D R' U) R'</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
     <div class="case">
   <h3>Case 4</h3>
   <p class="description">Swap two edges and corners perpendicular diagonally.</p>
   <img src="/twisty_guide/images/3x3x3-cfop-fridrich-4-e-4.svg" class="diagram" alt="" /> 
-  <p class="algorithm">(F R U') (R' U' R U) (R' F') (R U R' U') (R' F R F')</p>
+  <p class="algorithm">
+    <span class="text">(F R U') (R' U' R U) (R' F') (R U R' U') (R' F R F')</span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
 
 
