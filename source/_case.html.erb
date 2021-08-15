@@ -2,5 +2,8 @@
   <h3><%= number ? "Case #{number}" : "Only Case" %></h3>
   <p class="description"><%= description %></p>
   <%= image_tag [guide, phase, section, number].compact.join('-') + '.svg', class: 'diagram' %> 
-  <p class="algorithm"><%= algorithm %></p>
+  <p class="algorithm">
+    <span class="text"><%= algorithm %></span>
+    <span class="show hidden">Show</span>
+  </p>
 </div>
